@@ -11,7 +11,7 @@ destinationBucket = ''
 # =================================================
 
 # data file names, this program will get stuck if names are wrong
-animalFile = "combined_h5n1_animal_surveillance_data.csv"
+animalFile = "combined_H5N1_animal_surveillance_data.csv"
 humanFile = "H5N1_human_surveillance_data.csv"
 statecodesFile = "states.csv"
 countycodesFile = "countycodes.csv"
@@ -174,17 +174,40 @@ def create_json(animal, human, statecodes, countycodes):
         (animal_data["county"] == "Macon") & (animal_data["state"] == "Ohio"), "county"
     ] = "Brown"
 
+    # Wade Hampton to Kusilvak
+    animal_data.loc[
+        (animal_data["county"] == "Wade Hampton Census Area") & (animal_data["state"] == "Alaska"),
+        "county",
+    ] = "Kusilvak"
+
+    # Shenandoah Texas to Montgomery
+    animal_data.loc[
+        (animal_data["county"] == "Shenandoah") & (animal_data["state"] == "Texas"),
+        "county",
+    ] = "Montgomery"
+    # Mile Lacs to Mille Lacs
+    animal_data["county"] = animal_data["county"].str.replace("Mile Lacs", "Mille Lacs")
+
+    # Le Sneur to Le Sueur
+    animal_data["county"] = animal_data["county"].str.replace("Le Sneur", "Le Sueur")
+
+    # Bloomington Indiana to Monroe
+    animal_data.loc[
+        (animal_data["county"] == "Bloomington") & (animal_data["state"] == "Indiana"),
+        "county",
+    ] = "Monroe"
+
     # replace michigan with Michigan
     animal_data["state"] = animal_data["state"].str.replace("michigan", "Michigan")
 
     # state : 51, 50 states and DC
     
     # we can remove guid column``, it represents the same as year
-    # human_data["event"] = human_data["event"].str.replace("Novel Influenza A (H5N1)_United States_", "")
-    # human_data.drop("event_guid", axis=1, inplace=True)
+    human_data["pathogen"] = human_data["pathogen"].str.replace("Novel Influenza A (H5N1)_United States_", "")
+    #human_data.drop("event_guid", axis=1, inplace=True)
 
     # can remove these columns, its all influenza
-    human_data.drop(["pathogen"], axis=1, inplace=True)
+    # human_data.drop(["disease", "pathogen"], axis=1, inplace=True)
 
     # change date reported to match animal data
     human_data.rename(columns={"date_reported": "date_detected"}, inplace=True)
@@ -201,6 +224,21 @@ def create_json(animal, human, statecodes, countycodes):
     human_data["source"] = "Human"
 
     human_locations = {}
+
+    def comp_date_arr(date1, date2):
+        # if date1 < date2, return True
+        # dates are arrays of year, month, day
+        for i in range(3):
+            if date1[i] < date2[i]:
+                return True
+            elif date1[i] > date2[i]:
+                return False
+            else:
+                # they are equal, continue
+                continue
+        # they are equal
+        return True
+
     for index, row in human_data.iterrows():
         # locations can be county level or state level, disregard country level
         # (and we have some states that have county level data and state level data)
@@ -218,13 +256,16 @@ def create_json(animal, human, statecodes, countycodes):
                 "date_min": date_comparison(row, False),
                 "cuml_cases": int(row["cuml_cases"]),
             }
-        elif human_locations[key]["date_max"] < date_comparison(row, True):
+        elif comp_date_arr(human_locations[key]["date_max"], date_comparison(row, True)):
             human_locations[key] = {
                 "date_max": date_comparison(row, True),
                 "date_min": date_comparison(row, False),
                 "cuml_cases": int(row["cuml_cases"]),
             }
-
+        else:
+            print("older data found: ", key)
+            print(human_locations[key]["date_max"])
+            print(row)
     # create a new human data sheet
     hd = pd.DataFrame(columns=animal_data.columns)
     for key, value in human_locations.items():
@@ -236,6 +277,7 @@ def create_json(animal, human, statecodes, countycodes):
         date_max = "-".join(value["date_max"])
         date_min = "-".join(value["date_min"])
         cuml_cases = value["cuml_cases"]
+        # print(f"Adding {cuml_cases} cases from {key}")
         for i in range(cuml_cases):
             # pd has no append method, so we have to create a new row and append it
             # we have date_occurred_low_end, date_occurred_high_end, source, state, county (county can be '')
@@ -264,6 +306,9 @@ def create_json(animal, human, statecodes, countycodes):
     combined_data = combined_data.merge(
         statecodes_data, left_on="state", right_on="state", how="left")
     combined_data.drop("state", axis=1, inplace=True)
+
+    # for counties that have a comma then a space, remove it and all after it
+    combined_data["county"] = combined_data["county"].str.split(", ").str[0]
 
     # Standardize county names in countycodes_data
     remove = [
@@ -317,6 +362,8 @@ def create_json(animal, human, statecodes, countycodes):
         how="left",)
     # report any that nan county
 
+    # report any abbreviations that are not 2 letters
+
     # re capitalize the county names
     combined_data["county"] = combined_data["county"].str.title()
 
@@ -357,7 +404,8 @@ def create_json(animal, human, statecodes, countycodes):
 
         if county == "":
             if row.source != "Dairy Farms" and row.source != "Human":
-                print("Failed to find county code for:", row.source, row.county, row.abbreviation, row.id)
+                print("Failed to find county code for row")
+                print(row.source, ' | ', row.county, ' | ', row.abbreviation, ' | ', row.id)
                 # remove row
                 continue
                 # raise ValueError("county is empty")
