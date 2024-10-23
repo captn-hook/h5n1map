@@ -218,12 +218,15 @@ def create_json(animal, human, statecodes, countycodes):
                 "date_min": date_comparison(row, False),
                 "cuml_cases": int(row["cuml_cases"]),
             }
+            print("Added human to date:", human_locations[key]["date_max"])
         elif human_locations[key]["date_max"] < date_comparison(row, True):
             human_locations[key] = {
                 "date_max": date_comparison(row, True),
                 "date_min": date_comparison(row, False),
                 "cuml_cases": int(row["cuml_cases"]),
             }
+            print("Updated human to date:", human_locations[key]["date_max"])
+            print("State:", state, "Cumulative Cases:", human_locations[key]["cuml_cases"])
 
     # create a new human data sheet
     hd = pd.DataFrame(columns=animal_data.columns)
