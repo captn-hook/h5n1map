@@ -256,6 +256,7 @@ def create_json(animal, human, statecodes, countycodes):
                 "date_min": date_comparison(row, False),
                 "cuml_cases": int(row["cuml_cases"]),
             }
+            print("Added human to date:", human_locations[key]["date_max"])
         elif comp_date_arr(human_locations[key]["date_max"], date_comparison(row, True)):
             human_locations[key] = {
                 "date_max": date_comparison(row, True),
