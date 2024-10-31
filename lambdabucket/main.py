@@ -11,7 +11,7 @@ destinationBucket = ''
 # =================================================
 
 # data file names, this program will get stuck if names are wrong
-animalFile = "combined_h5n1_animal_surveillance_data.csv"
+animalFile = "combined_H5N1_animal_surveillance_data.csv"
 humanFile = "H5N1_human_surveillance_data.csv"
 statecodesFile = "states.csv"
 countycodesFile = "countycodes.csv"
@@ -180,11 +180,11 @@ def create_json(animal, human, statecodes, countycodes):
     # state : 51, 50 states and DC
     
     # we can remove guid column``, it represents the same as year
-    human_data["event"] = human_data["event"].str.replace("Novel Influenza A (H5N1)_United States_", "")
-    human_data.drop("event_guid", axis=1, inplace=True)
+    human_data["pathogen"] = human_data["pathogen"].str.replace("Novel Influenza A (H5N1)_United States_", "")
+    #human_data.drop("event_guid", axis=1, inplace=True)
 
     # can remove these columns, its all influenza
-    human_data.drop(["disease", "pathogen"], axis=1, inplace=True)
+    # human_data.drop(["disease", "pathogen"], axis=1, inplace=True)
 
     # change date reported to match animal data
     human_data.rename(columns={"date_reported": "date_detected"}, inplace=True)

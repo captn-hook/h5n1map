@@ -397,6 +397,12 @@ APHIS - HPAI Detections in Mammals,Montana,Missoula,Domestic cat,,EA/AM H5N1,,11
 APHIS - HPAI Detections in Mammals,Montana,Sanders,Domestic cat,,EA H5N1,,2/12/2024,11/12/2022,"","","",""
 APHIS - HPAI Detections in Mammals,Montana,Treasure,Domestic cat,,EA H5N1,,2/12/2024,2/9/2023,"","","",""
 APHIS - HPAI Detections in Mammals,Montana,Yellowstone,Domestic cat,,EA/AM H5N1,,2/12/2024,4/8/2023,"","","",""
+APHIS - HPAI Detections in Mammals,Wyoming,Teton,Mountain lion,,EA/AM H5N1,,12/22/2023,12/8/2023,"","","",""
+APHIS - HPAI Detections in Mammals,Florida,Brevard,Bottlenose dolphin,,EA H5N1,,10/7/2024,12/28/2023,"","","",""
+APHIS - HPAI Detections in Mammals,Florida,Brevard,Bottlenose dolphin,,EA H5N1,,10/7/2024,1/4/2024,"","","",""
+APHIS - HPAI Detections in Mammals,Florida,Brevard,Bottlenose dolphin,,EA H5N1,,10/7/2024,1/4/2024,"","","",""
+APHIS - HPAI Detections in Mammals,Alaska,North Slope,Red fox,,EA H5N1,,10/3/2024,9/23/2024,"","","",""
+APHIS - HPAI Detections in Mammals,Alaska,North Slope,Red fox,,EA H5,,10/7/2024,9/27/2024,"","","",""
 APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,American wigeon,,EA H5N1,,1/13/2022,12/30/2021,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Blue-winged teal,,EA H5N1,,1/13/2022,12/30/2021,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Northern shoveler,,EA H5N1,,1/12/2022,12/30/2021,"",Wild bird,Hunter harvest,NWDP
@@ -5968,7 +5974,7 @@ APHIS - HPAI Detections in Wild Birds,Montana,Big Horn,Canada goose,,EA H5N1,,12
 APHIS - HPAI Detections in Wild Birds,Montana,Lake,Great horned owl,,EA/AM H5N1,,12/20/2022,Unknown,"",Wild bird,Morbidity/Mortality,MT FWP
 APHIS - HPAI Detections in Wild Birds,Montana,Lake,Great horned owl,,EA H5,,12/20/2022,Unknown,"",Wild bird,Morbidity/Mortality,MT FWP
 APHIS - HPAI Detections in Wild Birds,Montana,Lake,Red-tailed hawk,,EA/AM H5N1,,12/20/2022,Unknown,"",Wild bird,Morbidity/Mortality,MT FWP
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1 mixed,,12/9/2022,9/14/2022,"",Wild bird,Morbidity/Mortality,USGS/SCWDS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1 mixed,,12/9/2022,9/14/2022,"",Wild bird,Morbidity/Mortality,USGS
 APHIS - HPAI Detections in Wild Birds,Wyoming,Goshen,Canada goose,,EA/AM H5N1,,12/27/2022,12/14/2022,"",Wild bird,Morbidity/Mortality,University of WY
 APHIS - HPAI Detections in Wild Birds,Wyoming,Goshen,Canada goose,,EA/AM H5N1,,12/27/2022,Unknown,"",Wild bird,Morbidity/Mortality,University of WY
 APHIS - HPAI Detections in Wild Birds,California,San Diego,White-faced ibis,,EA/AM H5N1,,12/27/2022,11/28/2022,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
@@ -6655,8 +6661,8 @@ APHIS - HPAI Detections in Wild Birds,South Carolina,Anderson,Muscovy duck,,EA/A
 APHIS - HPAI Detections in Wild Birds,South Carolina,Anderson,Muscovy duck,,EA/AM H5N1,,2/22/2023,2/7/2023,"",Wild bird,Morbidity/Mortality,NWDP
 APHIS - HPAI Detections in Wild Birds,Virginia,Chesterfield,Bald eagle,,EA/AM H5N1,,2/14/2023,1/3/2023,"",Wild bird,Morbidity/Mortality,SCWDS
 APHIS - HPAI Detections in Wild Birds,Colorado,Adams,Magpie (unidentified),,EA/AM H5N1,,2/14/2023,2/7/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,American wigeon,,EA H5,,1/30/2023,9/29/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA H5,,1/30/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,American wigeon,,EA H5,,1/30/2023,9/29/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA H5,,1/30/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
 APHIS - HPAI Detections in Wild Birds,California,San Francisco,Sanderling,,EA/AM H5N1,,2/22/2023,2/14/2023,"",Wild bird,Morbidity/Mortality,Private (non-government) submission
 APHIS - HPAI Detections in Wild Birds,Louisiana,St. Tammany,Black vulture,,EA/AM H5N1,,2/22/2023,2/7/2023,"",Wild bird,Morbidity/Mortality,SCWDS
 APHIS - HPAI Detections in Wild Birds,Louisiana,Ascension,Black vulture,,EA/AM H5N1,,2/22/2023,2/8/2023,"",Wild bird,Morbidity/Mortality,SCWDS
@@ -7255,7 +7261,7 @@ APHIS - HPAI Detections in Wild Birds,Texas,Jefferson,Gadwall,,EA H5N1,,3/10/202
 APHIS - HPAI Detections in Wild Birds,Texas,Jefferson,Green-winged teal,,EA H5,,3/10/2023,1/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Scott,Mallard,,EA H5,,3/21/2023,3/7/2023,"",Wild bird,Live bird,NWDP
 APHIS - HPAI Detections in Wild Birds,Montana,Sanders,Golden eagle,,EA H5,,5/9/2023,4/4/2023,"",Wild bird,Morbidity/Mortality,MT FWP
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,5/9/2023,9/30/2022,"",Wild bird,Morbidity/Mortality,USGS/SCWDS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,5/9/2023,9/30/2022,"",Wild bird,Morbidity/Mortality,USGS
 APHIS - HPAI Detections in Wild Birds,New York,Dutchess,Common raven,,EA/AM H5N1,,5/18/2023,5/3/2023,"",Wild bird,Morbidity/Mortality,NY DEC
 APHIS - HPAI Detections in Wild Birds,Colorado,El Paso,Great horned owl,,EA H5N1,,5/18/2023,5/9/2023,"",Wild bird,Morbidity/Mortality,CO Parks & Wildlife
 APHIS - HPAI Detections in Wild Birds,Pennsylvania,Lancaster,Black vulture,,EA/AM H5N1,,5/16/2023,4/6/2023,"",Wild bird,Morbidity/Mortality,PA Game Commission
@@ -7325,7 +7331,7 @@ APHIS - HPAI Detections in Wild Birds,New Jersey,Monmouth,Turkey vulture,,EA/AM 
 APHIS - HPAI Detections in Wild Birds,New Jersey,Monmouth,Turkey vulture,,EA/AM H5N1,,5/23/2023,5/12/2023,"",Wild bird,Morbidity/Mortality,NWDP
 APHIS - HPAI Detections in Wild Birds,New Jersey,Monmouth,Turkey vulture,,EA/AM H5N1,,5/23/2023,5/12/2023,"",Wild bird,Morbidity/Mortality,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Seneca,American black duck,,EA H5N1,,12/16/2022,12/6/2022,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Washington,Clarke,Northern shoveler,,EA/AM H5N1,,5/23/2023,12/3/2022,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,Northern shoveler,,EA/AM H5N1,,5/23/2023,12/3/2022,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Maryland,St. Mary,Brown pelican,,EA H5N1,,5/26/2023,5/19/2023,"",Wild bird,Morbidity/Mortality,NWDP
 APHIS - HPAI Detections in Wild Birds,Texas,Colorado,Gadwall,,EA H5N1,,1/31/2023,1/18/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Pennsylvania,Centre,Mallard,,EA H5N1,,3/8/2023,2/14/2023,"",Wild bird,Live bird,NWDP
@@ -7350,14 +7356,14 @@ APHIS - HPAI Detections in Wild Birds,Utah,Cache,Bald eagle,,EA H5N1,,4/26/2023,
 APHIS - HPAI Detections in Wild Birds,Utah,Cache,Turkey vulture,,EA/AM H5N1,,4/27/2023,4/19/2023,"",Wild bird,Morbidity/Mortality,UT DWR
 APHIS - HPAI Detections in Wild Birds,Utah,Cache,Turkey vulture,,EA H5N1,,5/11/2023,4/28/2023,"",Wild bird,Morbidity/Mortality,UT DWR
 APHIS - HPAI Detections in Wild Birds,Utah,Cache,Turkey vulture,,EA/AM H5N1,,5/11/2023,4/2/2023,"",Wild bird,Morbidity/Mortality,UT DWR
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,5/9/2023,10/9/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Green-winged teal,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,American wigeon,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,American wigeon,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern shoveler,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,SCWDS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,5/9/2023,10/9/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Green-winged teal,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,American wigeon,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,American wigeon,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern shoveler,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA H5N1,,5/9/2023,10/14/2022,"",Wild bird,Hunter harvest,USGS
 APHIS - HPAI Detections in Wild Birds,Louisiana,Cameron,Blue-winged teal,,EA/AM H5N1,,5/23/2023,9/23/2022,"",Wild bird,Hunter harvest,SCWDS
 APHIS - HPAI Detections in Wild Birds,Louisiana,Cameron,Blue-winged teal,,EA/AM H5N1,,5/23/2023,9/23/2022,"",Wild bird,Hunter harvest,SCWDS
 APHIS - HPAI Detections in Wild Birds,Louisiana,Cameron,Blue-winged teal,,EA/AM H5N1,,5/23/2023,9/23/2022,"",Wild bird,Hunter harvest,SCWDS
@@ -7449,36 +7455,36 @@ APHIS - HPAI Detections in Wild Birds,Louisiana,Jefferson Davis,Blue-winged teal
 APHIS - HPAI Detections in Wild Birds,North Dakota,Dickey,Snow goose,,EA/AM H5N1,,4/28/2023,4/19/2023,"",Wild bird,Morbidity/Mortality,NWDP
 APHIS - HPAI Detections in Wild Birds,California,Monterey,Turkey Vulture,,EA H5N1,,6/2/2023,5/24/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
 APHIS - HPAI Detections in Wild Birds,California,Sonoma,Turkey Vulture,,EA/AM H5N1,,6/2/2023,5/23/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/19/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA/AM H5N1,,6/7/2023,9/20/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA/AM H5N1,,6/7/2023,9/20/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,SCWDS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/19/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA/AM H5N1,,6/7/2023,9/20/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Gadwall,,EA/AM H5N1,,6/7/2023,9/20/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/28/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,9/30/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,6/7/2023,10/2/2022,"",Wild bird,Hunter harvest,USGS
 APHIS - HPAI Detections in Wild Birds,Idaho,Bonneville,Great horned owl,,EA/AM H5N1,,6/6/2023,5/20/2023,"",Wild bird,Morbidity/Mortality,ID Fish and Game
 APHIS - HPAI Detections in Wild Birds,Minnesota,Aitkin,Bald eagle,,EA H5N1,,6/2/2023,5/24/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
 APHIS - HPAI Detections in Wild Birds,Alaska,Sitka,Bald eagle,,EA H5N1,,6/2/2023,5/16/2023,"",Wild bird,Morbidity/Mortality,AK DFG
@@ -7663,28 +7669,28 @@ APHIS - HPAI Detections in Wild Birds,Montana,Teton,Mallard,,EA H5,,10/4/2023,9/
 APHIS - HPAI Detections in Wild Birds,Montana,Teton,Mallard,,EA H5N1,,10/4/2023,9/23/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Mille Lacs,Green-winged teal,,EA/AM H5N1,,10/4/2023,9/23/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Montana,Cascade,Swainson's hawk,,EA/AM H5N1,,10/4/2023,9/20/2023,"",Wild bird,Morbidity/Mortality,MT FWP
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,5/15/2023,9/16/2022,"",Wild bird,Hunter harvest,SCWDS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Mallard,,EA/AM H5N1,,5/15/2023,9/16/2022,"",Wild bird,Hunter harvest,USGS
 APHIS - HPAI Detections in Wild Birds,New York,Orleans,Northern pintail,,EA H5N1,,10/10/2023,9/30/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Orleans,Mallard,,EA H5N1,,10/10/2023,9/30/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Kansas,Barton,Blue-winged teal,,EA H5N1,,10/10/2023,9/30/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Colorado,Rio Grande,Green-winged teal,,EA H5N1,,10/10/2023,9/30/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/2/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,5/15/2023,9/5/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,5/15/2023,9/5/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/7/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/12/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/12/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5 mixed,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,SCWDS
-APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Green-winged teal,,EA/AM H5N1,,5/15/2023,9/7/2022,"",Wild bird,Hunter harvest,SCWDS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/2/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,5/15/2023,9/5/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,5/15/2023,9/5/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/7/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Cackling goose,,EA/AM H5N1,,5/15/2023,9/9/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/12/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/12/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5 mixed,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA/AM H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Northern pintail,,EA H5N1,,5/15/2023,9/14/2022,"",Wild bird,Hunter harvest,USGS
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians East,Green-winged teal,,EA/AM H5N1,,5/15/2023,9/7/2022,"",Wild bird,Hunter harvest,USGS
 APHIS - HPAI Detections in Wild Birds,North Dakota,Burleigh,Bald eagle,,EA/AM H5N1,,10/3/2023,Unknown,"",Wild bird,Morbidity/Mortality,SCWDS/USFWS - National Eagle Repository
 APHIS - HPAI Detections in Wild Birds,North Dakota,Burleigh,Bald eagle,,EA/AM H5N1,,10/3/2023,11/11/2022,"",Wild bird,Morbidity/Mortality,SCWDS/USFWS - National Eagle Repository
 APHIS - HPAI Detections in Wild Birds,Oregon,Klamath,Bald eagle,,EA H5N1,,10/3/2023,Unknown,"",Wild bird,Morbidity/Mortality,SCWDS/USFWS - National Eagle Repository
@@ -8911,7 +8917,7 @@ APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5N1,
 APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5N1,,12/19/2023,11/25/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5,,12/19/2023,11/25/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Ring-necked duck,,EA H5N1,,12/19/2023,11/25/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Washington,Clarke,American wigeon,,EA H5N1,,12/19/2023,11/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,American wigeon,,EA H5N1,,12/19/2023,11/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Illinois,Mason,Mallard,,EA/AM H5N1,,12/20/2023,11/20/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Illinois,St. Clair,Green-winged teal,,EA H5N1,,12/20/2023,11/28/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Illinois,St. Clair,Northern shoveler,,EA H5N1,,12/20/2023,11/28/2023,"",Wild bird,Hunter harvest,NWDP
@@ -9952,24 +9958,24 @@ APHIS - HPAI Detections in Wild Birds,Florida,Orange,Black vulture,,EA H5N1,,7/1
 APHIS - HPAI Detections in Wild Birds,Iowa,O'Brien,Rock pigeon,,EA H5N1,,7/16/2024,6/10/2024,"",Wild bird,Agency harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New Hampshire,Sullivan,Mallard,,EA H5N1,,2/16/2024,2/2/2024,"",Wild bird,Live bird,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Clinton,Snow goose,,EA H5N1,,7/16/2024,6/27/2024,"",Wild bird,Morbidity/Mortality,NY DEC
-APHIS - HPAI Detections in Wild Birds,New York,Genesee,American green-winged teal,,EA/AM H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Genesee,Green-winged teal,,EA/AM H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Genesee,Northern pintail,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Genesee,Northern pintail,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,New York,Genesee,American green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,New York,Genesee,American green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Genesee,Green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Genesee,Green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Genesee,Gadwall,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Mallard,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Genesee,Mallard,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Mallard,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American wigeon,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American wigeon,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,New York,Genesee,American green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Genesee,Green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Northern shoveler,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Arkansas,Lonoke,Northern shoveler,,EA H5,,7/24/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American wigeon,,EA H5,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
@@ -9978,55 +9984,55 @@ APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American wigeon,,EA H5,,7/23/2
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American wigeon,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American wigeon,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Northern pintail,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Northern pintail,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,American green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Northern shoveler,,EA H5,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Gadwall,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Gadwall,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Gadwall,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Mallard,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Mallard,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,New York,Genesee,American green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Genesee,Green-winged teal,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Northern pintail,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Gadwall,,EA H5,,7/24/2024,11/9/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Dakota,Ramsey,Mallard,,EA/AM H5N1,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Dakota,Ramsey,Mallard,,EA H5N1,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Utah,Box Elder,American wigeon,,EA H5,,11/22/2023,11/3/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,American green-winged teal,,EA/AM H5N1,,7/24/2024,11/4/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,South Dakota,Brown,American green-winged teal,,EA H5,,7/24/2024,11/8/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,North Dakota,Stutsman,American green-winged teal,,EA/AM H5N1,,7/23/2024,10/20/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA/AM H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Green-winged teal,,EA/AM H5N1,,7/24/2024,11/4/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Dakota,Brown,Green-winged teal,,EA H5,,7/24/2024,11/8/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Dakota,Stutsman,Green-winged teal,,EA/AM H5N1,,7/23/2024,10/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA/AM H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Dakota,Ramsey,Mallard,,EA/AM H5N1,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Genesee,Mallard,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Mallard,,EA H5,,7/24/2024,11/9/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Washington,Skagit,Lesser scaup,,EA H5,,11/26/2023,11/11/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,American green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,American green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,American green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,American green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Green-winged teal,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Northern pintail,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Mallard,,EA H5,,7/24/2024,11/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Arkansas,Lonoke,Mallard,,EA H5,,7/24/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Mallard,,EA H5,,7/24/2024,11/9/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Mallard,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Mallard,,EA H5,,7/24/2024,11/9/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA/AM H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA/AM H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Dakota,Ramsey,Mallard,,EA/AM H5N1,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American wigeon,,EA H5,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA/AM H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA/AM H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Mallard,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Mallard,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,American green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Iowa,Marion,American green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Canyon,Green-winged teal,,EA H5N1,,7/24/2024,10/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Marion,Green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Iowa,Marion,Northern shoveler,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Iowa,Marion,American green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Iowa,Marion,American green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Iowa,Marion,American green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Iowa,Marion,American green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Iowa,Marion,American green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Marion,Green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Marion,Green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Marion,Green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Marion,Green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Marion,Green-winged teal,,EA H5,,7/24/2024,11/3/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Colorado,Weld,House sparrow,,EA H5,,7/22/2024,7/10/2024,"",Wild bird,Agency harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Colorado,Weld,House sparrow,,EA H5,,7/22/2024,7/10/2024,"",Wild bird,Agency harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Colorado,Weld,House sparrow,,EA H5,,7/22/2024,7/10/2024,"",Wild bird,Agency harvest,NWDP
@@ -10075,9 +10081,9 @@ APHIS - HPAI Detections in Wild Birds,Colorado,Weld,House sparrow,,EA H5N1,,7/19
 APHIS - HPAI Detections in Wild Birds,Colorado,Weld,House sparrow,,EA H5N1,,7/19/2024,7/9/2024,"",Wild bird,Agency harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American wigeon,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,bufflehead,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American green-winged teal,,EA/AM H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American green-winged teal,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American green-winged teal,,EA/AM H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Lake,Green-winged teal,,EA/AM H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Lake,Green-winged teal,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Lake,Green-winged teal,,EA/AM H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,Northern shoveler,,EA H5,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,Northern shoveler,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,Gadwall,,EA H5,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
@@ -10101,7 +10107,7 @@ APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American wigeon,,EA/AM H5N1,,7
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American wigeon,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American wigeon,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American wigeon,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,North Dakota,Kidder,American green-winged teal,,EA/AM H5N1,,"",10/24/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Dakota,Kidder,Green-winged teal,,EA/AM H5N1,,"",10/24/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Oregon,Lake,Northern pintail,,EA H5N1,,7/31/2024,10/22/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Wisconsin,Langlade,Common loon,,EA/AM H5N1,,7/30/2024,12/15/2023,"",Wild bird,Morbidity/Mortality,Private (non-government) submission
 APHIS - HPAI Detections in Wild Birds,Wisconsin,Dunn,Canada goose,,EA/AM H5N1,,7/30/2024,12/14/2023,"",Wild bird,Morbidity/Mortality,WI DNR
@@ -10178,7 +10184,7 @@ APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,
 APHIS - HPAI Detections in Wild Birds,Kansas,Neosho,Green-winged teal,,EA/AM H5N1,,"",11/11/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Wyoming,Goshen,Green-winged teal,,EA/AM H5N1,,"",11/18/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Washington,Clark,Northern shoveler,,EA/AM H5N1,,"",11/14/2023,"",Wild bird,Hunter harvest,NWDP
-APHIS - HPAI Detections in Wild Birds,Washington,Clarke,Northern shoveler,,EA/AM H5N1,,"",11/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,Northern shoveler,,EA/AM H5N1,,"",11/16/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Nebraska,Scotts Bluff,Mallard,,EA/AM H5N1,,"",11/18/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Colorado,Logan,Snow goose,,EA/AM H5N1,,12/2/2023,11/18/2023,"",Wild bird,Morbidity/Mortality,CO Parks and Wildlife
 APHIS - HPAI Detections in Wild Birds,Colorado,Denver,Magpie (unidentified),,EA/AM H5N1,,12/2/2023,10/13/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
@@ -10228,6 +10234,646 @@ APHIS - HPAI Detections in Wild Birds,Arkansas,Lonoke,Goose (unidentified),,EA/A
 APHIS - HPAI Detections in Wild Birds,Arkansas,Lonoke,Goose (unidentified),,EA/AM H5N1,,8/30/2024,12/6/2023,"",Wild bird,Morbidity/Mortality,AR GFC
 APHIS - HPAI Detections in Wild Birds,Arkansas,Arkansas,Ross's goose,,EA/AM H5N1,,8/30/2024,12/6/2023,"",Wild bird,Morbidity/Mortality,AR GFC
 APHIS - HPAI Detections in Wild Birds,Arkansas,Arkansas,Snow goose,,EA/AM H5N1,,8/30/2024,12/6/2023,"",Wild bird,Morbidity/Mortality,AR GFC
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Mallard,,EA/AM H5N1,,"",11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Snohomish,Mallard,,EA/AM H5N1,,"",11/17/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Gadwall,,EA/AM H5N1,,"",11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,American wigeon,,EA/AM H5N1,,"",11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Green-winged teal,,EA/AM H5N1,,"",11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oklahoma,Washington,Gadwall,,EA H5N1,,8/28/2024,11/25/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,American wigeon,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA/AM H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Ring-necked duck,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Green-winged teal,,EA H5N1,,8/28/2024,11/25/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Green-winged teal,,EA/AM H5N1,,8/28/2024,11/25/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Green-winged teal,,EA H5N1,,8/28/2024,11/25/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Green-winged teal,,EA/AM H5N1,,8/28/2024,11/25/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Green-winged teal,,EA H5N1,,8/28/2024,11/25/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Logan,American wigeon,,EA H5N1,,9/5/2024,12/17/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Dakota,LaMoure,Snow goose,,EA H5N1,,8/28/2024,12/7/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/28/2024,11/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Northern pintail,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Logan,Mallard,,EA/AM H5N1,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Boone,Snow goose,,EA H5,,9/5/2024,12/12/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Boone,Mallard,,EA H5N1,,9/5/2024,12/12/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Dakota,LaMoure,Snow goose,,EA/AM H5N1,,8/28/2024,12/7/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,North Dakota,LaMoure,Snow goose,,EA H5N1,,8/28/2024,12/7/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Posey,Mallard,,EA H5N1,,9/4/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Posey,Mallard,,EA H5N1,,9/4/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Utah,Box Elder,American wigeon,,EA H5N1,,9/4/2024,12/11/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Rio Grande,Green-winged teal,,EA H5N1,,8/28/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,American wigeon,,EA H5N1,,8/28/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Pennsylvania,York,Ring-necked duck,,EA/AM H5N1,,9/5/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Mallard,,EA H5N1,,8/28/2024,11/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Northern pintail,,EA H5N1,,8/28/2024,11/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Rio Grande,Green-winged teal,,EA H5,,8/28/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Rio Grande,Green-winged teal,,EA H5N1,,8/28/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/28/2024,11/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5,,8/28/2024,11/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,American black duck,,EA H5N1,,8/28/2024,11/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5,,8/28/2024,11/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Illinois,Fulton,Mallard,,EA H5N1,,9/4/2024,12/6/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,American black duck,,EA H5N1 mixed,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,American black duck,,EA/AM H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA/AM H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,"Juneau, City and Borough",Mallard,,EA/AM H5N1,,8/30/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA/AM H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA/AM H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5 mixed,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Logan,American wigeon,,EA H5N1,,9/3/2024,12/12/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Denver,Mallard,,EA H5N1,,8/30/2024,11/24/2023,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Logan,Mallard,,EA H5N1,,9/3/2024,12/12/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,American black duck,,EA H5N1,,9/3/2024,12/5/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,American black duck,,EA/AM H5N1,,9/3/2024,12/5/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA/AM H5N1,,9/3/2024,12/5/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA H5N1,,9/3/2024,12/5/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1 mixed,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Denver,Mallard,,EA H5N1,,8/30/2024,11/24/2023,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Montana,Teton,Mallard,,EA H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Montana,Teton,Mallard,,EA H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Long-tailed duck,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Long-tailed duck,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Green-winged teal,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA H5N1,,9/3/2024,12/5/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,American wigeon,,EA H5N1,,8/29/2024,11/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Skagit,Mallard,,EA H5,,8/29/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,King,Northern pintail,,EA H5,,8/29/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Utah,Weber,Gadwall,,EA H5N1,,8/29/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Green-winged teal,,EA H5N1,,8/29/2024,11/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Skagit,Mallard,,EA/AM H5N1,,8/29/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,American black duck,,EA/AM H5N1,,8/29/2024,11/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Green-winged teal,,EA H5N1,,8/30/2024,11/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA H5N1,,8/29/2024,11/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA/AM H5N1,,8/29/2024,11/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,American black duck,,EA H5N1,,8/29/2024,11/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Jefferson,Snow goose,,EA/AM H5N1,,8/29/2024,12/1/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Jackson,Green-winged teal,,EA H5N1,,8/29/2024,11/24/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,8/29/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Northern pintail,,EA H5,,8/29/2024,11/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Montana,Teton,American wigeon,,EA H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Green-winged teal,,EA/AM H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Green-winged teal,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Skagit,Mallard,,EA H5N1,,8/29/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,Mallard,,EA H5N1,,8/30/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA/AM H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1 mixed,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Green-winged teal,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,St. Clair,Long-tailed duck,,EA H5N1,,8/30/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Greater white-fronted goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Jefferson,Mallard,,EA H5,,8/29/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Mallard,,EA H5N1,,8/29/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Marshall,Canada goose,,EA H5N1,,8/29/2024,12/1/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Jackson,Canada goose,,EA H5N1,,8/29/2024,11/29/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Mallard,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Gadwall,,EA H5N1 mixed,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Northern pintail,,EA/AM H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Mallard,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Wood duck,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Northern shoveler,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Northern shoveler,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Northern shoveler,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Northern shoveler,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Northern shoveler,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Gadwall,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Gadwall,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Gadwall,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Gadwall,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Gadwall,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clallam,Peregrine falcon,,EA H5N1,,9/4/2024,11/14/2023,"",Wild bird,Morbidity/Mortality,WA DFW
+APHIS - HPAI Detections in Wild Birds,New York,Rockland,Canada goose,,EA/AM H5N1,,9/6/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,New York,Queens,Red-tailed hawk,,EA H5N1,,9/6/2024,2/6/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Washington,Canada goose,,EA/AM H5N1,,9/9/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Franklin,Canada goose,,EA/AM H5N1,,9/9/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Franklin,Canada goose,,EA/AM H5N1,,9/9/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Franklin,Canada goose,,EA/AM H5N1,,9/9/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Tompkins,Bald eagle,,EA/AM H5N1,,9/9/2024,12/20/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,New York,Onondaga,Snow goose,,EA/AM H5N1,,9/3/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,Mississippi,Oktibbeha,Snow goose,,EA H5N1,,9/3/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MS DWFP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Oktibbeha,Snow goose,,EA H5N1,,9/3/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MS DWFP
+APHIS - HPAI Detections in Wild Birds,Iowa,Mitchell,Ross's goose,,EA/AM H5N1,,9/4/2024,11/6/2023,"",Wild bird,Morbidity/Mortality,IA DNR
+APHIS - HPAI Detections in Wild Birds,Alaska,Anchorage,Black-billed magpie,,EA/AM H5N1,,9/4/2024,10/4/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Alaska,Anchorage,Green-winged teal,,EA/AM H5N1,,9/4/2024,10/19/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians West,Bald eagle,,EA H5N1,,9/4/2024,11/28/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,South Dakota,Walworth,Wild turkey,,EA/AM H5N1,,9/5/2024,12/6/2023,"",Wild bird,Morbidity/Mortality,SD GFP
+APHIS - HPAI Detections in Wild Birds,South Dakota,Walworth,Wild turkey,,EA H5N1,,9/5/2024,12/6/2023,"",Wild bird,Morbidity/Mortality,SD GFP
+APHIS - HPAI Detections in Wild Birds,Idaho,Ada,Great horned owl,,EA/AM H5N1,,9/5/2024,12/14/2023,"",Wild bird,Morbidity/Mortality,ID Fish and Game
+APHIS - HPAI Detections in Wild Birds,Colorado,Boulder,Cackling goose,,EA/AM H5N1,,9/5/2024,12/17/2023,"",Wild bird,Morbidity/Mortality,CO Parks & Wildlife
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Snow goose,,EA/AM H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Greater white-fronted goose,,EA/AM H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5 mixed,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Mallard,,EA H5N1,,9/3/2024,12/4/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Leflore,Mallard,,EA H5N1,,9/3/2024,12/4/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Blue-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Wabasha,Mallard,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Virginia,Surry,Green-winged teal,,EA/AM H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Virginia,Surry,American black duck,,EA/AM H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Virginia,Surry,Mallard,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Wood duck,,EA/AM H5N1,,9/10/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Wood duck,,EA/AM H5N1,,9/10/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Wood duck,,EA/AM H5N1,,9/10/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Wood duck,,EA/AM H5N1,,9/10/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Wood duck,,EA/AM H5N1,,9/10/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Wood duck,,EA/AM H5N1,,9/10/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Gadwall,,EA/AM H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Lesser scaup,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Boone,Mallard,,EA H5N1,,9/9/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Virginia,Henrico,Mallard,,EA H5,,9/10/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New York,Seneca,American black duck,,EA H5N1,,9/10/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Wood duck,,EA/AM H5N1,,9/10/2024,12/13/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Northern shoveler,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Walker,Snow goose,,EA/AM H5N1,,9/3/2024,12/6/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Northern shoveler,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Blue-winged teal,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Northern pintail,,EA H5,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Green-winged teal,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,American wigeon,,EA H5,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Green-winged teal,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Texas,Freestone,Ring-necked duck,,EA H5N1,,9/3/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Denver,Mallard,,EA H5,,9/5/2024,12/11/2023,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Mallard,,EA H5,,9/6/2024,12/16/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Mallard,,EA H5,,9/6/2024,12/16/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Mallard,,EA H5N1,,9/6/2024,12/16/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Mallard,,EA H5N1,,9/6/2024,12/16/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Mallard,,EA/AM H5N1,,9/6/2024,12/16/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5,,9/5/2024,12/8/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Marion,Ring-necked duck,,EA/AM H5N1,,9/4/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Illinois,St. Clair,Mallard,,EA H5,,8/12/2024,11/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Maryland,Dorchester,Mallard,,EA H5N1,,9/6/2024,12/16/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Quitman,Snow goose,,EA/AM H5N1,,9/5/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Quitman,Snow goose,,EA/AM H5N1,,9/5/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Quitman,Snow goose,,EA/AM H5N1,,9/5/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Quitman,Snow goose,,EA/AM H5N1,,9/5/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Quitman,Snow goose,,EA/AM H5N1,,9/5/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Quitman,Ross's goose,,EA/AM H5N1,,9/5/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Buena Vista,Canada goose,,EA/AM H5N1,,9/5/2024,12/12/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,La Paz,Ring-necked duck,,EA H5N1,,9/5/2024,11/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5,,9/5/2024,12/12/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/13/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/13/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/13/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5,,9/12/2024,12/14/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5,,9/12/2024,12/14/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/14/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/14/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/14/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/14/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/12/2024,12/14/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Gooding,Northern pintail,,EA H5 mixed,,9/12/2024,12/8/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Skagit,Mallard,,EA/AM H5N1,,9/6/2024,12/8/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Limestone,Black vulture,,EA/AM H5N1,,9/5/2024,12/12/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Limestone,Black vulture,,EA/AM H5N1,,9/5/2024,12/12/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Matanuska-Susitna,Mallard,,EA H5N1,,9/5/2024,12/8/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,St. Johns,Northern shoveler,,EA H5N1,,9/6/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,St. Johns,Green-winged teal,,EA H5N1,,9/6/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,St. Johns,Northern shoveler,,EA/AM H5N1,,9/6/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,St. Johns,Green-winged teal,,EA H5N1,,9/6/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Palm Beach,Lesser scaup,,EA/AM H5N1,,9/4/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Palm Beach,Ring-necked duck,,EA/AM H5N1,,9/4/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Palm Beach,Ring-necked duck,,EA/AM H5N1,,9/4/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Green-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Green-winged teal,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Northern pintail,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Green-winged teal,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Green-winged teal,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Green-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Green-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Ring-necked duck,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Ring-necked duck,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Ring-necked duck,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Mottled duck,,EA H5,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Ring-necked duck,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Ring-necked duck,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Ring-necked duck,,EA H5,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Blue-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Palm Beach,Ring-necked duck,,EA/AM H5N1,,9/4/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Palm Beach,Ring-necked duck,,EA H5N1,,9/4/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,St. Johns,Lesser scaup,,EA H5N1,,9/6/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,St. Johns,Green-winged teal,,EA/AM H5N1,,9/6/2024,11/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Illinois,Fayette,Mallard,,EA/AM H5N1,,9/5/2024,12/15/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Illinois,Fayette,Mallard,,EA H5N1,,9/5/2024,12/15/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Illinois,St. Clair,Mallard,,EA H5,,9/5/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Illinois,Calhoun,Mallard,,EA H5,,9/4/2024,12/6/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Illinois,St. Clair,Gadwall,,EA H5N1,,9/4/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Starke,Mallard,,EA H5N1,,9/4/2024,12/6/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Starke,Mallard,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Starke,Mallard,,EA H5,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Starke,Green-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Starke,Mallard,,EA H5N1,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Starke,Mallard,,EA H5N1,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Starke,Green-winged teal,,EA H5N1,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Cameron,Canvasback,,EA H5N1,,9/5/2024,12/12/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Jefferson,Green-winged teal,,EA H5N1,,9/5/2024,12/15/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Northern pintail,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Ring-necked duck,,EA H5,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,9/6/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,9/6/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,American wigeon,,EA H5,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Green-winged teal,,EA H5,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5N1,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Saline,Mallard,,EA H5,,9/6/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,Northern shoveler,,EA H5N1,,9/12/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,American wigeon,,EA H5N1,,9/12/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,American wigeon,,EA H5N1,,9/12/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,Ring-necked duck,,EA H5N1,,9/12/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,Canvasback,,EA H5N1,,9/12/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,American wigeon,,EA H5,,9/12/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Utah,Box Elder,Green-winged teal,,EA H5N1,,9/6/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Franklin,Mallard,,EA H5N1,,9/6/2024,12/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Franklin,Mallard,,EA H5,,9/6/2024,12/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Franklin,Mallard,,EA/AM H5N1,,9/6/2024,12/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Franklin,Mallard,,EA H5N1,,9/6/2024,12/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Franklin,American wigeon,,EA H5N1,,9/6/2024,12/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Northern shoveler,,EA/AM H5N1,,9/5/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Northern shoveler,,EA H5N1,,9/5/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Northern shoveler,,EA H5N1,,9/5/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Mallard,,EA H5N1,,9/5/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Mallard,,EA H5N1,,9/5/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Yakima,Mallard,,EA H5,,9/4/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Yakima,Mallard,,EA H5N1,,9/4/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Yakima,Mallard,,EA H5,,9/4/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Yakima,Mallard,,EA H5,,9/4/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Yakima,Mallard,,EA/AM H5N1,,9/4/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Mallard,,EA H5N1,,9/4/2024,12/4/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Grant,Mallard,,EA H5,,9/5/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,Snow goose,,EA/AM H5N1,,9/16/2024,12/8/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,Snow goose,,EA/AM H5N1,,9/16/2024,12/8/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,Snow goose,,EA/AM H5N1,,9/16/2024,12/8/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Michigan,Allegan,Mallard,,EA H5N1,,9/4/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Ohio,Wayne,Green-winged teal,,EA H5N1,,9/5/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oklahoma,Sequoyah,Mallard,,EA H5N1,,9/4/2024,12/9/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Lake,American wigeon,,EA H5N1,,9/5/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Mallard,,EA H5N1,,9/5/2024,12/11/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Utah,Davis,Common goldeneye,,EA H5N1,,9/4/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,Northern shoveler,,EA H5N1,,9/5/2024,12/12/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Shannon,Snow goose,,EA/AM H5N1,,9/5/2024,12/15/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Jackson,Snow goose,,EA/AM H5N1,,9/5/2024,12/15/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Platte,Snow goose,,EA/AM H5N1,,9/5/2024,12/15/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Jackson,Snow goose,,EA/AM H5N1,,9/5/2024,12/15/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Clay,Snow goose,,EA/AM H5N1,,9/5/2024,12/15/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Colorado,Boulder,Great horned owl,,EA H5N1,,9/12/2024,12/21/2023,"",Wild bird,Morbidity/Mortality,CO Parks & Wildlife
+APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Mottled duck,,EA/AM H5N1,,9/17/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Mottled duck,,EA H5N1,,9/17/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Mottled duck,,EA/AM H5N1,,9/17/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Gadwall,,EA/AM H5N1,,9/17/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Mallard,,EA H5N1,,9/17/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Gadwall,,EA H5N1,,9/17/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Vermont,Orleans,Canada goose,,EA/AM H5N1,,9/5/2024,12/10/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Vermont,Grand Isle,Canada goose,,EA H5N1,,9/5/2024,12/11/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,Mallard,,EA H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA/AM H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA H5,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA/AM H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA/AM H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA H5,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arizona,Yuma,American wigeon,,EA/AM H5N1,,9/17/2024,12/14/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Todd,Trumpeter swan,,EA/AM H5N1,,9/17/2024,12/28/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Todd,Trumpeter swan,,EA/AM H5N1,,9/17/2024,12/28/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Winston,Snow goose,,EA/AM H5N1,,9/5/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Big Stone,Trumpeter swan,,EA/AM H5N1,,9/5/2024,11/28/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Jackson,Canada goose,,EA H5N1,,9/18/2024,12/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Morehouse,Northern pintail,,EA H5N1,,9/18/2024,1/2/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Cameron,Gadwall,,EA H5N1,,9/18/2024,12/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Cameron,Green-winged teal,,EA H5N1,,9/18/2024,12/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Richland,Green-winged teal,,EA H5N1,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Richland,Green-winged teal,,EA H5N1,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Richland,Gadwall,,EA H5N1,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Louisiana,Richland,Northern shoveler,,EA H5,,9/5/2024,12/16/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Grant,Canada goose,,EA/AM H5N1,,9/5/2024,12/14/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Grant,Canada goose,,EA/AM H5N1,,9/5/2024,12/14/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Minnesota,Grant,Canada goose,,EA/AM H5N1,,9/5/2024,12/14/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Boone,Mallard,,EA H5N1,,9/5/2024,12/8/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Boone,Gadwall,,EA H5N1,,9/5/2024,12/11/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Green-winged teal,,EA H5N1,,9/17/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Canvasback,,EA H5N1,,9/17/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,Northern shoveler,,EA H5N1,,9/5/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,Northern shoveler,,EA H5N1,,9/5/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,Mallard,,EA H5,,9/5/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Clark,Green-winged teal,,EA H5N1,,9/5/2024,12/7/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Cerro Gordo,Mallard,,EA H5N1,,9/17/2024,12/22/2023,"",Wild bird,Live bird,NWDP
+APHIS - HPAI Detections in Wild Birds,Iowa,Des Moines,Canada goose,,EA H5N1,,9/18/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Gooding,Mallard,,EA H5N1,,9/18/2024,12/27/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Gooding,Mallard,,EA H5N1,,9/18/2024,12/27/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Gooding,Mallard,,EA H5N1,,9/18/2024,12/27/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Snohomish,Mallard,,EA H5N1,,8/30/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Washington,Snohomish,Mallard,,EA H5N1,,8/30/2024,12/1/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians West,Bald eagle,,EA H5N1,,9/16/2024,12/7/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Alaska,Aleutians West,Bald eagle,,EA H5N1,,9/16/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Alaska,Valdez-Cordova,Magpie (unidentified),,EA H5N1,,9/16/2024,12/25/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Alaska,Valdez-Cordova,Magpie (unidentified),,EA H5N1,,9/16/2024,12/25/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Alaska,Valdez-Cordova,Magpie (unidentified),,EA H5N1,,9/16/2024,12/25/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Alaska,Valdez-Cordova,Magpie (unidentified),,EA H5N1,,9/16/2024,12/25/2023,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,Florida,Marion,Great horned owl,,EA/AM H5N1,,9/17/2024,12/27/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,New York,Monroe,Canada goose,,EA/AM H5N1,,9/17/2024,1/2/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Monroe,Canada goose,,EA/AM H5N1,,9/17/2024,1/2/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Monroe,Canada goose,,EA/AM H5N1,,9/17/2024,1/2/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Albany,Canada goose,,EA/AM H5N1,,9/17/2024,1/2/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Mallard,,EA H5N1,,9/19/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Northern shoveler,,EA H5N1,,9/19/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Green-winged teal,,EA H5N1,,9/19/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Green-winged teal,,EA H5N1 mixed,,9/19/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,American wigeon,,EA H5N1,,9/19/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Polk,Muscovy duck,,EA/AM H5N1,,9/19/2024,1/4/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,California,Merced,Peregrine falcon,,EA/AM H5N1,,9/19/2024,11/13/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,San Joaquin,Snow goose,,EA/AM H5N1,,9/19/2024,12/11/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Stanislaus,Canada goose,,EA/AM H5N1,,9/19/2024,12/2/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Yolo,Great horned owl,,EA/AM H5N1,,9/19/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Alameda,Red-tailed hawk,,EA/AM H5N1,,9/19/2024,1/2/2024,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Sonoma,Snow goose,,EA H5N1,,9/19/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Sonoma,Canada goose,,EA H5N1,,9/19/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Marin,Turkey vulture,,EA/AM H5N1,,9/19/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Mendocino,Northern fulmar,,EA H5N1,,9/19/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,San Luis Obispo,Canada goose,,EA H5N1,,9/19/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,San Luis Obispo,Western gull,,EA H5N1,,9/19/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Santa Clara,Red-tailed hawk,,EA H5N1,,9/19/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Santa Clara,Peregrine falcon,,EA/AM H5N1,,9/19/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Santa Clara,Willet,,EA/AM H5N1,,9/19/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,Utah,Box Elder,Eared grebe,,EA/AM H5N1,,9/20/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,UT DWR
+APHIS - HPAI Detections in Wild Birds,California,Nevada,Bald eagle,,EA H5N1,,9/20/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Colusa,Red-tailed hawk,,EA H5N1,,9/20/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Placer,Bufflehead,,EA H5N1,,9/20/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,California,Contra Costa,Snow goose,,EA/AM H5N1,,9/20/2024,12/20/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,Wyoming,Converse,Owl (unidentified),,EA H5N1,,9/20/2024,12/22/2023,"",Wild bird,Morbidity/Mortality,WY GFD
+APHIS - HPAI Detections in Wild Birds,Alaska,Fairbanks North Star,Canada goose,,EA/AM H5N1,,9/20/2024,5/3/2022,"",Wild bird,Morbidity/Mortality,AK DFG
+APHIS - HPAI Detections in Wild Birds,California,Humboldt,Herring gull,,EA H5N1,,9/23/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,Nevada,Elko,Red-tailed hawk,,EA/AM H5N1,,9/23/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,NV DOW
+APHIS - HPAI Detections in Wild Birds,Nevada,Washoe,California quail,,EA/AM H5N1,,9/23/2024,12/19/2023,"",Wild bird,Morbidity/Mortality,NV DOW
+APHIS - HPAI Detections in Wild Birds,Iowa,Polk,Snow goose,,EA H5N1,,9/23/2024,12/27/2023,"",Wild bird,Morbidity/Mortality,IA DNR
+APHIS - HPAI Detections in Wild Birds,Florida,Collier,Black skimmer,,EA H5,,9/24/2024,10/10/2022,"",Wild bird,Morbidity/Mortality,FL FWCC
+APHIS - HPAI Detections in Wild Birds,Florida,Volusia,Black vulture,,EA H5N1,,9/24/2024,8/15/2024,"",Wild bird,Morbidity/Mortality,FL FWCC
+APHIS - HPAI Detections in Wild Birds,Florida,Volusia,Black vulture,,EA H5N1,,9/24/2024,8/15/2024,"",Wild bird,Morbidity/Mortality,FL FWCC
+APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Great horned owl,,EA/AM H5N1,,9/24/2024,12/26/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Idaho,Gooding,American wigeon,,EA H5N1,,9/19/2024,12/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Canada goose,,EA/AM H5N1,,8/29/2024,12/4/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Jefferson,Black-billed magpie,,EA/AM H5N1,,9/5/2024,12/13/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Denver,American crow,,EA/AM H5N1,,9/5/2024,12/17/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Adams,Snow goose,,EA H5N1,,9/4/2024,12/11/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Mississippi,Lafayette,Ross's goose,,EA H5N1,,9/5/2024,12/9/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5,,9/23/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5N1,,9/23/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Mallard,,EA H5N1,,9/19/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,Mallard,,EA H5N1,,9/19/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oregon,Columbia,American wigeon,,EA H5N1,,9/19/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Richland,Green-winged teal,,EA H5N1,,9/23/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Richland,Green-winged teal,,EA/AM H5N1,,9/23/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Richland,Wood duck,,EA/AM H5N1,,9/23/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Richland,Wood duck,,EA H5N1,,9/23/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Richland,Wood duck,,EA/AM H5N1,,9/23/2024,12/13/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Nevada,Washoe,Canada goose,,EA/AM H5N1,,8/30/2024,11/15/2023,"",Wild bird,Morbidity/Mortality,NV DOW
+APHIS - HPAI Detections in Wild Birds,Nevada,Washoe,Canada goose,,EA/AM H5N1,,8/30/2024,11/15/2023,"",Wild bird,Morbidity/Mortality,NV DOW
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5N1,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Gadwall,,EA H5N1,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Gadwall,,EA H5N1,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA/AM H5N1,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Gadwall,,EA H5N1,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Gadwall,,EA H5,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Gadwall,,EA H5,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,greater scaup,,EA H5,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA/AM H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Gadwall,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,greater scaup,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Beaufort,Lesser scaup,,EA H5,,9/20/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Monroe,Mallard,,EA H5N1,,9/19/2024,12/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Monroe,Ring-necked duck,,EA H5N1,,9/19/2024,12/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Monroe,Green-winged teal,,EA H5N1,,9/19/2024,12/29/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Weld,Great horned owl,,EA/AM H5N1,,12/13/2023,11/28/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Great horned owl,,EA/AM H5N1,,8/28/2024,12/6/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Weld,Great horned owl,,EA/AM H5N1,,9/3/2024,12/10/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Red-tailed hawk,,EA/AM H5N1,,9/3/2024,12/10/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Great horned owl,,EA/AM H5N1,,9/5/2024,12/18/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Great horned owl,,EA/AM H5N1,,9/5/2024,12/19/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,New York,Tompkins,Snow goose,,EA/AM H5N1,,9/26/2024,12/26/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Black vulture,,EA H5N1,,9/26/2024,9/19/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,California,San Diego,Snow goose,,EA H5,,9/27/2024,12/14/2023,"",Wild bird,Morbidity/Mortality,CA DFW/CAHFS
+APHIS - HPAI Detections in Wild Birds,New York,Dutchess,Bald eagle,,EA/AM H5N1,,9/30/2024,1/5/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,New York,Rensselaer,Canada goose,,EA/AM H5N1,,9/30/2024,1/8/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,Florida,Volusia,Royal tern,,EA/AM H5N1,,9/30/2024,1/9/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Florida,Volusia,Royal tern,,EA/AM H5N1,,9/30/2024,1/9/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Florida,Volusia,Black scoter,,EA/AM H5N1,,9/30/2024,1/9/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Florida,Volusia,Willet,,EA/AM H5N1,,9/30/2024,1/9/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,New York,Suffolk,Peregrine falcon,,EA H5N1,,10/1/2024,12/4/2023,"",Wild bird,Morbidity/Mortality,NY DEC
+APHIS - HPAI Detections in Wild Birds,Missouri,Jackson,Red-shouldered hawk,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Jackson,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Jackson,Canada goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Jackson,Canada goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Johnson,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Clay,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Clay,Ross's goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Clay,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Bates,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Stoddard,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Stoddard,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Stoddard,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Gasconade,Snow goose,,EA/AM H5N1,,10/1/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Northern pintail,,EA/AM H5N1,,9/23/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Ring-necked duck,,EA H5N1,,9/23/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American black duck,,EA/AM H5N1,,9/23/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Green-winged teal,,EA H5N1,,9/23/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Blue-winged teal,,EA/AM H5N1,,9/23/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Tennessee,Lake,Gadwall,,EA H5N1,,9/20/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Beaufort,ruddy duck,,EA H5,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Beaufort,Green-winged teal,,EA H5N1,,9/20/2024,12/26/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5N1,,9/20/2024,12/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA/AM H5N1,,9/20/2024,12/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5N1,,9/20/2024,12/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,american wigeon,,EA H5N1,,9/20/2024,12/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Idaho,Starke,Mallard,,EA H5N1,,9/19/2024,1/3/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Indiana,Monroe,Mallard,,EA H5N1,,9/19/2024,12/30/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,American wigeon,,EA H5N1,,9/20/2024,12/28/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,American wigeon,,EA/AM H5N1,,9/20/2024,1/2/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Berkeley,Green-winged teal,,EA H5N1,,9/20/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Berkeley,Green-winged teal,,EA H5N1,,9/20/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Berkeley,Wood duck,,EA/AM H5N1,,9/20/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Berkeley,Green-winged teal,,EA H5N1,,9/20/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Berkeley,Blue-winged teal,,EA H5N1,,9/20/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,California,Tulare,European starling,,EA H5N1,,10/4/2024,9/17/2024,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,California,Tulare,Eurasian collared dove,,EA H5,,10/3/2024,9/19/2024,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,California,Tulare,European starling,,EA H5N1,,10/3/2024,9/19/2024,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,California,Tulare,Brewer's blackbird,,EA H5N1,,10/4/2024,9/21/2024,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,California,Tulare,Brewer's blackbird,,EA H5N1,,10/3/2024,9/21/2024,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Gadwall,,EA H5N1,,9/20/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Gadwall,,EA/AM H5N1,,9/20/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,9/20/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Northern pintail,,EA H5N1,,9/30/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Beaufort,Green-winged teal,,EA H5N1,,10/1/2024,1/9/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Beaufort,Green-winged teal,,EA H5N1,,10/1/2024,1/9/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Montana,Big Horn,Mallard,,EA H5N1,,9/30/2024,12/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Montana,Big Horn,Mallard,,EA H5N1,,9/30/2024,12/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Montana,Big Horn,Mallard,,EA H5N1,,9/30/2024,12/21/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Gadwall,,EA H5N1,,9/30/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5N1,,9/30/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5N1,,9/30/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arkansas,Prairie,Mallard,,EA H5N1,,9/26/2024,1/3/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Arkansas,Prairie,Mallard,,EA H5N1,,9/26/2024,1/3/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Georgia,Stewart,Wood duck,,EA/AM H5N1,,9/26/2024,12/20/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Ring-necked duck,,EA H5N1,,9/26/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Ring-necked duck,,EA H5N1,,9/26/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Northern shoveler,,EA H5N1,,9/26/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Alabama,Barbour,Wood duck,,EA H5N1,,9/26/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Georgia,Hart,Wood duck,,EA H5N1,,9/30/2024,1/7/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Mississippi,Tallahatchie,Snow goose,,EA H5N1,,9/23/2024,12/18/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,New Mexico,Socorro,American wigeon,,EA H5N1,,9/20/2024,12/27/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Oklahoma,Sequoyah,Lesser scaup,,EA H5N1,,9/20/2024,12/23/2023,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Orangeburg,Black vulture,,EA/AM H5N1,,9/30/2024,12/21/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Orangeburg,Wood duck,,EA/AM H5N1,,9/30/2024,12/21/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Orangeburg,Wood duck,,EA/AM H5N1,,9/30/2024,12/21/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,South Carolina,Orangeburg,Blue-winged teal,,EA H5N1,,9/30/2024,12/21/2023,"",Wild bird,Morbidity/Mortality,NWDP
+APHIS - HPAI Detections in Wild Birds,Missouri,Butler,Snow goose,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,Dunklin,Snow goose,,EA/AM H5N1,,9/6/2024,12/5/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,New Madrid,Snow goose,,EA/AM H5N1,,9/6/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,Missouri,New Madrid,Snow goose,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
+APHIS - HPAI Detections in Wild Birds,California,Tulare,European starling,,EA H5N1,,10/10/2024,9/25/2024,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA/AM H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA/AM H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA/AM H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Colorado,Logan,Green-winged teal,,EA H5,,10/1/2024,1/7/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA/AM H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA/AM H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,American wigeon,,EA H5,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Lesser scaup,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Lesser scaup,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Northern shoveler,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Ring-necked duck,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Hooded merganser,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,California,Fresno,Rock pigeon,,EA H5N1,,10/16/2024,10/6/2024,"",Wild bird,Agency harvest,NWDP
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Black vulture,,EA H5N1,,10/21/2024,10/4/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Florida,Brevard,Black vulture,,EA H5N1,,10/21/2024,10/14/2024,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Oregon,"",WOAH Non-Poultry,180,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Washington,"",WOAH Non-Poultry,60,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,California,Tulare,Commercial Broiler Production,60,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Oregon,Clackamas,Commercial Table Egg Layer,1500,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Washington,"",WOAH Non-Poultry,60,"",,"","",10/17/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,California,Tulare,Commercial Broiler Production,786600,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Utah,Cache,Commercial Table Egg Layer,1852900,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Washington,Franklin,Commercial Table Egg Layer,839700,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Florida,Miami-dade,WOAH Poultry,70,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Idaho,Canyon,WOAH Poultry,100,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Idaho,Lincoln,WOAH Poultry,700,"",,"","",09/27/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,California,Merced,Commercial Turkey Meat Bird,64800,"",,"","",09/18/24,"","",""
+APHIS - HPAI Detections in Commercial and Backyard Flocks,Florida,Orange,Live Bird Market,2500,"",,"","",09/18/24,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Florida,Hillsborough,Live Bird Market,880,"",,"","",08/20/24,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Florida,Miami-dade,WOAH Poultry,5400,"",,"","",08/05/24,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Florida,Hendry,WOAH Non-Poultry,5,"",,"","",07/24/24,"","",""
@@ -11401,6 +12047,189 @@ APHIS - HPAI Detections in Commercial and Backyard Flocks,Kentucky,Webster,Comme
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Kentucky,Fulton,Commercial Broiler Production,231400,"",,"","",02/12/22,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Virginia,Fauquier,WOAH Non-Poultry,90,"",,"","",02/12/22,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Indiana,Dubois,Commercial Turkey Meat Bird,290,"",,"","",02/08/22,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/22/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/22/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/22/24,"","",""
+APHIS - HPAI Detections in Livestock,Idaho,"",Cattle,,"",,"","",10/22/24,"","",""
+APHIS - HPAI Detections in Livestock,Idaho,"",Cattle,,"",,"","",10/21/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/17/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/17/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/15/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/10/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/10/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/10/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/10/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/10/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/09/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/08/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/08/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/08/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/07/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/04/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/03/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/02/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/01/24,"","",""
+APHIS - HPAI Detections in Livestock,Idaho,"",Cattle,,"",,"","",09/30/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/27/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/27/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/27/24,"","",""
+APHIS - HPAI Detections in Livestock,Idaho,"",Cattle,,"",,"","",09/27/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/24/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/23/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/23/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/23/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/23/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/23/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/23/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/20/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/18/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/18/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/18/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/18/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/18/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/18/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/13/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/13/24,"","",""
+APHIS - HPAI Detections in Livestock,Idaho,"",Cattle,,"",,"","",09/12/24,"","",""
+APHIS - HPAI Detections in Livestock,Texas,"",Cattle,,"",,"","",09/12/24,"","",""
+APHIS - HPAI Detections in Livestock,Texas,"",Cattle,,"",,"","",09/11/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/10/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/10/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/09/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/09/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",09/09/24,"","",""
+APHIS - HPAI Detections in Livestock,Michigan,"",Cattle,,"",,"","",09/09/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",08/30/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",08/30/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",08/30/24,"","",""

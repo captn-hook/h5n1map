@@ -1,103 +1,286 @@
-event,event_guid,disease,pathogen,date_occurred_low_end,date_occurred_high_end,date_reported,country,administrative_area_level_1,administrative_area_level_2,cases,confirmed_cases,suspected_cases,probable_cases,deaths,confirmed_deaths,suspected_deaths,probable_deaths,cuml_cases,cuml_confirmed_cases,cuml_suspected_cases,cuml_prob_cases,cuml_deaths,cuml_confirmed_deaths,cuml_suspected_deaths,cuml_probable_deaths,source,latitude,longitude
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-03-27,2024-03-27,2024-04-05,United States,Texas,,1,1,,,0,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-03-27,2024-03-27,2024-04-05,United States,,,1,1,,,0,,,,1,1,,,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-05-21,2024-05-21,2024-05-24,United States,Michigan,,1,1,,,0,,,,1,1,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-05-21,2024-05-21,2024-05-24,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-05-21,2024-05-21,2024-05-24,United States,,,1,1,,,0,,,,2,2,,,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-05-22,2024-05-25,2024-05-31,United States,Michigan,,1,1,,,0,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-05-22,2024-05-25,2024-05-31,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-05-22,2024-05-25,2024-05-31,United States,,,1,1,,,0,,,,3,3,,,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,Colorado,,1,1,,,0,,,,1,1,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,,,1,1,,,0,,,,4,4,,,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Colorado,Weld County,4,4,,,0,,,,4,4,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Colorado,,4,4,,,0,,,,5,5,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,,,4,4,,,0,,,,8,8,,,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Colorado,Weld County,1,1,,,0,,,,5,5,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Colorado,,1,1,,,0,,,,6,6,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,,,1,1,,,0,,,,9,9,,,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Colorado,Weld County,1,1,,,0,,,,6,6,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Colorado,,1,1,,,0,,,,7,7,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,,,1,1,,,0,,,,10,10,,,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Colorado,Weld County,1,,,1,0,,,,7,6,,1,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Colorado,,1,,,1,0,,,,8,7,,1,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,,,1,,,1,0,,,,11,10,,1,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,,,,,,,,,,,13,13,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-08-22,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Missouri,,1,1,,,0,,,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-08-22,United States,,,1,1,,,0,,,,14,14,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Missouri,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,,,,,,,,,,,14,14,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Missouri,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,,,,,,,,,,,14,14,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Missouri,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,,,,,,,,,,,14,14,,0,0,,,,Multisource Fusion,37.09024,-95.712891
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Colorado,Weld County,,,,,,,,,7,7,,0,0,,,,Multisource Fusion,40.3920718,-104.7158226
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Colorado,,,,,,,,,,10,10,,0,0,,,,Multisource Fusion,39.5500507,-105.7820674
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Michigan,,,,,,,,,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Missouri,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Texas,,,,,,,,,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
-Novel Influenza A (H5N1)_United States_2023,3457ddf3-06c1-40e2-862d-2f7456a4b718,Influenza,Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,,,,,,,,,,,14,14,,0,0,,,,Multisource Fusion,37.09024,-95.712891
+pathogen,date_occurred_low_end,date_occurred_high_end,date_reported,country,administrative_area_level_1,administrative_area_level_2,cuml_cases,cuml_confirmed_cases,cuml_suspected_cases,cuml_probable_cases,cuml_deaths,cuml_confirmed_deaths,cuml_suspected_deaths,cuml_probable_deaths,source,latitude,longitude
+Novel Influenza A (H5N1),2024-03-27,2024-03-27,2024-04-05,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-03-27,2024-03-27,2024-04-05,United States,,,1,1,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-05-21,2024-05-21,2024-05-24,United States,Michigan,,1,1,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-05-21,2024-05-21,2024-05-24,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-05-21,2024-05-21,2024-05-24,United States,,,2,2,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-05-22,2024-05-25,2024-05-31,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-05-22,2024-05-25,2024-05-31,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-05-22,2024-05-25,2024-05-31,United States,,,3,3,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,Colorado,,1,1,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-06-26,2024-06-26,2024-07-05,United States,,,4,4,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Colorado,Weld County,4,4,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Colorado,,5,5,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-07-12,2024-07-12,2024-07-14,United States,,,8,8,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Colorado,Weld County,5,5,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Colorado,,6,6,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-07-13,2024-07-13,2024-07-14,United States,,,9,9,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Colorado,Weld County,6,6,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Colorado,,7,7,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-07-19,2024-07-19,2024-07-19,United States,,,10,10,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Colorado,Weld County,7,6,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Colorado,,8,7,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-07-20,2024-07-20,2024-07-20,United States,,,11,10,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-07-21,2024-07-25,2024-07-25,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-07-26,2024-07-30,2024-07-30,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-07-31,2024-08-01,2024-08-01,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-02,2024-08-06,2024-08-06,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-07,2024-08-08,2024-08-08,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-09,2024-08-13,2024-08-13,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-14,2024-08-15,2024-08-15,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-16,2024-08-20,2024-08-20,United States,,,13,13,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-08-22,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-09-06,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-22,2024-08-22,2024-08-22,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-23,2024-08-27,2024-08-27,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-28,2024-08-29,2024-08-29,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-08-30,2024-09-03,2024-09-03,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-04,2024-09-05,2024-09-05,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-06,2024-09-10,2024-09-10,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-06,2024-09-10,2024-09-10,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-06,2024-09-10,2024-09-10,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-06,2024-09-10,2024-09-10,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-06,2024-09-10,2024-09-10,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-06,2024-09-10,2024-09-10,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-11,2024-09-12,2024-09-12,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-11,2024-09-12,2024-09-12,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-11,2024-09-12,2024-09-12,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-11,2024-09-12,2024-09-12,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-11,2024-09-12,2024-09-12,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-11,2024-09-12,2024-09-12,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-13,2024-09-17,2024-09-17,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-13,2024-09-17,2024-09-17,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-13,2024-09-17,2024-09-17,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-13,2024-09-17,2024-09-17,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-13,2024-09-17,2024-09-17,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-13,2024-09-17,2024-09-17,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-18,2024-09-19,2024-09-19,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-18,2024-09-19,2024-09-19,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-18,2024-09-19,2024-09-19,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-18,2024-09-19,2024-09-19,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-18,2024-09-19,2024-09-19,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-18,2024-09-19,2024-09-19,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-22,2024-09-22,2024-10-04,United States,California,,0,,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-09-22,2024-09-22,2024-10-04,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-22,2024-09-22,2024-10-04,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-22,2024-09-22,2024-10-04,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-22,2024-09-22,2024-10-04,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-22,2024-09-22,2024-10-04,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-22,2024-09-22,2024-10-04,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-23,2024-09-24,2024-09-24,United States,California,,0,,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-09-23,2024-09-24,2024-09-24,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-23,2024-09-24,2024-09-24,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-23,2024-09-24,2024-09-24,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-23,2024-09-24,2024-09-24,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-23,2024-09-24,2024-09-24,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-23,2024-09-24,2024-09-24,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-25,2024-09-26,2024-09-26,United States,California,,0,,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-09-25,2024-09-26,2024-09-26,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-25,2024-09-26,2024-09-26,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-25,2024-09-26,2024-09-26,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-25,2024-09-26,2024-09-26,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-25,2024-09-26,2024-09-26,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-25,2024-09-26,2024-09-26,United States,,,14,14,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-27,2024-09-28,2024-10-04,United States,California,,2,2,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-09-27,2024-09-28,2024-10-04,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-27,2024-09-28,2024-10-04,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-27,2024-09-28,2024-10-04,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-27,2024-09-28,2024-10-04,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-27,2024-09-28,2024-10-04,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-27,2024-09-28,2024-10-04,United States,,,16,16,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-09-29,2024-10-01,2024-10-01,United States,California,,2,2,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-09-29,2024-10-01,2024-10-01,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-09-29,2024-10-01,2024-10-01,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-09-29,2024-10-01,2024-10-01,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-09-29,2024-10-01,2024-10-01,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-09-29,2024-10-01,2024-10-01,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-09-29,2024-10-01,2024-10-01,United States,,,16,16,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-02,2024-10-03,2024-10-03,United States,California,,2,2,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-02,2024-10-03,2024-10-03,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-02,2024-10-03,2024-10-03,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-02,2024-10-03,2024-10-03,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-02,2024-10-03,2024-10-03,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-02,2024-10-03,2024-10-03,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-02,2024-10-03,2024-10-03,United States,,,16,16,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-04,2024-10-05,2024-10-11,United States,California,,4,4,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-04,2024-10-05,2024-10-11,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-04,2024-10-05,2024-10-11,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-04,2024-10-05,2024-10-11,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-04,2024-10-05,2024-10-11,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-04,2024-10-05,2024-10-11,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-04,2024-10-05,2024-10-11,United States,,,18,18,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-06,2024-10-08,2024-10-08,United States,California,,4,4,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-06,2024-10-08,2024-10-08,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-06,2024-10-08,2024-10-08,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-06,2024-10-08,2024-10-08,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-06,2024-10-08,2024-10-08,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-06,2024-10-08,2024-10-08,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-06,2024-10-08,2024-10-08,United States,,,18,18,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-09,2024-10-09,2024-10-09,United States,California,,4,4,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-09,2024-10-09,2024-10-09,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-09,2024-10-09,2024-10-09,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-09,2024-10-09,2024-10-09,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-09,2024-10-09,2024-10-09,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-09,2024-10-09,2024-10-09,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-09,2024-10-09,2024-10-09,United States,,,18,18,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-10,2024-10-10,2024-10-10,United States,California,,4,4,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-10,2024-10-10,2024-10-10,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-10,2024-10-10,2024-10-10,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-10,2024-10-10,2024-10-10,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-10,2024-10-10,2024-10-10,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-10,2024-10-10,2024-10-10,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-10,2024-10-10,2024-10-10,United States,,,18,18,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-11,2024-10-11,2024-10-11,United States,California,,6,6,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-11,2024-10-11,2024-10-11,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-11,2024-10-11,2024-10-11,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-11,2024-10-11,2024-10-11,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-11,2024-10-11,2024-10-11,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-11,2024-10-11,2024-10-11,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-11,2024-10-11,2024-10-11,United States,,,20,20,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-12,2024-10-12,2024-10-18,United States,California,,11,11,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-12,2024-10-12,2024-10-18,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-12,2024-10-12,2024-10-18,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-12,2024-10-12,2024-10-18,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-12,2024-10-12,2024-10-18,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-12,2024-10-12,2024-10-18,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-12,2024-10-12,2024-10-18,United States,,,25,25,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-13,2024-10-15,2024-10-15,United States,California,,11,11,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-13,2024-10-15,2024-10-15,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-13,2024-10-15,2024-10-15,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-13,2024-10-15,2024-10-15,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-13,2024-10-15,2024-10-15,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-13,2024-10-15,2024-10-15,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-13,2024-10-15,2024-10-15,United States,,,25,25,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-16,2024-10-17,2024-10-17,United States,California,,11,11,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-16,2024-10-17,2024-10-17,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-16,2024-10-17,2024-10-17,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-16,2024-10-17,2024-10-17,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-16,2024-10-17,2024-10-17,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-16,2024-10-17,2024-10-17,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-16,2024-10-17,2024-10-17,United States,,,25,25,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-18,2024-10-18,2024-10-18,United States,California,,13,13,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-18,2024-10-18,2024-10-18,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-18,2024-10-18,2024-10-18,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-18,2024-10-18,2024-10-18,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-18,2024-10-18,2024-10-18,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-18,2024-10-18,2024-10-18,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-18,2024-10-18,2024-10-18,United States,,,27,27,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,California,,15,15,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,Washington,Franklin County,2,2,,,0,,,,Multisource Fusion,46.4937363,-118.8672379
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,Washington,,2,2,,,0,,,,Multisource Fusion,47.7510741,-120.7401386
+Novel Influenza A (H5N1),2024-10-19,2024-10-19,2024-10-25,United States,,,31,31,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,California,,15,15,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,Washington,Franklin County,2,2,,,0,,,,Multisource Fusion,46.4937363,-118.8672379
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,Washington,,2,2,,,0,,,,Multisource Fusion,47.7510741,-120.7401386
+Novel Influenza A (H5N1),2024-10-20,2024-10-20,2024-10-24,United States,,,31,31,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,California,,15,15,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,Washington,Franklin County,2,2,,,0,,,,Multisource Fusion,46.4937363,-118.8672379
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,Washington,,2,2,,,0,,,,Multisource Fusion,47.7510741,-120.7401386
+Novel Influenza A (H5N1),2024-10-21,2024-10-22,2024-10-22,United States,,,31,31,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,California,,15,15,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,Washington,Franklin County,2,2,,,0,,,,Multisource Fusion,46.4937363,-118.8672379
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,Washington,,2,2,,,0,,,,Multisource Fusion,47.7510741,-120.7401386
+Novel Influenza A (H5N1),2024-10-23,2024-10-23,2024-10-23,United States,,,31,31,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,California,,15,15,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,Washington,Franklin County,2,2,,,0,,,,Multisource Fusion,46.4937363,-118.8672379
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,Washington,,2,2,,,0,,,,Multisource Fusion,47.7510741,-120.7401386
+Novel Influenza A (H5N1),2024-10-24,2024-10-24,2024-10-24,United States,,,31,31,,,0,,,,Multisource Fusion,37.09024,-95.712891
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,California,,16,16,,,0,,,,Multisource Fusion,36.778261,-119.4179324
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,Colorado,Weld County,7,7,,,0,,,,Multisource Fusion,40.3920718,-104.7158226
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,Colorado,,10,10,,,0,,,,Multisource Fusion,39.5500507,-105.7820674
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,Michigan,,2,2,,,0,,,,Multisource Fusion,44.3148443,-85.6023643
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,Missouri,,1,1,,,0,,,,Multisource Fusion,37.9642529,-91.8318334
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,Texas,,1,1,,,0,,,,Multisource Fusion,31.9685988,-99.9018131
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,Washington,Franklin County,2,2,,,0,,,,Multisource Fusion,46.4937363,-118.8672379
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,Washington,,2,2,,,0,,,,Multisource Fusion,47.7510741,-120.7401386
+Novel Influenza A (H5N1),2024-10-25,2024-10-28,2024-10-28,United States,,,32,32,,,0,,,,Multisource Fusion,37.09024,-95.712891
