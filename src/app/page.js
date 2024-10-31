@@ -5,6 +5,7 @@ import getData from "@/components/utils/data";
 import { useState, useEffect } from 'react';
 
 export const dynamic = 'force-static';
+
 export default function Home() {
   const [allData, setAllData] = useState({});
   const [lastUpdated, setLastUpdated] = useState('Unknown');

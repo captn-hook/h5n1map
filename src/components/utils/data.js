@@ -6,10 +6,11 @@ export default async function getData() {
     let lastUpdated;
     try {
         // get last updated date from backup file
-        const blob = await fetch('/h5n1-map/data/combined_data.json').then(res => res.blob());
-        const file = new File([blob], blob.name);
-        //console.log(file.lastModifiedDate, file.lastModified)
-        lastUpdated = new Date(file.lastModified).toLocaleString()
+        const d = await fetch('/h5n1-map/data/combined_data.json', {cache: 'no-store'}).then(res => {
+            return res.headers.get('last-modified')
+        })
+        lastUpdated = new Date(d).toLocaleString()
+        
     } catch (error) {
         console.error(error)
         console.log('Failed to get last updated date')

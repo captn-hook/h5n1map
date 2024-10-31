@@ -401,8 +401,11 @@ APHIS - HPAI Detections in Mammals,Wyoming,Teton,Mountain lion,,EA/AM H5N1,,12/2
 APHIS - HPAI Detections in Mammals,Florida,Brevard,Bottlenose dolphin,,EA H5N1,,10/7/2024,12/28/2023,"","","",""
 APHIS - HPAI Detections in Mammals,Florida,Brevard,Bottlenose dolphin,,EA H5N1,,10/7/2024,1/4/2024,"","","",""
 APHIS - HPAI Detections in Mammals,Florida,Brevard,Bottlenose dolphin,,EA H5N1,,10/7/2024,1/4/2024,"","","",""
+<<<<<<< HEAD
 APHIS - HPAI Detections in Mammals,Alaska,North Slope,Red fox,,EA H5N1,,10/3/2024,9/23/2024,"","","",""
 APHIS - HPAI Detections in Mammals,Alaska,North Slope,Red fox,,EA H5,,10/7/2024,9/27/2024,"","","",""
+=======
+>>>>>>> 4b2b15448111439c10aa3265eb1a2ef0c92cbc5d
 APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,American wigeon,,EA H5N1,,1/13/2022,12/30/2021,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,South Carolina,Colleton,Blue-winged teal,,EA H5N1,,1/13/2022,12/30/2021,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,Northern shoveler,,EA H5N1,,1/12/2022,12/30/2021,"",Wild bird,Hunter harvest,NWDP
@@ -6616,8 +6619,8 @@ APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Great horned owl,,EA H5N1
 APHIS - HPAI Detections in Wild Birds,Pennsylvania,Tioga,Canada goose,,EA/AM H5N1,,2/27/2023,2/15/2023,"",Wild bird,Morbidity/Mortality,PA Game Commission
 APHIS - HPAI Detections in Wild Birds,Kentucky,Henderson,Red-tailed hawk,,EA H5N1,,2/27/2023,2/16/2023,"",Wild bird,Morbidity/Mortality,SCWDS
 APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Great horned owl,,EA/AM H5N1,,1/18/2023,1/8/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
-APHIS - HPAI Detections in Wild Birds,North Carolina,Chatham,Bald eagle,,EA H5N1,,2/27/2023,2/16/2023,"",Wild bird,Morbidity/Mortality,SCWDS
 APHIS - HPAI Detections in Wild Birds,North Carolina,Chatham,Bald eagle,,EA H5N1,,2/27/2023,2/19/2023,"",Wild bird,Morbidity/Mortality,SCWDS
+APHIS - HPAI Detections in Wild Birds,North Carolina,Chatham,Bald eagle,,EA H5N1,,2/27/2023,2/16/2023,"",Wild bird,Morbidity/Mortality,SCWDS
 APHIS - HPAI Detections in Wild Birds,South Carolina,Charleston,Bald eagle,,EA H5N1,,2/27/2023,2/19/2023,"",Wild bird,Morbidity/Mortality,SCWDS
 APHIS - HPAI Detections in Wild Birds,Colorado,Montrose,Red-tailed hawk,,EA H5N1,,2/10/2023,1/30/2023,"",Wild bird,Morbidity/Mortality,CO Parks & Wildlife
 APHIS - HPAI Detections in Wild Birds,Colorado,Las Animas,Red-tailed hawk,,EA H5N1,,2/15/2023,2/6/2023,"",Wild bird,Morbidity/Mortality,CO Parks & Wildlife
@@ -9958,7 +9961,11 @@ APHIS - HPAI Detections in Wild Birds,Florida,Orange,Black vulture,,EA H5N1,,7/1
 APHIS - HPAI Detections in Wild Birds,Iowa,O'Brien,Rock pigeon,,EA H5N1,,7/16/2024,6/10/2024,"",Wild bird,Agency harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New Hampshire,Sullivan,Mallard,,EA H5N1,,2/16/2024,2/2/2024,"",Wild bird,Live bird,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Clinton,Snow goose,,EA H5N1,,7/16/2024,6/27/2024,"",Wild bird,Morbidity/Mortality,NY DEC
+<<<<<<< HEAD
 APHIS - HPAI Detections in Wild Birds,New York,Genesee,Green-winged teal,,EA/AM H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+=======
+APHIS - HPAI Detections in Wild Birds,New York,Genesee,American green-winged teal,,EA/AM H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
+>>>>>>> 4b2b15448111439c10aa3265eb1a2ef0c92cbc5d
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Ohio,Ottawa,Green-winged teal,,EA H5N1,,7/23/2024,10/14/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,New York,Genesee,Northern pintail,,EA H5N1,,7/23/2024,10/21/2023,"",Wild bird,Hunter harvest,NWDP
@@ -10695,8 +10702,13 @@ APHIS - HPAI Detections in Wild Birds,Florida,Volusia,Black vulture,,EA H5N1,,9/
 APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Great horned owl,,EA/AM H5N1,,9/24/2024,12/26/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
 APHIS - HPAI Detections in Wild Birds,Idaho,Gooding,American wigeon,,EA H5N1,,9/19/2024,12/28/2023,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,Colorado,Larimer,Canada goose,,EA/AM H5N1,,8/29/2024,12/4/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+<<<<<<< HEAD
 APHIS - HPAI Detections in Wild Birds,Colorado,Jefferson,Black-billed magpie,,EA/AM H5N1,,9/5/2024,12/13/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
 APHIS - HPAI Detections in Wild Birds,Colorado,Denver,American crow,,EA/AM H5N1,,9/5/2024,12/17/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+=======
+APHIS - HPAI Detections in Wild Birds,Colorado,Denver,American crow,,EA/AM H5N1,,9/5/2024,12/17/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+APHIS - HPAI Detections in Wild Birds,Colorado,Jefferson,Black-billed magpie,,EA/AM H5N1,,9/5/2024,12/13/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
+>>>>>>> 4b2b15448111439c10aa3265eb1a2ef0c92cbc5d
 APHIS - HPAI Detections in Wild Birds,Colorado,Adams,Snow goose,,EA H5N1,,9/4/2024,12/11/2023,"",Captive wild bird,Morbidity/Mortality,Private (non-government) submission
 APHIS - HPAI Detections in Wild Birds,Mississippi,Lafayette,Ross's goose,,EA H5N1,,9/5/2024,12/9/2023,"",Wild bird,Morbidity/Mortality,NWDP
 APHIS - HPAI Detections in Wild Birds,North Carolina,Hyde,American wigeon,,EA H5,,9/23/2024,12/19/2023,"",Wild bird,Hunter harvest,NWDP
@@ -10823,6 +10835,7 @@ APHIS - HPAI Detections in Wild Birds,Missouri,Dunklin,Snow goose,,EA/AM H5N1,,9
 APHIS - HPAI Detections in Wild Birds,Missouri,New Madrid,Snow goose,,EA/AM H5N1,,9/6/2024,12/8/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
 APHIS - HPAI Detections in Wild Birds,Missouri,New Madrid,Snow goose,,EA/AM H5N1,,9/6/2024,12/9/2023,"",Wild bird,Morbidity/Mortality,MO Dept of Conservation
 APHIS - HPAI Detections in Wild Birds,California,Tulare,European starling,,EA H5N1,,10/10/2024,9/25/2024,"",Wild bird,Agency harvest,NWDP
+<<<<<<< HEAD
 APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA/AM H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
 APHIS - HPAI Detections in Wild Birds,North Carolina,Pamlico,Green-winged teal,,EA H5N1,,10/1/2024,1/6/2024,"",Wild bird,Hunter harvest,NWDP
@@ -10865,6 +10878,8 @@ APHIS - HPAI Detections in Commercial and Backyard Flocks,Oregon,"",WOAH Non-Pou
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Washington,"",WOAH Non-Poultry,60,"",,"","",10/25/24,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,California,Tulare,Commercial Broiler Production,60,"",,"","",10/24/24,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Oregon,Clackamas,Commercial Table Egg Layer,1500,"",,"","",10/24/24,"","",""
+=======
+>>>>>>> 4b2b15448111439c10aa3265eb1a2ef0c92cbc5d
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Washington,"",WOAH Non-Poultry,60,"",,"","",10/17/24,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,California,Tulare,Commercial Broiler Production,786600,"",,"","",10/16/24,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Utah,Cache,Commercial Table Egg Layer,1852900,"",,"","",10/15/24,"","",""
@@ -12047,6 +12062,7 @@ APHIS - HPAI Detections in Commercial and Backyard Flocks,Kentucky,Webster,Comme
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Kentucky,Fulton,Commercial Broiler Production,231400,"",,"","",02/12/22,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Virginia,Fauquier,WOAH Non-Poultry,90,"",,"","",02/12/22,"","",""
 APHIS - HPAI Detections in Commercial and Backyard Flocks,Indiana,Dubois,Commercial Turkey Meat Bird,290,"",,"","",02/08/22,"","",""
+<<<<<<< HEAD
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/25/24,"","",""
@@ -12100,6 +12116,12 @@ APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
+=======
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/19/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/19/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/19/24,"","",""
+APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/19/24,"","",""
+>>>>>>> 4b2b15448111439c10aa3265eb1a2ef0c92cbc5d
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""
 APHIS - HPAI Detections in Livestock,California,"",Cattle,,"",,"","",10/16/24,"","",""

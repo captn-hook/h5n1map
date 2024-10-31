@@ -4,6 +4,17 @@
         "Wild Birds": [],
         "Poultry Farms": [],
         "Dairy Farms": [
+            "Dairy Farms,,Cattle,,,,,,09/13/24,,,,,,,CA,",
+            "Dairy Farms,,Cattle,,,,,,09/13/24,,,,,,,CA,",
+            "Dairy Farms,,Cattle,,,,,,09/12/24,,,,,,,ID,",
+            "Dairy Farms,,Cattle,,,,,,09/12/24,,,,,,,TX,",
+            "Dairy Farms,,Cattle,,,,,,09/11/24,,,,,,,TX,",
+            "Dairy Farms,,Cattle,,,,,,09/10/24,,,,,,,CA,",
+            "Dairy Farms,,Cattle,,,,,,09/10/24,,,,,,,CA,",
+            "Dairy Farms,,Cattle,,,,,,09/09/24,,,,,,,CA,",
+            "Dairy Farms,,Cattle,,,,,,09/09/24,,,,,,,CA,",
+            "Dairy Farms,,Cattle,,,,,,09/09/24,,,,,,,CA,",
+            "Dairy Farms,,Cattle,,,,,,09/09/24,,,,,,,MI,",
             "Dairy Farms,,Cattle,,,,,,08/30/24,,,,,,,CA,",
             "Dairy Farms,,Cattle,,,,,,08/30/24,,,,,,,CA,",
             "Dairy Farms,,Cattle,,,,,,08/30/24,,,,,,,CA,",
@@ -203,20 +214,20 @@
             "Dairy Farms,,Cattle,,,,,,03/25/24,,,,,,,TX,"
         ],
         "Human": [
-            "Human,,,,,,,,,,,,2024-08-22,2024-09-06,1,TX,",
-            "Human,,,,,,,,,,,,2024-08-22,2024-09-06,2,MI,",
-            "Human,,,,,,,,,,,,2024-08-22,2024-09-06,2,MI,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-09-04,2024-09-05,10,CO,",
-            "Human,,,,,,,,,,,,2024-08-22,2024-09-06,1,MO,"
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,1,TX,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,2,MI,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,2,MI,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,10,CO,",
+            "Human,,,,,,,,,,,,2024-09-13,2024-09-17,1,MO,"
         ],
         "name": "Shenandoah"
     },
@@ -309,12 +320,24 @@
             "Wild Birds,Jackson,Gadwall,,EA H5N1,,1/12/2023,12/29/2022,,Wild bird,Hunter harvest,NWDP,,,,AL,01071",
             "Wild Birds,Jackson,Canada goose,,EA H5N1,,2/6/2023,1/9/2023,,Wild bird,Hunter harvest,NWDP,,,,AL,01071",
             "Wild Birds,Jackson,Gadwall,,EA/AM H5N1,,2/28/2023,12/19/2022,,Wild bird,Hunter harvest,NWDP,,,,AL,01071",
-            "Wild Birds,Jackson,Lesser scaup,,EA H5N1,,2/16/2024,1/23/2024,,Wild bird,Hunter harvest,NWDP,,,,AL,01071"
+            "Wild Birds,Jackson,Lesser scaup,,EA H5N1,,2/16/2024,1/23/2024,,Wild bird,Hunter harvest,NWDP,,,,AL,01071",
+            "Wild Birds,Jackson,Green-winged teal,,EA H5N1,,8/29/2024,11/24/2023,,Wild bird,Hunter harvest,NWDP,,,,AL,01071",
+            "Wild Birds,Jackson,Canada goose,,EA H5N1,,8/29/2024,11/29/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,AL,01071"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
         "Human": [],
         "name": "Jackson"
+    },
+    "01073": {
+        "Wildlife": [],
+        "Wild Birds": [
+            "Wild Birds,Jefferson,Snow goose,,EA/AM H5N1,,8/29/2024,12/1/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,AL,01073"
+        ],
+        "Poultry Farms": [],
+        "Dairy Farms": [],
+        "Human": [],
+        "name": "Jefferson"
     },
     "01075": {
         "Wildlife": [],
@@ -403,7 +426,9 @@
     },
     "01095": {
         "Wildlife": [],
-        "Wild Birds": [],
+        "Wild Birds": [
+            "Wild Birds,Marshall,Canada goose,,EA H5N1,,8/29/2024,12/1/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,AL,01095"
+        ],
         "Poultry Farms": [
             "Poultry Farms,Marshall,Commercial Broiler Breeder Pullets,47900.0,,,,,11/02/23,,,,,,,AL,01095"
         ],
@@ -575,7 +600,8 @@
             "Wild Birds,Aleutians West,Glaucous gull,,EA H5N1,,1/4/2023,10/20/2022,,Wild bird,Morbidity/Mortality,USFWS,,,,AK,02016",
             "Wild Birds,Aleutians West,Bald eagle,,EA H5N1,,1/4/2023,10/26/2022,,Wild bird,Morbidity/Mortality,USFWS,,,,AK,02016",
             "Wild Birds,Aleutians West,Bald eagle,,EA H5N1,,1/4/2023,11/17/2022,,Wild bird,Morbidity/Mortality,USFWS,,,,AK,02016",
-            "Wild Birds,Aleutians West,Bald eagle,,EA H5N1,,1/30/2024,12/28/2023,,Wild bird,Morbidity/Mortality,AK DFW,,,,AK,02016"
+            "Wild Birds,Aleutians West,Bald eagle,,EA H5N1,,1/30/2024,12/28/2023,,Wild bird,Morbidity/Mortality,AK DFW,,,,AK,02016",
+            "Wild Birds,Aleutians West,Bald eagle,,EA H5N1,,9/4/2024,11/28/2023,,Wild bird,Morbidity/Mortality,AK DFG,,,,AK,02016"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -601,7 +627,9 @@
             "Wild Birds,Anchorage,Bald eagle,,EA H5N1,,11/28/2022,Unknown,,Wild bird,Morbidity/Mortality,USFWS National Eagle Repository/SCWDS,,,,AK,02020",
             "Wild Birds,Anchorage,Green-winged teal,,EA H5N1,,11/26/2023,9/16/2023,,Wild bird,Agency harvest,NWDP,,,,AK,02020",
             "Wild Birds,Anchorage,Mallard,,EA H5N1,,11/26/2023,10/18/2023,,Wild bird,Agency harvest,NWDP,,,,AK,02020",
-            "Wild Birds,Anchorage,Mallard,,EA H5N1,,11/26/2023,9/26/2023,,Wild bird,Agency harvest,NWDP,,,,AK,02020"
+            "Wild Birds,Anchorage,Mallard,,EA H5N1,,11/26/2023,9/26/2023,,Wild bird,Agency harvest,NWDP,,,,AK,02020",
+            "Wild Birds,Anchorage,Black-billed magpie,,EA/AM H5N1,,9/4/2024,10/4/2023,,Wild bird,Morbidity/Mortality,AK DFG,,,,AK,02020",
+            "Wild Birds,Anchorage,Green-winged teal,,EA/AM H5N1,,9/4/2024,10/19/2023,,Wild bird,Morbidity/Mortality,AK DFG,,,,AK,02020"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -2841,7 +2869,8 @@
             "Wild Birds,Boulder,Cackling goose,,EA/AM H5N1,,11/21/2023,11/12/2023,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,CO,08013",
             "Wild Birds,Boulder,Cackling goose,,EA H5N1,,11/26/2023,11/16/2023,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,CO,08013",
             "Wild Birds,Boulder,Cackling goose,,EA/AM H5N1,,11/28/2023,11/18/2023,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,CO,08013",
-            "Wild Birds,Boulder,Canada goose,,EA H5N1,,12/20/2023,11/26/2023,,Wild bird,Morbidity/Mortality,CO Parks & Wildlife,,,,CO,08013"
+            "Wild Birds,Boulder,Canada goose,,EA H5N1,,12/20/2023,11/26/2023,,Wild bird,Morbidity/Mortality,CO Parks & Wildlife,,,,CO,08013",
+            "Wild Birds,Boulder,Cackling goose,,EA/AM H5N1,,9/5/2024,12/17/2023,,Wild bird,Morbidity/Mortality,CO Parks & Wildlife,,,,CO,08013"
         ],
         "Poultry Farms": [
             "Poultry Farms,Boulder,WOAH Poultry,600.0,,,,,10/07/22,,,,,,,CO,08013"
@@ -2931,7 +2960,9 @@
             "Wild Birds,Denver,Mallard,,EA H5N1,,12/2/2023,11/20/2023,,Wild bird,Agency harvest,NWDP,,,,CO,08031",
             "Wild Birds,Denver,Peregrine falcon,,EA/AM H5N1,,12/2/2023,10/7/2023,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,CO,08031",
             "Wild Birds,Denver,Mallard,,EA H5N1,,1/30/2024,1/12/2024,,Wild bird,Agency harvest,NWDP,,,,CO,08031",
-            "Wild Birds,Denver,Magpie (unidentified),,EA/AM H5N1,,12/2/2023,10/13/2023,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,CO,08031"
+            "Wild Birds,Denver,Magpie (unidentified),,EA/AM H5N1,,12/2/2023,10/13/2023,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,CO,08031",
+            "Wild Birds,Denver,Mallard,,EA H5N1,,8/30/2024,11/24/2023,,Wild bird,Agency harvest,NWDP,,,,CO,08031",
+            "Wild Birds,Denver,Mallard,,EA H5N1,,8/30/2024,11/24/2023,,Wild bird,Agency harvest,NWDP,,,,CO,08031"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -3188,7 +3219,11 @@
             "Wild Birds,Logan,Mallard,,EA H5N1,,2/8/2024,1/27/2024,,Wild bird,Hunter harvest,NWDP,,,,CO,08075",
             "Wild Birds,Logan,Mallard,,EA H5N1,,2/8/2024,1/27/2024,,Wild bird,Hunter harvest,NWDP,,,,CO,08075",
             "Wild Birds,Logan,Mallard,,EA H5N1,,2/8/2024,1/27/2024,,Wild bird,Hunter harvest,NWDP,,,,CO,08075",
-            "Wild Birds,Logan,Snow goose,,EA/AM H5N1,,12/2/2023,11/18/2023,,Wild bird,Morbidity/Mortality,CO Parks and Wildlife,,,,CO,08075"
+            "Wild Birds,Logan,Snow goose,,EA/AM H5N1,,12/2/2023,11/18/2023,,Wild bird,Morbidity/Mortality,CO Parks and Wildlife,,,,CO,08075",
+            "Wild Birds,Logan,American wigeon,,EA H5N1,,9/5/2024,12/17/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08075",
+            "Wild Birds,Logan,Mallard,,EA/AM H5N1,,9/5/2024,12/16/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08075",
+            "Wild Birds,Logan,American wigeon,,EA H5N1,,9/3/2024,12/12/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08075",
+            "Wild Birds,Logan,Mallard,,EA H5N1,,9/3/2024,12/12/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08075"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -3340,7 +3375,10 @@
         "Wild Birds": [
             "Wild Birds,Rio Grande,Great horned owl,,EA/AM H5N1,,12/15/2022,12/5/2022,,Wild bird,Morbidity/Mortality,CO Parks & Wildlife,,,,CO,08105",
             "Wild Birds,Rio Grande,Green-winged teal,,EA H5N1,,10/10/2023,9/30/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08105",
-            "Wild Birds,Rio Grande,Green-winged teal,,EA H5,,10/24/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08105"
+            "Wild Birds,Rio Grande,Green-winged teal,,EA H5,,10/24/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08105",
+            "Wild Birds,Rio Grande,Green-winged teal,,EA H5N1,,8/28/2024,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08105",
+            "Wild Birds,Rio Grande,Green-winged teal,,EA H5,,8/28/2024,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08105",
+            "Wild Birds,Rio Grande,Green-winged teal,,EA H5N1,,8/28/2024,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,CO,08105"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -3514,13 +3552,13 @@
         ],
         "Dairy Farms": [],
         "Human": [
-            "Human,Weld,,,,,,,,,,,2024-08-22,2024-09-06,7,CO,08123",
-            "Human,Weld,,,,,,,,,,,2024-08-22,2024-09-06,7,CO,08123",
-            "Human,Weld,,,,,,,,,,,2024-08-22,2024-09-06,7,CO,08123",
-            "Human,Weld,,,,,,,,,,,2024-08-22,2024-09-06,7,CO,08123",
-            "Human,Weld,,,,,,,,,,,2024-08-22,2024-09-06,7,CO,08123",
-            "Human,Weld,,,,,,,,,,,2024-08-22,2024-09-06,7,CO,08123",
-            "Human,Weld,,,,,,,,,,,2024-08-22,2024-09-06,7,CO,08123"
+            "Human,Weld,,,,,,,,,,,2024-09-13,2024-09-17,7,CO,08123",
+            "Human,Weld,,,,,,,,,,,2024-09-13,2024-09-17,7,CO,08123",
+            "Human,Weld,,,,,,,,,,,2024-09-13,2024-09-17,7,CO,08123",
+            "Human,Weld,,,,,,,,,,,2024-09-13,2024-09-17,7,CO,08123",
+            "Human,Weld,,,,,,,,,,,2024-09-13,2024-09-17,7,CO,08123",
+            "Human,Weld,,,,,,,,,,,2024-09-13,2024-09-17,7,CO,08123",
+            "Human,Weld,,,,,,,,,,,2024-09-13,2024-09-17,7,CO,08123"
         ],
         "name": "Weld"
     },
@@ -5204,7 +5242,8 @@
             "Wild Birds,Ada,Great horned owl,,EA H5N1,,4/13/2023,3/28/2023,,Wild bird,Morbidity/Mortality,ID Fish and Game,,,,ID,16001",
             "Wild Birds,Ada,Barn owl,,EA/AM H5N1,,4/28/2023,4/18/2023,,Wild bird,Morbidity/Mortality,ID Fish and Game,,,,ID,16001",
             "Wild Birds,Ada,Barn owl,,EA/AM H5N1,,4/28/2023,4/18/2023,,Wild bird,Morbidity/Mortality,ID Fish and Game,,,,ID,16001",
-            "Wild Birds,Ada,Eastern screech owl,,EA H5,,4/28/2023,4/18/2023,,Wild bird,Morbidity/Mortality,ID Fish and Game,,,,ID,16001"
+            "Wild Birds,Ada,Eastern screech owl,,EA H5,,4/28/2023,4/18/2023,,Wild bird,Morbidity/Mortality,ID Fish and Game,,,,ID,16001",
+            "Wild Birds,Ada,Great horned owl,,EA/AM H5N1,,9/5/2024,12/14/2023,,Wild bird,Morbidity/Mortality,ID Fish and Game,,,,ID,16001"
         ],
         "Poultry Farms": [
             "Poultry Farms,Ada,WOAH Non-Poultry,30.0,,,,,05/24/22,,,,,,,ID,16001",
@@ -5549,7 +5588,8 @@
             "Wild Birds,Jefferson,Canada goose,,EA/AM H5N1,,10/25/2022,9/8/2022,,Wild bird,Morbidity/Mortality,USFWS/USGS,,,,ID,16051",
             "Wild Birds,Jefferson,American wigeon,,EA/AM H5N1,,11/21/2022,10/26/2022,,Wild bird,Hunter harvest,NWDP,,,,ID,16051",
             "Wild Birds,Jefferson,Mallard,,EA H5 mixed,,10/25/2023,9/6/2023,,Wild bird,Live bird,NWDP,,,,ID,16051",
-            "Wild Birds,Jefferson,Mallard,,EA H5,,10/25/2023,9/6/2023,,Wild bird,Live bird,NWDP,,,,ID,16051"
+            "Wild Birds,Jefferson,Mallard,,EA H5,,10/25/2023,9/6/2023,,Wild bird,Live bird,NWDP,,,,ID,16051",
+            "Wild Birds,Jefferson,Mallard,,EA H5,,8/29/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,ID,16051"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -5856,7 +5896,8 @@
             "Wild Birds,Fulton,Mallard,,EA H5N1,,12/17/2023,10/29/2023,,Wild bird,Hunter harvest,NWDP,,,,IL,17057",
             "Wild Birds,Fulton,Redhead duck,,EA H5N1,,12/20/2023,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,IL,17057",
             "Wild Birds,Fulton,Redhead duck,,EA H5N1,,12/20/2023,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,IL,17057",
-            "Wild Birds,Fulton,Mallard,,EA H5 mixed,,1/5/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,IL,17057"
+            "Wild Birds,Fulton,Mallard,,EA H5 mixed,,1/5/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,IL,17057",
+            "Wild Birds,Fulton,Mallard,,EA H5N1,,9/4/2024,12/6/2023,,Wild bird,Hunter harvest,NWDP,,,,IL,17057"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -6396,7 +6437,9 @@
     "18129": {
         "Wildlife": [],
         "Wild Birds": [
-            "Wild Birds,Posey,Northern pintail,,EA H5N1,,11/26/2023,11/11/2023,,Wild bird,Hunter harvest,NWDP,,,,IN,18129"
+            "Wild Birds,Posey,Northern pintail,,EA H5N1,,11/26/2023,11/11/2023,,Wild bird,Hunter harvest,NWDP,,,,IN,18129",
+            "Wild Birds,Posey,Mallard,,EA H5N1,,9/4/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,IN,18129",
+            "Wild Birds,Posey,Mallard,,EA H5N1,,9/4/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,IN,18129"
         ],
         "Poultry Farms": [
             "Poultry Farms,Posey,WOAH Non-Poultry,20.0,,,,,05/05/23,,,,,,,IN,18129"
@@ -6915,7 +6958,21 @@
             "Wild Birds,Jackson,Mallard,,EA H5N1,,11/28/2022,10/22/2022,,Wild bird,Hunter Harvest,NWDP,,,,IA,19097",
             "Wild Birds,Jackson,Green-winged teal,,EA H5N1,,11/28/2022,11/11/2022,,Wild bird,Hunter Harvest,NWDP,,,,IA,19097",
             "Wild Birds,Jackson,Mallard,,EA H5N1,,11/28/2022,11/15/2022,,Wild bird,Hunter Harvest,NWDP,,,,IA,19097",
-            "Wild Birds,Jackson,American green-winged teal,,EA/AM H5N1,,7/24/2024,11/4/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097"
+            "Wild Birds,Jackson,American green-winged teal,,EA/AM H5N1,,7/24/2024,11/4/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Green-winged teal,,EA H5N1,,8/30/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Green-winged teal,,EA/AM H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Green-winged teal,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA/AM H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1 mixed,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Green-winged teal,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097",
+            "Wild Birds,Jackson,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,IA,19097"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -7058,7 +7115,8 @@
     "19131": {
         "Wildlife": [],
         "Wild Birds": [
-            "Wild Birds,Mitchell,Turkey vulture,,EA/AM H5N1,,5/4/2022,4/28/2022,,Wild bird,Morbidity/Mortality,IA DNR,,,,IA,19131"
+            "Wild Birds,Mitchell,Turkey vulture,,EA/AM H5N1,,5/4/2022,4/28/2022,,Wild bird,Morbidity/Mortality,IA DNR,,,,IA,19131",
+            "Wild Birds,Mitchell,Ross's goose,,EA/AM H5N1,,9/4/2024,11/6/2023,,Wild bird,Morbidity/Mortality,IA DNR,,,,IA,19131"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -8927,7 +8985,12 @@
             "Wild Birds,Dorchester,Mallard,,EA H5N1,,1/31/2023,1/18/2023,,Wild bird,Hunter harvest,NWDP,,,,MD,24019",
             "Wild Birds,Dorchester,Bald eagle,,EA H5N1,,5/3/2023,11/5/2022,,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository,,,,MD,24019",
             "Wild Birds,Dorchester,Bald eagle,,EA H5N1,,6/27/2023,2/12/2022,,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository,,,,MD,24019",
-            "Wild Birds,Dorchester,Bald eagle,,EA H5N1,,6/27/2023,2/22/2022,,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository,,,,MD,24019"
+            "Wild Birds,Dorchester,Bald eagle,,EA H5N1,,6/27/2023,2/22/2022,,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository,,,,MD,24019",
+            "Wild Birds,Dorchester,Green-winged teal,,EA H5N1,,8/28/2024,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,MD,24019",
+            "Wild Birds,Dorchester,Green-winged teal,,EA/AM H5N1,,8/28/2024,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,MD,24019",
+            "Wild Birds,Dorchester,Green-winged teal,,EA H5N1,,8/28/2024,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,MD,24019",
+            "Wild Birds,Dorchester,Green-winged teal,,EA/AM H5N1,,8/28/2024,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,MD,24019",
+            "Wild Birds,Dorchester,Green-winged teal,,EA H5N1,,8/28/2024,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,MD,24019"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -10457,7 +10520,31 @@
             "Wild Birds,St Clair,Northern pintail,,EA H5N1,,12/14/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
             "Wild Birds,St Clair,Northern pintail,,EA H5N1,,12/14/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
             "Wild Birds,St Clair,American wigeon,,EA H5N1,,12/14/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
-            "Wild Birds,St Clair,Wood duck,,EA H5N1,,12/14/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147"
+            "Wild Birds,St Clair,Wood duck,,EA H5N1,,12/14/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/28/2024,11/21/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Northern pintail,,EA H5N1,,8/28/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/28/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5,,8/28/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,American black duck,,EA H5N1,,8/28/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5,,8/28/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,American black duck,,EA H5N1 mixed,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA/AM H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA/AM H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5 mixed,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1 mixed,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Long-tailed duck,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Long-tailed duck,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Green-winged teal,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Mallard,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147",
+            "Wild Birds,St Clair,Long-tailed duck,,EA H5N1,,8/30/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MI,26147"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -12269,7 +12356,48 @@
             "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,2/6/2024,1/22/2024,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
             "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,2/6/2024,1/22/2024,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
             "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,2/6/2024,1/22/2024,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
-            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,2/6/2024,1/20/2024,,Wild bird,Hunter harvest,NWDP,,,,MS,28055"
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,2/6/2024,1/20/2024,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,8/29/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Mallard,,EA H5N1,,8/29/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Mallard,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Gadwall,,EA H5N1 mixed,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Northern pintail,,EA/AM H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Mallard,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Wood duck,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Northern shoveler,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Northern shoveler,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Northern shoveler,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Northern shoveler,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Northern shoveler,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Gadwall,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Gadwall,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Gadwall,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Gadwall,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Gadwall,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Snow goose,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Snow goose,,EA/AM H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Greater white-fronted goose,,EA/AM H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5 mixed,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5N1,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055",
+            "Wild Birds,Issaquena,Green-winged teal,,EA H5,,9/3/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28055"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -12381,7 +12509,36 @@
             "Wild Birds,Leflore,Wood duck,,EA H5N1,,2/29/2024,1/29/2024,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
             "Wild Birds,Leflore,Wood duck,,EA H5N1,,2/29/2024,1/29/2024,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
             "Wild Birds,Leflore,Wood duck,,EA H5N1,,2/29/2024,1/29/2024,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
-            "Wild Birds,Leflore,Wood duck,,EA H5N1,,2/29/2024,1/29/2024,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083"
+            "Wild Birds,Leflore,Wood duck,,EA H5N1,,2/29/2024,1/29/2024,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Greater white-fronted goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Ross's goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Snow goose,,EA/AM H5N1,,8/29/2024,11/30/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Mallard,,EA H5N1,,9/3/2024,12/4/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28083",
+            "Wild Birds,Leflore,Mallard,,EA H5N1,,9/3/2024,12/4/2023,,Wild bird,Hunter harvest,NWDP,,,,MS,28083"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -12493,7 +12650,9 @@
             "Wild Birds,Oktibbeha,Black vulture,,EA/AM H5N1,,12/22/2022,12/15/2022,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28105",
             "Wild Birds,Oktibbeha,Black vulture,,EA/AM H5N1,,12/22/2022,12/15/2022,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28105",
             "Wild Birds,Oktibbeha,Black vulture,,EA/AM H5N1,,12/22/2022,12/15/2022,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28105",
-            "Wild Birds,Oktibbeha,Black vulture,,EA/AM H5N1,,12/22/2022,12/15/2022,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28105"
+            "Wild Birds,Oktibbeha,Black vulture,,EA/AM H5N1,,12/22/2022,12/15/2022,,Wild bird,Morbidity/Mortality,NWDP,,,,MS,28105",
+            "Wild Birds,Oktibbeha,Snow goose,,EA H5N1,,9/3/2024,12/8/2023,,Wild bird,Morbidity/Mortality,MS DWFP,,,,MS,28105",
+            "Wild Birds,Oktibbeha,Snow goose,,EA H5N1,,9/3/2024,12/8/2023,,Wild bird,Morbidity/Mortality,MS DWFP,,,,MS,28105"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -12700,7 +12859,9 @@
         "Wildlife": [],
         "Wild Birds": [
             "Wild Birds,Boone,Snow goose,,EA/AM H5N1,,12/5/2022,11/21/2022,,Wild bird,Morbidity/Mortality,MO Dept of Conservation,,,,MO,29019",
-            "Wild Birds,Boone,Canada goose,,EA/AM H5N1,,12/5/2022,11/18/2022,,Wild bird,Morbidity/Mortality,MO Dept of Conservation,,,,MO,29019"
+            "Wild Birds,Boone,Canada goose,,EA/AM H5N1,,12/5/2022,11/18/2022,,Wild bird,Morbidity/Mortality,MO Dept of Conservation,,,,MO,29019",
+            "Wild Birds,Boone,lesser snow goose,,EA H5,,9/5/2024,12/12/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29019",
+            "Wild Birds,Boone,Mallard,,EA H5N1,,9/5/2024,12/12/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29019"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -13202,6 +13363,31 @@
         "Dairy Farms": [],
         "Human": [],
         "name": "St Louis"
+    },
+    "29195": {
+        "Wildlife": [],
+        "Wild Birds": [
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,American wigeon,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Green-winged teal,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA/AM H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Ring-necked duck,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Green-winged teal,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Green-winged teal,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Mallard,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,Northern pintail,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195",
+            "Wild Birds,Saline,American wigeon,,EA H5N1,,8/28/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MO,29195"
+        ],
+        "Poultry Farms": [],
+        "Dairy Farms": [],
+        "Human": [],
+        "name": "Saline"
     },
     "29201": {
         "Wildlife": [],
@@ -13810,7 +13996,10 @@
             "Wild Birds,Teton,Blue-winged teal,,EA/AM H5N1,,10/27/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099",
             "Wild Birds,Teton,Green-winged teal,,EA H5N1,,10/27/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099",
             "Wild Birds,Teton,Blue-winged teal,,EA H5N1,,10/27/2023,10/14/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099",
-            "Wild Birds,Teton,Mallard,,EA H5N1,,1/25/2024,9/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099"
+            "Wild Birds,Teton,Mallard,,EA H5N1,,1/25/2024,9/30/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099",
+            "Wild Birds,Teton,Mallard,,EA H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099",
+            "Wild Birds,Teton,Mallard,,EA H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099",
+            "Wild Birds,Teton,American wigeon,,EA H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,MT,30099"
         ],
         "Poultry Farms": [
             "Poultry Farms,Teton,WOAH Poultry,2800.0,,,,,09/15/22,,,,,,,MT,30099"
@@ -15284,7 +15473,10 @@
             "Wild Birds,Franklin,Snow goose,,EA/AM H5N1,,1/3/2023,12/21/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033",
             "Wild Birds,Franklin,Snow goose,,EA/AM H5N1,,1/3/2023,12/21/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033",
             "Wild Birds,Franklin,American crow,,EA H5N1,,1/25/2024,1/12/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033",
-            "Wild Birds,Franklin,Great horned owl,,EA H5N1,,7/12/2024,6/26/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033"
+            "Wild Birds,Franklin,Great horned owl,,EA H5N1,,7/12/2024,6/26/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033",
+            "Wild Birds,Franklin,Canada goose,,EA/AM H5N1,,9/9/2024,12/19/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033",
+            "Wild Birds,Franklin,Canada goose,,EA/AM H5N1,,9/9/2024,12/19/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033",
+            "Wild Birds,Franklin,Canada goose,,EA/AM H5N1,,9/9/2024,12/19/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36033"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -15561,7 +15753,8 @@
             "Wild Birds,Onondaga,Red-tailed hawk,,EA H5N1,,2/9/2024,2/1/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36067",
             "Wild Birds,Onondaga,Bald eagle,,EA H5N1,,2/23/2024,2/19/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36067",
             "Wild Birds,Onondaga,Mallard,,EA H5N1,,3/4/2024,2/16/2024,,Wild bird,Live bird,NWDP,,,,NY,36067",
-            "Wild Birds,Onondaga,American crow,,EA H5N1,,3/4/2024,2/16/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36067"
+            "Wild Birds,Onondaga,American crow,,EA H5N1,,3/4/2024,2/16/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36067",
+            "Wild Birds,Onondaga,Snow goose,,EA/AM H5N1,,9/3/2024,12/8/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36067"
         ],
         "Poultry Farms": [
             "Poultry Farms,Onondaga,WOAH Non-Poultry,10.0,,,,,02/23/24,,,,,,,NY,36067"
@@ -15634,7 +15827,9 @@
     },
     "36081": {
         "Wildlife": [],
-        "Wild Birds": [],
+        "Wild Birds": [
+            "Wild Birds,Queens,Red-tailed hawk,,EA H5N1,,9/6/2024,8/20/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36081"
+        ],
         "Poultry Farms": [
             "Poultry Farms,Queens,Live Bird Market,1300.0,,,,,04/05/23,,,,,,,NY,36081",
             "Poultry Farms,Queens,Live Bird Market,140.0,,,,,03/22/23,,,,,,,NY,36081",
@@ -15665,7 +15860,8 @@
             "Wild Birds,Rockland,Black vulture,,EA H5N1,,9/1/2022,8/24/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36087",
             "Wild Birds,Rockland,Black vulture,,EA/AM H5N1,,9/8/2022,8/29/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36087",
             "Wild Birds,Rockland,Black vulture,,EA/AM H5N1,,9/8/2022,8/29/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36087",
-            "Wild Birds,Rockland,Black vulture,,EA/AM H5N1,,9/8/2022,8/29/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36087"
+            "Wild Birds,Rockland,Black vulture,,EA/AM H5N1,,9/8/2022,8/29/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36087",
+            "Wild Birds,Rockland,Canada goose,,EA/AM H5N1,,9/6/2024,12/13/2023,,Wild bird,Morbidity/Mortality,Private (non-government) submission,,,,NY,36087"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -15778,7 +15974,24 @@
             "Wild Birds,Seneca,Mallard,,EA H5N1,,2/10/2023,1/31/2023,,Wild bird,Live bird,NWDP,,,,NY,36099",
             "Wild Birds,Seneca,American black duck,,EA H5N1,,12/16/2022,12/6/2022,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
             "Wild Birds,Seneca,Mallard,,EA H5N1,,11/28/2023,11/9/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
-            "Wild Birds,Seneca,Canada goose,,EA H5N1,,1/31/2024,1/28/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36099"
+            "Wild Birds,Seneca,Canada goose,,EA H5N1,,1/31/2024,1/28/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36099",
+            "Wild Birds,Seneca,American black duck,,EA/AM H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA/AM H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,American black duck,,EA H5N1,,9/3/2024,12/5/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,American black duck,,EA/AM H5N1,,9/3/2024,12/5/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA/AM H5N1,,9/3/2024,12/5/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA H5N1,,9/3/2024,12/5/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA H5N1,,9/3/2024,12/5/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,American wigeon,,EA H5N1,,8/29/2024,11/28/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Green-winged teal,,EA H5N1,,8/29/2024,11/28/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,American black duck,,EA/AM H5N1,,8/29/2024,11/28/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA H5N1,,8/29/2024,11/28/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA/AM H5N1,,8/29/2024,11/28/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,American black duck,,EA H5N1,,8/29/2024,11/28/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Northern pintail,,EA H5,,8/29/2024,11/28/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099",
+            "Wild Birds,Seneca,Mallard,,EA H5N1,,8/30/2024,12/2/2023,,Wild bird,Hunter harvest,NWDP,,,,NY,36099"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -15889,7 +16102,8 @@
             "Wild Birds,Tompkins,Lesser scaup,,EA H5N1,,2/6/2024,1/30/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36109",
             "Wild Birds,Tompkins,Red-tailed hawk,,EA H5N1,,2/9/2024,1/26/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36109",
             "Wild Birds,Tompkins,Red-tailed hawk,,EA H5N1,,2/9/2024,1/28/2024,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36109",
-            "Wild Birds,Tompkins,Canada goose,,EA H5N1,,3/4/2024,2/26/2024,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,NY,36109"
+            "Wild Birds,Tompkins,Canada goose,,EA H5N1,,3/4/2024,2/26/2024,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,NY,36109",
+            "Wild Birds,Tompkins,Bald eagle,,EA/AM H5N1,,9/9/2024,12/20/2023,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,NY,36109"
         ],
         "Poultry Farms": [
             "Poultry Farms,Tompkins,WOAH Poultry,6500.0,,,,,03/22/23,,,,,,,NY,36109"
@@ -15927,7 +16141,8 @@
             "Wild Birds,Washington,Bald eagle,,EA H5N1,,5/18/2022,5/11/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36115",
             "Wild Birds,Washington,Bald eagle,,EA H5N1,,9/2/2022,8/24/2022,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36115",
             "Wild Birds,Washington,Bald eagle,,EA H5N1,,4/20/2023,4/16/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36115",
-            "Wild Birds,Washington,Red-tailed hawk,,EA/AM H5N1,,6/16/2023,6/6/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36115"
+            "Wild Birds,Washington,Red-tailed hawk,,EA/AM H5N1,,6/16/2023,6/6/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36115",
+            "Wild Birds,Washington,Canada goose,,EA/AM H5N1,,9/9/2024,12/20/2023,,Wild bird,Morbidity/Mortality,NY DEC,,,,NY,36115"
         ],
         "Poultry Farms": [
             "Poultry Farms,Washington,WOAH Non-Poultry,50.0,,,,,03/21/23,,,,,,,NY,36115"
@@ -16954,7 +17169,10 @@
             "Wild Birds,Lamoure,Turkey vulture,,EA/AM H5N1,,5/4/2022,4/25/2022,,Wild bird,Morbidity/Mortality,NWDP,,,,ND,38045",
             "Wild Birds,Lamoure,Turkey vulture,,EA/AM H5N1,,5/4/2022,4/25/2022,,Wild bird,Morbidity/Mortality,NWDP,,,,ND,38045",
             "Wild Birds,Lamoure,Snow goose,,EA H5N1,,1/25/2024,12/7/2023,,Wild bird,Morbidity/Mortality,USGS,,,,ND,38045",
-            "Wild Birds,Lamoure,Snow goose,,EA/AM H5N1,,1/25/2024,12/7/2023,,Wild bird,Morbidity/Mortality,USGS,,,,ND,38045"
+            "Wild Birds,Lamoure,Snow goose,,EA/AM H5N1,,1/25/2024,12/7/2023,,Wild bird,Morbidity/Mortality,USGS,,,,ND,38045",
+            "Wild Birds,Lamoure,Snow goose,,EA H5N1,,8/28/2024,12/7/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,ND,38045",
+            "Wild Birds,Lamoure,Snow goose,,EA/AM H5N1,,8/28/2024,12/7/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,ND,38045",
+            "Wild Birds,Lamoure,Snow goose,,EA H5N1,,8/28/2024,12/7/2023,,Wild bird,Morbidity/Mortality,NWDP,,,,ND,38045"
         ],
         "Poultry Farms": [
             "Poultry Farms,Lamoure,Commercial Turkey Meat Bird,25100.0,,,,,11/15/23,,,,,,,ND,38045",
@@ -18145,7 +18363,8 @@
             "Wild Birds,Washington,Gadwall,,EA H5N1,,12/15/2023,11/21/2023,,Wild bird,Hunter harvest,NWDP,,,,OK,40147",
             "Wild Birds,Washington,Northern pintail,,EA H5,,12/15/2023,11/21/2023,,Wild bird,Hunter harvest,NWDP,,,,OK,40147",
             "Wild Birds,Washington,Northern pintail,,EA H5N1,,12/15/2023,11/21/2023,,Wild bird,Hunter harvest,NWDP,,,,OK,40147",
-            "Wild Birds,Washington,Gadwall,,EA H5N1,,12/17/2023,11/17/2023,,Wild bird,Hunter harvest,NWDP,,,,OK,40147"
+            "Wild Birds,Washington,Gadwall,,EA H5N1,,12/17/2023,11/17/2023,,Wild bird,Hunter harvest,NWDP,,,,OK,40147",
+            "Wild Birds,Washington,Gadwall,,EA H5N1,,8/28/2024,11/25/2023,,Wild bird,Hunter harvest,NWDP,,,,OK,40147"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -19543,7 +19762,8 @@
     "42133": {
         "Wildlife": [],
         "Wild Birds": [
-            "Wild Birds,York,Bald eagle,,EA H5N1,,7/15/2022,5/11/2022,,Wild bird,Morbidity/Mortality,PA Game Commission,,,,PA,42133"
+            "Wild Birds,York,Bald eagle,,EA H5N1,,7/15/2022,5/11/2022,,Wild bird,Morbidity/Mortality,PA Game Commission,,,,PA,42133",
+            "Wild Birds,York,Ring-necked duck,,EA/AM H5N1,,9/5/2024,12/19/2023,,Wild bird,Hunter harvest,NWDP,,,,PA,42133"
         ],
         "Poultry Farms": [
             "Poultry Farms,York,Commercial Turkey Meat Bird,25900.0,,,,,09/29/22,,,,,,,PA,42133"
@@ -19719,7 +19939,10 @@
             "Wild Birds,Charleston,Bald eagle,,EA H5N1,,2/27/2023,2/19/2023,,Wild bird,Morbidity/Mortality,SCWDS,,,,SC,45019",
             "Wild Birds,Charleston,Gadwall,,EA H5N1,,12/2/2023,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,SC,45019",
             "Wild Birds,Charleston,Gadwall,,EA H5N1,,12/2/2023,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,SC,45019",
-            "Wild Birds,Charleston,Bald eagle,,EA/AM H5N1,,12/26/2023,12/13/2023,,Wild bird,Morbidity/Mortality,SCWDS,,,,SC,45019"
+            "Wild Birds,Charleston,Bald eagle,,EA/AM H5N1,,12/26/2023,12/13/2023,,Wild bird,Morbidity/Mortality,SCWDS,,,,SC,45019",
+            "Wild Birds,Charleston,Gadwall,,EA/AM H5N1,,,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,SC,45019",
+            "Wild Birds,Charleston,American wigeon,,EA/AM H5N1,,,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,SC,45019",
+            "Wild Birds,Charleston,Green-winged teal,,EA/AM H5N1,,,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,SC,45019"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -20669,7 +20892,10 @@
     },
     "46129": {
         "Wildlife": [],
-        "Wild Birds": [],
+        "Wild Birds": [
+            "Wild Birds,Walworth,Wild turkey,,EA/AM H5N1,,9/5/2024,12/6/2023,,Wild bird,Morbidity/Mortality,SD GFP,,,,SD,46129",
+            "Wild Birds,Walworth,Wild turkey,,EA H5N1,,9/5/2024,12/6/2023,,Wild bird,Morbidity/Mortality,SD GFP,,,,SD,46129"
+        ],
         "Poultry Farms": [
             "Poultry Farms,Walworth,WOAH Non-Poultry,0.0,,,,,11/20/23,,,,,,,SD,46129"
         ],
@@ -21589,7 +21815,8 @@
             "Wild Birds,Box Elder,Mallard,,EA H5N1,,11/22/2023,11/3/2023,,Wild bird,Hunter harvest,NWDP,,,,UT,49003",
             "Wild Birds,Box Elder,American wigeon,,EA H5N1,,12/15/2023,11/22/2023,,Wild bird,Hunter harvest,NWDP,,,,UT,49003",
             "Wild Birds,Box Elder,Harris hawk,,EA H5N1,,2/9/2024,2/2/2024,,Captive wild bird,Morbidity/Mortality,Private (non-government) submission,,,,UT,49003",
-            "Wild Birds,Box Elder,American wigeon,,EA H5,,11/22/2023,11/3/2023,,Wild bird,Hunter harvest,NWDP,,,,UT,49003"
+            "Wild Birds,Box Elder,American wigeon,,EA H5,,11/22/2023,11/3/2023,,Wild bird,Hunter harvest,NWDP,,,,UT,49003",
+            "Wild Birds,Box Elder,American wigeon,,EA H5N1,,9/4/2024,12/11/2023,,Wild bird,Hunter harvest,NWDP,,,,UT,49003"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -21938,7 +22165,8 @@
             "Wild Birds,Weber,Gull (unidentified),,EA H5,,2/13/2023,9/29/2022,,Wild bird,Morbidity/Mortality,UT DWR,,,,UT,49057",
             "Wild Birds,Weber,Great horned owl,,EA/AM H5N1,,10/25/2022,10/13/2022,,Wild bird,Morbidity/Mortality,UT DWR,,,,UT,49057",
             "Wild Birds,Weber,Great horned owl,,EA/AM H5N1,,10/25/2022,10/13/2022,,Wild bird,Morbidity/Mortality,UT DWR,,,,UT,49057",
-            "Wild Birds,Weber,Red-tailed hawk,,EA H5N1,,7/7/2023,6/28/2023,,Wild bird,Morbidity/Mortality,UT DWR,,,,UT,49057"
+            "Wild Birds,Weber,Red-tailed hawk,,EA H5N1,,7/7/2023,6/28/2023,,Wild bird,Morbidity/Mortality,UT DWR,,,,UT,49057",
+            "Wild Birds,Weber,Gadwall,,EA H5N1,,8/29/2024,11/30/2023,,Wild bird,Hunter harvest,NWDP,,,,UT,49057"
         ],
         "Poultry Farms": [
             "Poultry Farms,Weber,WOAH Non-Poultry,20.0,,,,,08/24/22,,,,,,,UT,49057"
@@ -22569,7 +22797,8 @@
             "Wild Birds,Clallam,Trumpeter swan,,EA H5N1,,12/8/2022,11/19/2022,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53009",
             "Wild Birds,Clallam,Sanderling,,EA H5N1,,12/2/2023,11/17/2023,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53009",
             "Wild Birds,Clallam,Peregrine falcon,,EA H5N1,,12/2/2023,11/10/2023,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53009",
-            "Wild Birds,Clallam,Cackling goose,,EA H5N1,,12/2/2023,11/6/2023,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53009"
+            "Wild Birds,Clallam,Cackling goose,,EA H5N1,,12/2/2023,11/6/2023,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53009",
+            "Wild Birds,Clallam,Peregrine falcon,,EA H5N1,,9/4/2024,11/14/2023,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53009"
         ],
         "Poultry Farms": [
             "Poultry Farms,Clallam,WOAH Non-Poultry,10.0,,,,,05/11/22,,,,,,,WA,53009",
@@ -22741,7 +22970,9 @@
             "Wild Birds,Grant,Mallard,,EA H5N1,,2/13/2024,1/29/2024,,Wild bird,Hunter harvest,NWDP,,,,WA,53025",
             "Wild Birds,Grant,Mallard,,EA H5N1,,2/13/2024,1/29/2024,,Wild bird,Hunter harvest,NWDP,,,,WA,53025",
             "Wild Birds,Grant,Mallard,,EA H5N1,,2/13/2024,1/29/2024,,Wild bird,Hunter harvest,NWDP,,,,WA,53025",
-            "Wild Birds,Grant,Mallard,,EA H5N1,,2/13/2024,1/29/2024,,Wild bird,Hunter harvest,NWDP,,,,WA,53025"
+            "Wild Birds,Grant,Mallard,,EA H5N1,,2/13/2024,1/29/2024,,Wild bird,Hunter harvest,NWDP,,,,WA,53025",
+            "Wild Birds,Grant,Mallard,,EA/AM H5N1,,,11/18/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53025",
+            "Wild Birds,Grant,Mallard,,EA H5N1,,8/28/2024,11/29/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53025"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -22834,7 +23065,8 @@
             "Wild Birds,King,Mallard,,EA H5N1,,11/23/2022,11/17/2022,,Wild bird,Hunter harvest,NWDP,,,,WA,53033",
             "Wild Birds,King,Mallard,,EA H5,,11/23/2022,11/17/2022,,Wild bird,Hunter harvest,NWDP,,,,WA,53033",
             "Wild Birds,King,Mallard,,EA/AM H5N1,,5/22/2023,11/25/2022,,Wild bird,Hunter harvest,NWDP,,,,WA,53033",
-            "Wild Birds,King,Bald eagle,,EA H5N1,,11/17/2023,12/20/2022,,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository,,,,WA,53033"
+            "Wild Birds,King,Bald eagle,,EA H5N1,,11/17/2023,12/20/2022,,Wild bird,Morbidity/Mortality,SCWDS/USFWS National Eagle Repository,,,,WA,53033",
+            "Wild Birds,King,Northern pintail,,EA H5,,8/29/2024,12/1/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53033"
         ],
         "Poultry Farms": [
             "Poultry Farms,King,WOAH Poultry,90.0,,,,,12/19/23,,,,,,,WA,53033",
@@ -22988,7 +23220,10 @@
             "Wild Birds,Skagit,Mallard,,EA H5N1,,12/2/2023,11/16/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057",
             "Wild Birds,Skagit,Mallard,,EA H5N1,,12/2/2023,11/16/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057",
             "Wild Birds,Skagit,American wigeon,,EA H5N1,,12/2/2023,11/16/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057",
-            "Wild Birds,Skagit,Lesser scaup,,EA H5,,11/26/2023,11/11/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057"
+            "Wild Birds,Skagit,Lesser scaup,,EA H5,,11/26/2023,11/11/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057",
+            "Wild Birds,Skagit,Mallard,,EA H5,,8/29/2024,12/1/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057",
+            "Wild Birds,Skagit,Mallard,,EA/AM H5N1,,8/29/2024,12/1/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057",
+            "Wild Birds,Skagit,Mallard,,EA H5N1,,8/29/2024,12/1/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53057"
         ],
         "Poultry Farms": [],
         "Dairy Farms": [],
@@ -23011,7 +23246,8 @@
             "Wild Birds,Snohomish,Caspian tern,,EA H5N1,,8/25/2023,8/7/2023,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53061",
             "Wild Birds,Snohomish,Cackling goose,,EA H5N1,,11/26/2023,11/6/2023,,Wild bird,Morbidity/Mortality,WA DFW,,,,WA,53061",
             "Wild Birds,Snohomish,American wigeon,,EA H5N1,,12/2/2023,11/17/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53061",
-            "Wild Birds,Snohomish,American wigeon,,EA H5N1,,12/2/2023,11/17/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53061"
+            "Wild Birds,Snohomish,American wigeon,,EA H5N1,,12/2/2023,11/17/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53061",
+            "Wild Birds,Snohomish,Mallard,,EA/AM H5N1,,,11/17/2023,,Wild bird,Hunter harvest,NWDP,,,,WA,53061"
         ],
         "Poultry Farms": [
             "Poultry Farms,Snohomish,WOAH Non-Poultry,20.0,,,,,01/19/23,,,,,,,WA,53061",
@@ -24474,7 +24710,8 @@
     },
     "56039": {
         "Wildlife": [
-            "Wildlife,Teton,Mountain lion,,EA H5N1,,4/4/2023,3/27/2023,,,,,,,,WY,56039"
+            "Wildlife,Teton,Mountain lion,,EA H5N1,,4/4/2023,3/27/2023,,,,,,,,WY,56039",
+            "Wildlife,Teton,Mountain lion,,EA/AM H5N1,,12/22/2023,12/8/2023,,,,,,,,WY,56039"
         ],
         "Wild Birds": [
             "Wild Birds,Teton,Great horned owl,,EA H5N1,,5/5/2022,4/27/2022,,Wild bird,Morbidity/Mortality,WY GFD,,,,WY,56039",
