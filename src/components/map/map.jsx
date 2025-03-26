@@ -203,6 +203,25 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                 }
             }
         }
+        for (const m of newMarkers) {
+            if (m.id.slice(0, 1) === 'c') {
+                // find the state by county code
+                var state = m.data['Human'][0].split(',')[m.data['Human'][0].split(',').length - 2];
+                state = utils.getStateName(state);
+                // get the state marker
+                var st = newMarkers.find((marker) => marker.id == state + 'dot')
+
+                // subtract the county marker from the state marker
+                var newval = parseInt(st.data['Human'][0].split(',')[14]) - parseInt(m.data['Human'][0].split(',')[14]);
+
+                var newstring = st.data['Human'][0].split(',');
+                newstring[14] = newval.toString();
+
+                st.data['Human'][0] = newstring.join(',');
+
+                console.log(newMarkers.find((marker) => marker.id == state + 'dot'));
+            }
+        }
         setHumanMarkers(newMarkers);
         props.setLoading(false);
     }, []);
@@ -18952,8 +18971,22 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                             </g>
                             <g id="dots" className={styles.dotsC} style={{ display: props.selectedLegend == 'Human' || props.selectedLegend == 'All Cases' ? 'block' : 'none' }} ref={dotRef}>
                                 {humanMarkers.map((marker, i) => {
+                                    var sc = marker.id.slice(0, 1) === 'c'
+                                    
                                     const pret = utils.pretty(marker.data)
-                                    const enterListener = utils.circleListenerConstructor(marker.data, setTooltip, setStateOutlineState);
+                                    const enterListener = function (event) {
+                                        //console.log('circle listener: ', cData);
+                                        setTooltip({
+                                            visible: true,
+                                            name: pret,
+                                            data: marker.data
+                                        });
+                                        if (!sc) {
+                                            var state = marker.id.slice(0, -3);
+                                            setStateOutlineState(state);
+                                            // pass the hover along
+                                        };
+                                    };
                                     const leaveListener = () => {
                                         setTooltip({ visible: false, name: '' });
                                     };
@@ -18969,7 +19002,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                     }
                                     
                                     return (
-                                        <Marker key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListener} moveListener={moveListener} clickListener={clickListener} />
+                                        <Marker sc={sc} key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListener} moveListener={moveListener} clickListener={clickListener} />
                                     )
                                 })}
                             </g>

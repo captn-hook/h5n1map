@@ -72,7 +72,7 @@ export function circleListenerConstructor(cData, setTooltip, setS) {
         let statename = getStateName(row[row.length - 2]);
         state = statename;
     }
-
+    
     return function (event) {
         //console.log('circle listener: ', cData);
         setTooltip({

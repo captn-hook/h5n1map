@@ -19,7 +19,12 @@ export default async function getData() {
 
     try {
         const url = process.env.NEXT_PUBLIC_BUCKET_URL + process.env.NEXT_PUBLIC_FILE_NAME;
-        const res = await fetch(url);
+        const res = await fetch(url, {
+            //mode: 'no-cors',
+            headers: {
+                'Cache-Control': 'max-age=3600' // Cache for 1 hour
+            }
+        });
         if (res.status === 200) {
 
             const updated = new Date(res.headers.get('last-modified')).toLocaleString()

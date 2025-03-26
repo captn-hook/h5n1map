@@ -1,19 +1,23 @@
-Match Color
-    To new BG
+new bg color
+
 Date range
     Filter from min date to max date
     Slider or calendar?
+    
 Title text
-    Move title and subheading out
+removed title
     Move sources
+
 Links to sources
-    Link Sources|
+    Link Sources
     Location?
+
 Text boxes
     Fit box to text
     Replace asset?
-Human Pins
-    Differentiate state vs country
-    Sizing, subtraction, total?
-cache-busting
-    check to see if new data is available, if so, update
+    
+human pins
+total
+sizing
+
+cached for an hr
