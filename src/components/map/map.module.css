@@ -57,29 +57,3 @@
     opacity: 0 !important;
 }
 
-.zoomButtons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    right: 0;
-    bottom: calc(100% * 0.03);
-    z-index: 3;
-    margin-right: 2%;
-    margin-top: 60%;
-    margin-left: 60%;
-    font-family: IBM Plex Mono;
-    text-align: center;
-}
-
-.zoomButtons button {
-    border-radius: 20% !important;
-    width: 20px;
-    height: 20px;
-    font-size: 1.5em;
-    margin-bottom: 10px; /* Add some space between the buttons */
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

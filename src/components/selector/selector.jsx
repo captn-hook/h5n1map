@@ -2,6 +2,8 @@ import styles from './selector.module.css';
 
 import Subselector from './subselector/subselector.jsx';
 
+import React, { useState } from 'react';
+
 const icons = {
     'All Cases': (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.18 27.18" className={styles.iconContainer}>
@@ -112,12 +114,29 @@ const icons = {
             <path d="M11.41,21.78h7.14a1.71,1.71,0,0,0-1.72-1.71H14.09" fill="none" />
         </svg>
     ),
+    'Date': (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 49.39 39.73" className={styles.dateIcon}>
+            <rect x="16.54" y="17.24" width="35.74" height="25.28" rx="3.78" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <line x1="16.39" y1="22.15" x2="52.07" y2="22.15" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <line x1="23.63" y1="20.24" x2="23.63" y2="14.53" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <line x1="34.42" y1="20.24" x2="34.42" y2="14.53" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <line x1="45.21" y1="20.24" x2="45.21" y2="14.53" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="19.6" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="27.86" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="36.12" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="44.38" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="19.6" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="27.86" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="36.12" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="44.38" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+        </svg>
+    ),
 };
 
 export default function Selector(props) {
     // console.log('Selector:');
     // console.log(props);
-
+    const [dateSelector, setDateSelector] = useState(false);
     // remove all cases from the legend options
     // and put in its own ul
     const LegendOptions = props.LegendOptions.filter(option => option !== 'All Cases');
@@ -130,18 +149,18 @@ export default function Selector(props) {
                     onClick={() => props.setSelectedLegend('All Cases')}
                     className={(props.selectedLegend === 'All Cases' ? styles.active : styles.inactive) + ' ' + styles.allCases}>
                     {icons['All Cases']}
-                    <h3>{'All Cases'.replace(/ /g, '\n')}</h3>
+                    <h3>{'All Cases'.replace(/ /g, '\n').toUpperCase()}</h3>
                 </li>
             </ul>
             <span className={styles.seperator}>Filters</span>
-            <ul className={styles.selector + ' borderBox fontS' + ' ' + styles.legendOptions}>
+            <ul className={styles.selector + ' borderBox fontS' + ' ' + styles.legendOptions + ' ' + styles.s1}>
                 {LegendOptions.map((option, index) => {
                     return (
                         <li key={index}
                             onClick={() => props.setSelectedLegend(option)}
                             className={option === props.selectedLegend ? styles.active : styles.inactive}>
                             {icons[option]}
-                            <h3>{option.replace(/ /g, '\n')}</h3>
+                            <h3>{option.replace(/ /g, '\n').toUpperCase()}</h3>
                             <h4>{props.Dates[option] ? 'as of ' + props.Dates[option].toLocaleDateString('en-US', options) : null}</h4>
                             {option === 'Wildlife' && props.selectedLegend === 'Wildlife' ?
                                 <Subselector
@@ -153,6 +172,17 @@ export default function Selector(props) {
                     );
                 })}
             </ul>
+            <ul className={styles.selector + ' borderBox fontS ' + styles.s2}>
+                <li key={0}
+                    onClick={() => setDateSelector(!dateSelector)}
+                    className={dateSelector ? styles.active : styles.inactive + ' ' + styles.allCases}>
+                    {icons['Date']}
+                </li>
+            </ul>
+            <div id="zoomButtons" className={styles.zoomButtons}>
+                <button ref={props.bRefIn} className={styles.zoomIn + ' borderBox'}>+</button>
+                <button ref={props.bRefOut} className={styles.zoomOut + ' borderBox'}>-</button>
+            </div>
         </div>
     );
 }

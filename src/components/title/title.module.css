@@ -1,30 +1,29 @@
 .title {
-    position: fixed; /* top right */ 
-    top: calc(100% * 0.035);
-    left: 0;
-    margin-left: 2%;
-    font-family: 'Aktive Grotesk', 'sans-serif';
+    position: fixed; /* bottom right */ 
+    bottom: calc(100% * 0.005);
+    right: 1%;
+    font-family: 'IBM Plex Mono', 'bold';
     font-weight: 400;
-    margin-right: 50%;
+    margin-left: 0;
+    margin-right: 0;
 }
-
 .title h1 {
     font-weight: 500;
     color: #0c0a10;
 }
 
 .title h3 {
-    font-family: 'Space Mono', italic;
+    font-family: 'IBM Plex Mono', bold;
     white-space: pre-wrap;
     font-weight: 300;
-    color: #636363;
+    color: #0c0a10;
 }
 
 .title h5 {
-    font-family: 'Space Mono', italic;
+    font-family: 'IBM Plex Mono', bold;
     white-space: pre-wrap;
     font-weight: 300;
-    color: #636363;
+    color: #0c0a10;
     margin-top: .5em;
 }
 

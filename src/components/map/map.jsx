@@ -19,8 +19,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     const dotRef = useRef(null);
     const gRef = useRef(null);
     const parentRef = useRef(null);
-    const bRefOut = useRef(null);
-    const bRefIn = useRef(null);
+   
 
     const selectedLegendRef = useRef(props.selectedLegend);
     const selectedWildlifeRef = useRef(props.selectedWildlife);
@@ -114,9 +113,10 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
             utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color);
         } else if (props.selectedLegend == 'Human') {
             //reset fills to base color and draw dots
-            utils.resetFix();
-            document.getElementById('counties').style.pointerEvents = 'none';
-            document.getElementById('countiesOverlay').style.pointerEvents = 'none';
+            // utils.resetFix();
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color);
+            // document.getElementById('counties').style.pointerEvents = 'none';
+            // document.getElementById('countiesOverlay').style.pointerEvents = 'none';
             setoffFix('Human');
         }
     }, [props.selectedLegend]);
@@ -127,7 +127,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
         }
     }, [props.selectedWildlife]);
 
-    const [humanMarkers, setHumanMarkers] = useState([]);
+    const [humanMarkers, setHumanMarkers] = useState({});   
 
     useEffect(() => { // loads the initial data
         const ccs = Object.keys(props.allData);
@@ -203,34 +203,47 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                 }
             }
         }
+        var stateM = {}
+        for (const m of newMarkers) {
+            if (!(m.id.slice(0, 1) === 'c')) {
+                // create entry for state
+                stateM[m.id.slice(0, m.id.length - 3)] = {
+                    total: parseInt(m.data['Human'][0].split(',')[14]),
+                    data: m.data,
+                    x: m.x,
+                    y: m.y
+                }                
+            }
+        }
         for (const m of newMarkers) {
             if (m.id.slice(0, 1) === 'c') {
                 // find the state by county code
                 var state = m.data['Human'][0].split(',')[m.data['Human'][0].split(',').length - 2];
                 state = utils.getStateName(state);
-                // get the state marker
-                var st = newMarkers.find((marker) => marker.id == state + 'dot')
-
                 // subtract the county marker from the state marker
-                var newval = parseInt(st.data['Human'][0].split(',')[14]) - parseInt(m.data['Human'][0].split(',')[14]);
+                // var newval = stateM[state].total - parseInt(m.data['Human'][0].split(',')[14]);
 
-                var newstring = st.data['Human'][0].split(',');
-                newstring[14] = newval.toString();
+                // stateM[state].total = newval;
+                
+                // var newstring = stateM[state].data['Human'][0].split(',');
+                // newstring[14] = newval.toString();
 
-                st.data['Human'][0] = newstring.join(',');
+                // stateM[state].data['Human'][0] = newstring.join(',')
 
-                console.log(newMarkers.find((marker) => marker.id == state + 'dot'));
+                stateM[state][m.id.slice(0, m.id.length - 3)] = m
+
+                
             }
         }
-        setHumanMarkers(newMarkers);
+        setHumanMarkers(stateM);
         props.setLoading(false);
     }, []);
 
     useEffect(() => { // zoom and pan
         const svg = select(svgRef.current);
         const g = select(gRef.current);
-        const bOut = select(bRefOut.current);
-        const bIn = select(bRefIn.current);
+        const bOut = select(props.bRefOut.current);
+        const bIn = select(props.bRefIn.current);
 
         const zoom = d3Zoom()
             .scaleExtent([1, 8])
@@ -295,10 +308,6 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
 
     return (
         <div>
-            <div id="zoomButtons" className={styles.zoomButtons}>
-                <button ref={bRefIn} className={styles.zoomIn + ' borderBox'}>+</button>
-                <button ref={bRefOut} className={styles.zoomOut + ' borderBox'}>-</button>
-            </div>
             <div ref={parentRef} className={styles.mapContainer}>
                 <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg" viewBox="-150 0 1900 1000" className={styles.map}>
                     <defs>
@@ -308,7 +317,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                             fill: #231f20;
                         }
                         .cls-2 {
-                            fill: #fff200;
+                            fill: #FFC200;
                             fill-rule: evenodd;
                         }
                         .cls-3 {
@@ -18970,9 +18979,8 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                 </g>
                             </g>
                             <g id="dots" className={styles.dotsC} style={{ display: props.selectedLegend == 'Human' || props.selectedLegend == 'All Cases' ? 'block' : 'none' }} ref={dotRef}>
-                                {humanMarkers.map((marker, i) => {
-                                    var sc = marker.id.slice(0, 1) === 'c'
-                                    
+                                {Object.keys(humanMarkers).map((marker, i) => {
+                                    marker = humanMarkers[marker];
                                     const pret = utils.pretty(marker.data)
                                     const enterListener = function (event) {
                                         //console.log('circle listener: ', cData);
@@ -18981,11 +18989,6 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                             name: pret,
                                             data: marker.data
                                         });
-                                        if (!sc) {
-                                            var state = marker.id.slice(0, -3);
-                                            setStateOutlineState(state);
-                                            // pass the hover along
-                                        };
                                     };
                                     const leaveListener = () => {
                                         setTooltip({ visible: false, name: '' });
@@ -18997,12 +19000,10 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                     function clickListener() {
                                         //console.log(`Clicked on ${marker.data.name}`);
                                         console.log(pret);
-                                        // console.log('source,state,county,species_or_flock_type,flock_size,hpai_strain,outbreak_date,date_detected,date_collected,date_confirmed,woah_classification,sampling_method,submitting_agency,event,date_occurred_low_end,date_occurred_high_end,cases,confirmed_cases,deaths,cuml_cases,cuml_confirmed_cases,cuml_deaths,latitude,longitude,id');
-                                        // console.log(marker.data);
                                     }
                                     
                                     return (
-                                        <Marker sc={sc} key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListener} moveListener={moveListener} clickListener={clickListener} />
+                                        <Marker key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListener} moveListener={moveListener} clickListener={clickListener} />
                                     )
                                 })}
                             </g>

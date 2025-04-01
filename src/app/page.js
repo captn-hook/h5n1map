@@ -15,7 +15,7 @@ export default function Home() {
     if (Object.keys(allData).length === 0) {
       getData().then((a) => {
         setAllData(a[0]);
-        setLastUpdated(a[1]);
+        setLastUpdated(a[1].replace(', ', ' - '));
         setShowLastUpdated(a[2]);
       });
     }

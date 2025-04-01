@@ -158,6 +158,34 @@ export function whiteToColorGradient(value, color, max, min = 1, white = '#F8F9F
     return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
 }
 
+export function whiteToColorLogGradient(value, color, max, min = 1, white = '#F8F9F9') {
+    if (value <= 0 || min <= 0 || max <= 0) {
+        if (value <= 0) {
+            return '#b3b3b3';
+        }
+        if (min <= 0) {
+            min = 1;
+        }
+        if (max <= 0) {
+            max = 1;
+        }
+    }
+
+    const ra = 0.3;
+    const wr = Math.round(mix1channel(parseInt(white.slice(1, 3), 16), parseInt(color.slice(1, 3), 16), ra));
+    const wg = Math.round(mix1channel(parseInt(white.slice(3, 5), 16), parseInt(color.slice(3, 5), 16), ra));
+    const wb = Math.round(mix1channel(parseInt(white.slice(5, 7), 16), parseInt(color.slice(5, 7), 16), ra));
+    const halfwhite = `#${wr.toString(16).padStart(2, '0')}${wg.toString(16).padStart(2, '0')}${wb.toString(16).padStart(2, '0')}`;
+
+    const ratio = (Math.log(value) - Math.log(min)) / (Math.log(max) - Math.log(min));
+
+    const r = Math.round(mix1channel(parseInt(halfwhite.slice(1, 3), 16), parseInt(color.slice(1, 3), 16), ratio));
+    const g = Math.round(mix1channel(parseInt(halfwhite.slice(3, 5), 16), parseInt(color.slice(3, 5), 16), ratio));
+    const b = Math.round(mix1channel(parseInt(halfwhite.slice(5, 7), 16), parseInt(color.slice(5, 7), 16), ratio));
+
+    return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+}
+
 export function allColoringC(dairyD, maxD) { // constructor for all coloring
     var newDairyD = {};
     var maxDairy = 0;
@@ -212,12 +240,12 @@ export function stateFill(dairyD, maxD) {
                 if (document.getElementById(statename)) {
                     for (let child of document.getElementById(statename).children) {
                         //console.log('filling', child.id, 'with value', dairyD[key], 'and max', maxD);
-                        child.setAttribute('fill', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
-                        child.setAttribute('stroke', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
+                        child.setAttribute('fill', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
+                        child.setAttribute('stroke', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
                         // get the overlay by the id of the child
                         let overlay = document.getElementById(child.id.replace('c', 'b'));
-                        overlay.setAttribute('fill', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
-                        overlay.setAttribute('stroke', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
+                        overlay.setAttribute('fill', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
+                        overlay.setAttribute('stroke', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
                     }
                 }
             }
@@ -236,7 +264,7 @@ export function stateColoringC(dairyD, maxD) { // constructor for state coloring
                 abbreve = abbreve[abbreve.length - 2];
 
                 if (abbreve in dairyD) {
-                    return whiteToColorGradient(dairyD[abbreve], '#677143', maxD + 1, 1, '#EFF3C7');
+                    return whiteToColorLogGradient(dairyD[abbreve], '#142CA1', maxD + 1, 1, '#ABB9FF');
                 } else {
                     return '#b3b3b3';
                 }

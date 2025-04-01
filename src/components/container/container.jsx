@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useRef } from 'react';
 
 import Div100vh from 'react-div-100vh';
 
@@ -20,9 +20,9 @@ const LegendDefault = 'All Cases';
 const WildlifeDefault = 'All Species';
 
 const keyColor = {
-    'Dairy Farms': '#EFF3C7', // lo #EFF3C7 mid #B2B98C hi #677143
+    'Dairy Farms': '#7F8FFF', // lo #EFF3C7 mid #B2B98C hi #677143
     'Poultry Farms': '#7653A5',
-    'Human': '#FFF200',
+    'Human': '#FFC200',
     'Wild Birds': '#FC573E',
     'Wildlife': '#519A8F',
 };
@@ -209,6 +209,8 @@ export default function Container({ allData, lastUpdated, showLastUpdated }) {
             <LoadingOverlay loading={true} />
         </div>;
     }
+    const bRefOut = useRef(null);
+    const bRefIn = useRef(null);
     // data ingest takes some time so show a loading overlay
     const [loading, setLoading] = React.useState(true);
     
@@ -224,7 +226,7 @@ export default function Container({ allData, lastUpdated, showLastUpdated }) {
         <div className={styles.container}>
             <LoadingOverlay loading={loading} />
             <div className={styles.bg}>
-                <Map setLoading={setLoading} selectedLegend={selectedLegend} selectedWildlife={selectedWildlife} allData={allData} color={selectedLegend == 'All Cases' ? keyColor : keyColor[selectedLegend]} max={max} dairydata={getDairyData(allData)} />
+                <Map setLoading={setLoading} selectedLegend={selectedLegend} selectedWildlife={selectedWildlife} allData={allData} color={selectedLegend == 'All Cases' ? keyColor : keyColor[selectedLegend]} max={max} dairydata={getDairyData(allData)} bRefOut={bRefOut} bRefIn={bRefIn} />
             </div>
             <Div100vh className={styles.fg}>
                 <Title {...{ lastUpdated, showLastUpdated }} />
@@ -237,7 +239,7 @@ export default function Container({ allData, lastUpdated, showLastUpdated }) {
                                 selectedWildlife : // specific wildlife
                             selectedLegend} // just the normal legend 
                 />
-                <Selector setSelectedLegend={setSelectedLegend} selectedLegend={selectedLegend} setSelectedWildlife={setSelectedWildlife} selectedWildlife={selectedWildlife} LegendOptions={LegendOptions} WildlifeOptions={WildlifeOptions} Dates={Dates} />
+                <Selector setSelectedLegend={setSelectedLegend} selectedLegend={selectedLegend} setSelectedWildlife={setSelectedWildlife} selectedWildlife={selectedWildlife} LegendOptions={LegendOptions} WildlifeOptions={WildlifeOptions} Dates={Dates} bRefOut={bRefOut} bRefIn={bRefIn} />
             </Div100vh>
         </div >
     );

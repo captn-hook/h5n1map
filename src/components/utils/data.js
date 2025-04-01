@@ -19,12 +19,18 @@ export default async function getData() {
 
     try {
         const url = process.env.NEXT_PUBLIC_BUCKET_URL + process.env.NEXT_PUBLIC_FILE_NAME;
-        const res = await fetch(url, {
-            //mode: 'no-cors',
-            headers: {
-                'Cache-Control': 'max-age=3600' // Cache for 1 hour
-            }
-        });
+        try {
+            const res = await fetch(url, {
+                //mode: 'no-cors',
+                headers: {
+                    'Cache-Control': 'max-age=3600' // Cache for 1 hour
+                }
+            });
+        } catch (error) {
+            console.error(error)
+            console.log('Failed to fetch data from bucket, using backup data')
+            return [backupData, lastUpdated, true]
+        }
         if (res.status === 200) {
 
             const updated = new Date(res.headers.get('last-modified')).toLocaleString()
