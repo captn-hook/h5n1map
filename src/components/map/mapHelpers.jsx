@@ -197,7 +197,7 @@ export function allColoringC(dairyD, maxD) { // constructor for all coloring
         newDairyD[key] = -1;
     }
 
-    stateFill(newDairyD, maxDairy);
+    stateForce(newDairyD, maxDairy);
 
     return function allColoring(datum, max, color) {
         let colors = [];
@@ -246,6 +246,26 @@ export function stateFill(dairyD, maxD) {
                         let overlay = document.getElementById(child.id.replace('c', 'b'));
                         overlay.setAttribute('fill', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
                         overlay.setAttribute('stroke', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
+                    }
+                }
+            }
+        }
+    }
+}
+
+export function stateForce(dairyD, maxD) { // like stateFill but does it all to the max value
+    for (let key of Object.keys(dairyD)) {
+        for (let stateI of states) {
+            if (stateI.abbreviation == key) {
+                let statename = stateI.state.replace(' ', '_');
+                if (document.getElementById(statename)) {
+                    for (let child of document.getElementById(statename).children) {
+                        child.setAttribute('fill', '#7F8FFF');
+                        child.setAttribute('stroke', '#7F8FFF');
+                        // get the overlay by the id of the child
+                        let overlay = document.getElementById(child.id.replace('c', 'b'));
+                        overlay.setAttribute('fill', '#7F8FFF');
+                        overlay.setAttribute('stroke', '#7F8FFF');
                     }
                 }
             }

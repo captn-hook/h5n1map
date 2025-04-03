@@ -116,19 +116,19 @@ const icons = {
     ),
     'Date': (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 49.39 39.73" className={styles.dateIcon}>
-            <rect x="16.54" y="17.24" width="35.74" height="25.28" rx="3.78" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <line x1="16.39" y1="22.15" x2="52.07" y2="22.15" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <line x1="23.63" y1="20.24" x2="23.63" y2="14.53" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <line x1="34.42" y1="20.24" x2="34.42" y2="14.53" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <line x1="45.21" y1="20.24" x2="45.21" y2="14.53" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="19.6" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="27.86" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="36.12" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="44.38" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="19.6" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="27.86" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="36.12" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
-            <rect x="44.38" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" stroke-miterlimit="10" />
+            <rect x="16.54" y="17.24" width="35.74" height="25.28" rx="3.78" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <line x1="16.39" y1="22.15" x2="52.07" y2="22.15" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <line x1="23.63" y1="20.24" x2="23.63" y2="14.53" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <line x1="34.42" y1="20.24" x2="34.42" y2="14.53" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <line x1="45.21" y1="20.24" x2="45.21" y2="14.53" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="19.6" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="27.86" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="36.12" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="44.38" y="25.74" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="19.6" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="27.86" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="36.12" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
+            <rect x="44.38" y="33.64" width="4.31" height="4.31" rx="1.23" fill="none" stroke="#000" strokeMiterlimit="10" />
         </svg>
     ),
 };
@@ -181,7 +181,7 @@ export default function Selector(props) {
             </ul>
             <div id="zoomButtons" className={styles.zoomButtons}>
                 <button ref={props.bRefIn} className={styles.zoomIn + ' borderBox'}>+</button>
-                <button ref={props.bRefOut} className={styles.zoomOut + ' borderBox'}>-</button>
+                <button ref={props.bRefOut} className={styles.zoomOut + ' borderBox'}><div className={styles.textUp}>-</div></button>
             </div>
         </div>
     );

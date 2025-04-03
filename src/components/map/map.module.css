@@ -3,6 +3,18 @@
     width: 100%;
 }
 
+
+.fakeHover {
+    display: block !important;
+    opacity: 1 !important;
+    stroke-width:  1 !important;
+}
+
+.fakeHide {
+    display: none !important;
+    opacity: 0 !important;
+}
+
 .map {
     width: 100vw;
     height: 100vh;
@@ -56,4 +68,3 @@
 .noOutlineOpacity path {
     opacity: 0 !important;
 }
-

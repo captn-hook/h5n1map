@@ -211,7 +211,8 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                     total: parseInt(m.data['Human'][0].split(',')[14]),
                     data: m.data,
                     x: m.x,
-                    y: m.y
+                    y: m.y,
+                    counties: []
                 }                
             }
         }
@@ -231,6 +232,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                 // stateM[state].data['Human'][0] = newstring.join(',')
 
                 stateM[state][m.id.slice(0, m.id.length - 3)] = m
+                stateM[state].counties.push(m.id.slice(0, m.id.length - 3));
 
                 
             }
@@ -18989,9 +18991,23 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                             name: pret,
                                             data: marker.data
                                         });
+                                        for (var county in marker.counties) {
+                                            
+                                            document.getElementById(marker.counties[county].replace('c', 'b')).classList.add(styles.fakeHover);
+                                            county = document.getElementById(marker.counties[county]);
+                                            
+                                        }
+
                                     };
-                                    const leaveListener = () => {
+                                    const leaveListener = (event) => {
                                         setTooltip({ visible: false, name: '' });
+                                        
+                                        for (var county in marker.counties) {
+                                            
+                                            document.getElementById(marker.counties[county].replace('c', 'b')).classList.remove(styles.fakeHover);
+                                            county = document.getElementById(marker.counties[county]);
+                                            
+                                        }
                                     };
                                     const moveListener = (event) => {
                                         setTooltip({ visible: true, name: marker.data.name, data: marker.data });
