@@ -115,7 +115,7 @@ const icons = {
         </svg>
     ),
     'Date': (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 49.39 39.73" className={styles.dateIcon}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 49.39 39.73" className={styles.dateIcon} style={{ marginTop: 'auto', marginBottom: 'auto' }}>
             <rect x="16.54" y="17.24" width="35.74" height="25.28" rx="3.78" fill="none" stroke="#000" strokeMiterlimit="10" />
             <line x1="16.39" y1="22.15" x2="52.07" y2="22.15" fill="none" stroke="#000" strokeMiterlimit="10" />
             <line x1="23.63" y1="20.24" x2="23.63" y2="14.53" fill="none" stroke="#000" strokeMiterlimit="10" />
@@ -144,7 +144,7 @@ export default function Selector(props) {
     const options = { day: 'numeric', month: 'numeric' };
     return (
         <div className={styles.selectorContainer}>
-            <ul className={styles.selector + ' borderBox fontS'}>
+            <ul className={styles.selector + ' borderBox fontS' + ' ' + styles.allCasesC}>
                 <li key={0}
                     onClick={() => props.setSelectedLegend('All Cases')}
                     className={(props.selectedLegend === 'All Cases' ? styles.active : styles.inactive) + ' ' + styles.allCases}>
@@ -175,13 +175,13 @@ export default function Selector(props) {
             <ul className={styles.selector + ' borderBox fontS ' + styles.s2}>
                 <li key={0}
                     onClick={() => setDateSelector(!dateSelector)}
-                    className={dateSelector ? styles.active : styles.inactive + ' ' + styles.allCases}>
+                    className={(dateSelector ? styles.active : styles.inactive ) + ' ' + styles.allCases + ' ' + styles.dateIconC}>
                     {icons['Date']}
                 </li>
             </ul>
             <div id="zoomButtons" className={styles.zoomButtons}>
-                <button ref={props.bRefIn} className={styles.zoomIn + ' borderBox'}>+</button>
-                <button ref={props.bRefOut} className={styles.zoomOut + ' borderBox'}><div className={styles.textUp}>-</div></button>
+                <button ref={props.bRefIn} className={'borderBox'}>+</button>
+                <button ref={props.bRefOut} className={'borderBox'}><div className={styles.textUp}>-</div></button>
             </div>
         </div>
     );

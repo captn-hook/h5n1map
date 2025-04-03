@@ -31,6 +31,8 @@
 
 .allCases {
     border-radius: 9px !important;
+    min-width: 40px;
+    min-height: 40px;
 }
 
 .legendOptions {
@@ -47,6 +49,8 @@
 
 .legendOptions li {
     position: relative;
+    min-width: 40px;
+    min-height: 40px;
 }
 .legendOptions li::before {
     content: "";
@@ -138,6 +142,10 @@
 .iconContainer svg {
     background-color: rgba(0, 0, 0, 0) !important;
 }
+
+.allCasesC {    
+    margin-bottom: 0px !important;
+}
 /*
 .dairyTransform {
     transform: translateX(-5px) !important;
@@ -152,7 +160,16 @@
 }
 */
 
-@media (max-height: 600px) or (max-width: 550px) {
+
+@media (max-height: 720px) {
+    .zoomButtons {
+        position: absolute;
+        transform: translate(-255%, 0%);
+        top: 0% !important;
+    }
+}
+
+@media (max-height: 660px) or (max-width: 550px) {
     .selector li svg {
         transform: scale(0.65);
     }
@@ -170,9 +187,18 @@
     }
 }
 
-@media (max-height: 530px) {
+.s2 {
+    margin-bottom: 40px !important;
+}
+
+@media (max-height: 600px) {
     /* convert to a horizontal list */
 
+    .zoomButtons {
+        position: relative;
+        transform: translate(0%, 0%);
+        top: none;
+    }
     .selectorContainer {
         display: flex;
     }
@@ -199,28 +225,47 @@
         display: none;
     }
 
+    .allCasesC {    
+        margin-bottom: 10px !important;
+    }
+
+    .s2 {
+        margin-bottom: 10px !important;
+    }
+
+    .dateIconC * {
+        margin-top: 50% !important;
+        margin-bottom: auto !important;
+    }
+
+    
+
 }
 
 .s1 {
     margin-bottom: 10px !important;
 }
 
-.s2 {
-    margin-bottom: 40px !important;
-}
 
 .dateIcon {
     transform: scale(.9) !important;
+    position: relative;
 }
 
+.dateIconC {   
+    border-radius: 9px !important;
+    position: relative;
+}
+
+.s2:hover {
+    background-color: #e4e4e4;
+}
+
+
 .zoomButtons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    right: 0;
-    z-index: 3;
-    margin-right: 2%;
-    margin-left: 60%;
+    margin-right: 0px !important;
+    margin-left: auto !important;
+    max-width: 20px;
     font-family: IBM Plex Mono;
     text-align: center;
 }

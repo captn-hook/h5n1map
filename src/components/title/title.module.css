@@ -23,7 +23,7 @@
     font-family: 'IBM Plex Mono', bold;
     white-space: pre-wrap;
     font-weight: 300;
-    color: #0c0a10;
+    color: #0c0a10 !important;
     margin-top: .5em;
 }
 
