@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 import Div100vh from 'react-div-100vh';
 
@@ -98,7 +98,7 @@ function dataIngest(data) {
     if (Object.keys(data).length === 0) {
         return [maxes, legendOptions, wildlifeOptions, dates];
     }
-
+    var earliestDate = new Date(0); // earliest date for all data
     for (var entry in data) {
         var countyData = undefined;
 
@@ -107,6 +107,15 @@ function dataIngest(data) {
         } else {
             countyData = data[entry];
         }
+
+        // print the date
+        
+        const date = extractDate(true, line.split(','));
+        if (date < earliestDate) {
+            earliestDate = date;
+            console.log('earliest date: ' + earliestDate);
+        }
+
 
         // base case
         if (Object.keys(maxes).length === 0) {
@@ -211,15 +220,30 @@ export default function Container({ allData, lastUpdated, showLastUpdated }) {
     }
     const bRefOut = useRef(null);
     const bRefIn = useRef(null);
+
+    // Min and max dates for the data
+    const minDate = useState(new Date(0));
+    const maxDate = useState(new Date(0));
+
     // data ingest takes some time so show a loading overlay
     const [loading, setLoading] = React.useState(true);
     
-    const [Maxes, LegendOptions, WildlifeOptions, Dates] = dataIngest(allData);
+    var [Maxes, LegendOptions, WildlifeOptions, Dates] = dataIngest(allData, minDate, maxDate);
     // default selected values, can be selected via key
     const [selectedLegend, setSelectedLegend] = React.useState(LegendOptions[0]);
     const [selectedWildlife, setSelectedWildlife] = React.useState(WildlifeOptions[0]);
 
     let max = getMax(allData, selectedLegend, selectedWildlife, WildlifeOptions, Maxes); // the max value for the current selected item
+
+    useEffect(() => {
+        var [maxes, legendOptions, wildlifeOptions, dates] = dataIngest(allData, minDate, maxDate);
+        setMax(maxes);
+        setLegendOptions(legendOptions);
+        setWildlifeOptions(wildlifeOptions);
+        setDates(dates);
+        setLoading(false);
+    }, [minDate, maxDate, allData]);
+
 
     // fg has elemnts that are in front of the map, and pinned to the corners with absolute positioning to accomodate iframe scaling
     return (
