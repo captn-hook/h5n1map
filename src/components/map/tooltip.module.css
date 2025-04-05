@@ -27,12 +27,16 @@
     white-space: pre-wrap;
 }
 
-
 .textContent {
     position: relative;
     z-index: 2;
     white-space: nowrap;
+    background-color: #F8F9F9; /* EFF8B8 */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    outline: 1px solid #000;
 }
+
 
 .textContent ul {
     list-style: none;
@@ -42,4 +46,16 @@
 
 .tooltip h3 {
     margin-bottom: .25rem;
+}
+
+.originText {
+    margin-top: 0.5rem;
+    color: #888888;
+    white-space: wrap;
+}
+
+.svgArrow {
+    position: absolute;
+    z-index: 9999999999999999999999999999999999;
+    transform: scale(0.1) translate(117px, 0);
 }
