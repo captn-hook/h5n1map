@@ -2,7 +2,7 @@ import styles from './selector.module.css';
 
 import Subselector from './subselector/subselector.jsx';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const icons = {
     'All Cases': (
@@ -137,11 +137,19 @@ export default function Selector(props) {
     // console.log('Selector:');
     // console.log(props);
     const [dateSelector, setDateSelector] = useState(false);
+
+    useEffect(() => {
+        if (dateSelector) {
+            props.setMinDate(new Date('2025-03-01'));
+        } else {
+            props.setMinDate(props.earliestEntry);
+        }
+    }, [dateSelector]);
     // remove all cases from the legend options
     // and put in its own ul
     const LegendOptions = props.LegendOptions.filter(option => option !== 'All Cases');
 
-    const options = { day: 'numeric', month: 'numeric' };
+    const options = { day: 'numeric', month: 'numeric'};
     return (
         <div className={styles.selectorContainer}>
             <ul className={styles.selector + ' borderBox fontS' + ' ' + styles.allCasesC}>

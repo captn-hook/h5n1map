@@ -110,6 +110,22 @@ function renderTextComponent([name, sourcd, formattedEarliestDate, formattedLate
 
 
 export function Tooltip(props) {
+    // if the tooltip has no data, return null
+    var skip = true;
+    if (!props.info) {
+        skip = true;
+    } else {
+        for (let source of Object.keys(props.info)) {
+            if (props.info[source].length > 0) {
+                skip = false;
+                break;
+            }
+        }
+    }
+    if (skip) {
+        return null;
+    }
+
 
     // get width and height for the tooltip
     const tooltipInfo = textD(props.info);
@@ -128,11 +144,6 @@ export function Tooltip(props) {
         width += over;
     }
 
-    //     <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 278.9 140.52`} style={{ zIndex: 1, position: 'absolute', width: '100%', height: '100%' }}>
-    //     <path
-    //         d="M268.31,140.52H25.45a10.68,10.68,0,0,1-10.59-10.77v-51a5.06,5.06,0,0,0-2.4-4.32L1.65,67.81a3,3,0,0,1,0-5l10.92-6.95a5.06,5.06,0,0,0,2.33-4.27V11A10.68,10.68,0,0,1,25.45.25H268.31A10.68,10.68,0,0,1,278.9,11V129.75A10.68,10.68,0,0,1,268.31,140.52Z"
-    //         fill="#F8F9F9" stroke="#0c0a10" strokeWidth="0.5" />
-    // </svg>
     return (
         <div className={styles.tooltip} style={{ left: props.x + 'px', top: props.y + 'px', width: width + 'px', height: height + 'px' }}>
 
@@ -141,7 +152,7 @@ export function Tooltip(props) {
             </div>
             <div className={styles.svgArrow} >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 22.59">
-                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" stroke-miterlimit="10" />
+                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" strokeMiterlimit={10} />
                 </svg>
             </div>
         </div>
@@ -174,7 +185,7 @@ export function STooltip(props) {
             </div>
             <div className={styles.svgArrow} >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 22.59">
-                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" stroke-miterlimit="10" />
+                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" strokeMiterlimit={10} />
                 </svg>
             </div>
         </div>
