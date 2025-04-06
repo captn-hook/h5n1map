@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <main>
-      <Container allData={allData} lastUpdated={lastUpdated} showLastUpdated={showLastUpdated} />
+      <Container allData={allData} lastUpdated={lastUpdated} showLastUpdated={showLastUpdated} setAllData={setAllData} />
     </main>
   );
 }

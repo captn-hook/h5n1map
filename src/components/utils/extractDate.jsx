@@ -77,6 +77,8 @@ export default function extractDate(earlyLate = true, dataarr) {
         alldates.push(parseD(dataarr[13]));
     }
 
+    // console.log('dates:', alldates);
+
     if (alldates.length == 0) {
         return null;
     }

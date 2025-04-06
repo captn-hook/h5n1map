@@ -24,6 +24,9 @@ export function notNameLength(cData) { // this just grabs every entry in the cDa
     keys = keys.filter((key) => key !== 'name');
     let len = 0;
     for (const key of keys) {
+        if (cData[key] == null || cData[key].includes('inictive')) {
+            continue;
+        }
         len += cData[key].length;
     }
     return len;
@@ -38,7 +41,7 @@ export function pretty(cData) {
     let keys = Object.keys(cData);
     keys = keys.filter((key) => key !== 'name');
     for (const key of keys) {
-        if (cData[key].length > 0) {
+        if (cData[key].length > 0 && cData[key] != null && !cData[key].includes('inictive')) {
             str += `${key}: ${cData[key].length}\n`;
         }
     }
@@ -67,7 +70,7 @@ export function circleListenerConstructor(cData, setTooltip, setS) {
 
     let state = '';
 
-    if (cData['Human'].length == 1 && Object.keys(cData).length == 2) {
+    if (cData['Human'].length == 1 && Object.keys(cData).length == 2 && cData['Human'][0].includes('inictive')) {
         let row = cData['Human'][0].split(',');
         let statename = getStateName(row[row.length - 2]);
         state = statename;

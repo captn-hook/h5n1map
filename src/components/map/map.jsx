@@ -28,6 +28,160 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
 
     const [gradients, setGradients] = useState([]);
 
+    useEffect(() => { // loads the initial data
+        console.log('loading data');
+        const ccs = Object.keys(props.allData);
+        let madeGradients = [];
+        let actualyMadeGradients = [];
+        let newMarkers = [];
+        let hfix = [];
+        console.log('allData', props.allData);
+        for (const id of ccs) {
+            const countyCode = `c${id}`;
+            const datum = props.allData[id];
+            // reset the county to default color
+            
+
+            utils.resetFix();
+
+            let sources = [];
+            for (const source of Object.keys(datum)) {
+                if (source != 'name' && datum[source].length > 0) {
+                    // if all the entries in the source are inactive, dont include it
+                    let allInactive = true;
+                    for (const entry of datum[source]) {
+                        if (!entry.includes('inictive')) {
+                            allInactive = false;
+                            break;
+                        }
+                    }
+                    if (allInactive) {
+                        continue;
+                    }
+                    sources.push(source);
+                }
+            }
+            
+            if (sources.length == 0) {
+                // if there are no sources, set the color to the default color
+                if (document.getElementById(countyCode)) {
+                    document.getElementById(countyCode).style.fill = '#b3b3b3';
+                    document.getElementById(countyCode).style.stroke = '#b3b3b3';
+                    document.getElementById(countyCode).style.strokeWidth = 1;
+                }
+            }
+            
+
+            if (sources.length > 1) {
+                // do we need a new gradient?
+                if (!madeGradients.includes(sources.join('').replace(/ /g, ''))) {
+                    madeGradients.push(sources.join('').replace(/ /g, ''));
+                    let newGradient = { id: `gradient${sources.join('').replace(/ /g, '')}`, sources: sources };
+                    let stops = [];
+                    for (let i = 0; i < sources.length; i++) {
+                        // Calculate start and end offsets for hard edges
+                        let startOff = (i / sources.length) * 100;
+                        let endOff = ((i + 1) / sources.length) * 100;
+                        stops.push({ offset: `${startOff}%`, color: props.color[sources[i]], name: 's' + props.color[sources[i]].replace('#', '') });
+                        stops.push({ offset: `${endOff}%`, color: props.color[sources[i]], name: 's' + props.color[sources[i]].replace('#', '') });
+                    }
+                    newGradient.stops = stops;
+                    actualyMadeGradients.push(newGradient);
+                }
+            }
+
+            setGradients(actualyMadeGradients);
+
+            if (datum['Human'] == undefined) {
+                continue;
+            } else if (document.getElementById(countyCode)) {
+                utils.addEventListenersToID(countyCode, datum, setTooltip, parentRef, setPos, setStateOutlineState);
+
+                if (datum['Human'].length > 0 && dotRef.current) {
+
+                    //if there is already a newMarker for this county, don't add another
+                    if (newMarkers.filter((marker) => marker.id == countyCode + 'dot').length > 0) {
+                        continue;
+                    }
+
+                    const bbox = document.getElementById(countyCode).getBBox();
+                    const x = bbox.x + bbox.width / 2;
+                    const y = bbox.y + bbox.height / 2;
+
+                    newMarkers.push({ x: x, y: y, id: countyCode + 'dot', data: datum });
+                }
+            } else if (datum['Human'].length > 0) {
+                // state level humand data, get the bbox of the state
+                for (const entry of datum['Human']) {
+                    // if inactive, skip
+                    if (entry.includes('inictive')) {
+                        continue;
+                    }
+                    
+                    const state2Letter = entry.split(',')[entry.split(',').length - 2];
+
+                    if (hfix.includes(state2Letter)) {
+                        continue;
+                    } else {
+                        hfix.push(state2Letter);
+                    }
+                    // get the full state name from the 2 letter code
+                    const stateName = utils.getStateName(state2Letter);
+                    const bbox = document.getElementById(stateName).getBBox();
+                    const x = bbox.x + bbox.width / 2;
+                    const y = bbox.y + bbox.height / 2;
+                    newMarkers.push({ x: x, y: y, id: stateName + 'dot', data: {'Human': [entry], 'name': '' } });
+                }
+            }
+        }
+        var stateM = {}
+        for (const m of newMarkers) {
+            if (!(m.id.slice(0, 1) === 'c')) {
+                // create entry for state
+                stateM[m.id.slice(0, m.id.length - 3)] = {
+                    total: parseInt(m.data['Human'][0].split(',')[14]),
+                    data: m.data,
+                    x: m.x,
+                    y: m.y,
+                    counties: []
+                }                
+            }
+        }
+        for (const m of newMarkers) {
+            if (m.id.slice(0, 1) === 'c') {
+                // find the state by county code
+                var state = m.data['Human'][0].split(',')[m.data['Human'][0].split(',').length - 2];
+                state = utils.getStateName(state);
+                // subtract the county marker from the state marker
+                // var newval = stateM[state].total - parseInt(m.data['Human'][0].split(',')[14]);
+
+                // stateM[state].total = newval;
+                
+                // var newstring = stateM[state].data['Human'][0].split(',');
+                // newstring[14] = newval.toString();
+
+                // stateM[state].data['Human'][0] = newstring.join(',')
+                
+                if (!stateM[state]) {
+                    stateM[state] = {
+                        total: parseInt(m.data['Human'][0].split(',')[14]),
+                        data: m.data,
+                        x: m.x,
+                        y: m.y,
+                        counties: []
+                    };
+                }
+
+                stateM[state][m.id.slice(0, m.id.length - 3)] = m
+                stateM[state].counties.push(m.id.slice(0, m.id.length - 3));
+
+                
+            }
+        }
+        setHumanMarkers(stateM);
+        props.setLoading(false);
+    }, [props.allData, props.dairydata, props.minDate, props.maxDate]);
+
     const stateMouseEnter = React.useCallback((event) => {
         // for (let child of event.target.children) {
         //     child.style.opacity = 1;
@@ -74,6 +228,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     }, []);
 
     useEffect(() => { // listens for changes in main legend, wildlife and dairy farms are special cases
+        console.log('selectedLegend', props.selectedLegend);
         if (offFix == 'Dairy Farms' && props.selectedLegend != 'Dairy Farms') {
             utils.removeStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
             setSTooltip({ visible: false, name: '' });
@@ -104,142 +259,31 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
             setStateOutlineState('All');
             utils.setFillsTo(utils.allColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color);
         } else if (props.selectedLegend != 'Wildlife' && props.selectedLegend != 'Dairy Farms' && props.selectedLegend != 'Human') {
-            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Dairy Farms') { // this is different because dairy data is state level instead of county level
             utils.addStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
             setoffFix('Dairy Farms');
-            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Wildlife') { // this is similar, but we need to check the sub legend
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Human') {
             //reset fills to base color and draw dots
             // utils.resetFix();
-            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend]);
             // document.getElementById('counties').style.pointerEvents = 'none';
             // document.getElementById('countiesOverlay').style.pointerEvents = 'none';
             setoffFix('Human');
         }
-    }, [props.selectedLegend]);
+    }, [props.selectedLegend, props.allData, props.dairydata, props.minDate, props.maxDate, gradients]);
 
     useEffect(() => { // listens for changes in wildlife sub legend
+        console.log('selectedWildlife', props.selectedWildlife);
         if (props.selectedLegend == 'Wildlife') {
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend]);
         }
-    }, [props.selectedWildlife]);
+    }, [props.selectedWildlife, props.allData, props.dairydata, props.minDate, props.maxDate]);
 
     const [humanMarkers, setHumanMarkers] = useState({});   
-
-    useEffect(() => { // loads the initial data
-        const ccs = Object.keys(props.allData);
-        let madeGradients = [];
-        let actualyMadeGradients = [];
-        let newMarkers = [];
-        let hfix = [];
-        for (const id of ccs) {
-            const countyCode = `c${id}`;
-            const datum = props.allData[id];
-
-            let sources = [];
-            for (const source of Object.keys(datum)) {
-                if (source != 'name' && datum[source].length > 0) {
-                    sources.push(source);
-                }
-            }
-
-            if (sources.length > 1) {
-                // do we need a new gradient?
-                if (!madeGradients.includes(sources.join('').replace(/ /g, ''))) {
-                    madeGradients.push(sources.join('').replace(/ /g, ''));
-                    let newGradient = { id: `gradient${sources.join('').replace(/ /g, '')}`, sources: sources };
-                    let stops = [];
-                    for (let i = 0; i < sources.length; i++) {
-                        // Calculate start and end offsets for hard edges
-                        let startOff = (i / sources.length) * 100;
-                        let endOff = ((i + 1) / sources.length) * 100;
-                        stops.push({ offset: `${startOff}%`, color: props.color[sources[i]], name: 's' + props.color[sources[i]].replace('#', '') });
-                        stops.push({ offset: `${endOff}%`, color: props.color[sources[i]], name: 's' + props.color[sources[i]].replace('#', '') });
-                    }
-                    newGradient.stops = stops;
-                    actualyMadeGradients.push(newGradient);
-                }
-            }
-
-            setGradients(actualyMadeGradients);
-
-            if (datum['Human'] == undefined) {
-                continue;
-            } else if (document.getElementById(countyCode)) {
-                utils.addEventListenersToID(countyCode, datum, setTooltip, parentRef, setPos, setStateOutlineState);
-
-                if (datum['Human'].length > 0 && dotRef.current) {
-
-                    //if there is already a newMarker for this county, don't add another
-                    if (newMarkers.filter((marker) => marker.id == countyCode + 'dot').length > 0) {
-                        continue;
-                    }
-
-                    const bbox = document.getElementById(countyCode).getBBox();
-                    const x = bbox.x + bbox.width / 2;
-                    const y = bbox.y + bbox.height / 2;
-
-                    newMarkers.push({ x: x, y: y, id: countyCode + 'dot', data: datum });
-                }
-            } else if (datum['Human'].length > 0) {
-                // state level humand data, get the bbox of the state
-                for (const entry of datum['Human']) {
-                    const state2Letter = entry.split(',')[entry.split(',').length - 2];
-
-                    if (hfix.includes(state2Letter)) {
-                        continue;
-                    } else {
-                        hfix.push(state2Letter);
-                    }
-                    // get the full state name from the 2 letter code
-                    const stateName = utils.getStateName(state2Letter);
-                    const bbox = document.getElementById(stateName).getBBox();
-                    const x = bbox.x + bbox.width / 2;
-                    const y = bbox.y + bbox.height / 2;
-                    newMarkers.push({ x: x, y: y, id: stateName + 'dot', data: {'Human': [entry], 'name': '' } });
-                }
-            }
-        }
-        var stateM = {}
-        for (const m of newMarkers) {
-            if (!(m.id.slice(0, 1) === 'c')) {
-                // create entry for state
-                stateM[m.id.slice(0, m.id.length - 3)] = {
-                    total: parseInt(m.data['Human'][0].split(',')[14]),
-                    data: m.data,
-                    x: m.x,
-                    y: m.y,
-                    counties: []
-                }                
-            }
-        }
-        for (const m of newMarkers) {
-            if (m.id.slice(0, 1) === 'c') {
-                // find the state by county code
-                var state = m.data['Human'][0].split(',')[m.data['Human'][0].split(',').length - 2];
-                state = utils.getStateName(state);
-                // subtract the county marker from the state marker
-                // var newval = stateM[state].total - parseInt(m.data['Human'][0].split(',')[14]);
-
-                // stateM[state].total = newval;
-                
-                // var newstring = stateM[state].data['Human'][0].split(',');
-                // newstring[14] = newval.toString();
-
-                // stateM[state].data['Human'][0] = newstring.join(',')
-
-                stateM[state][m.id.slice(0, m.id.length - 3)] = m
-                stateM[state].counties.push(m.id.slice(0, m.id.length - 3));
-
-                
-            }
-        }
-        setHumanMarkers(stateM);
-        props.setLoading(false);
-    }, []);
 
     useEffect(() => { // zoom and pan
         const svg = select(svgRef.current);
@@ -288,12 +332,14 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     }
 
     useEffect(() => {
+        console.log('all outline fix');
         if (props.selectedLegend == 'All Cases') {
             utils.allOutlineFix(props.dairydata[0], stateOutlineState);
-        }
-    }, [stateOutlineState]);
+        } 
+    }, [stateOutlineState, props.allData, props.dairydata, props.minDate, props.maxDate]);
 
     useEffect(() => {
+        console.log('tooltip change');
         if (props.selectedLegend == 'All Cases') {
             if (utils.tvis(tooltip, props.selectedLegend)) {
                 //console.log('tooltip setting state outline state to null');
@@ -306,7 +352,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                 setStateOutlineState('All');
             }
         }
-    }, [tooltip, sTooltip]);
+    }, [tooltip, sTooltip, props.allData, props.dairydata, props.minDate, props.maxDate]);
 
     return (
         <div>
