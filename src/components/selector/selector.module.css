@@ -169,7 +169,7 @@
     }
 }
 
-@media (max-height: 660px) or (max-width: 550px) {
+@media (max-height: 700px) or (max-width: 550px) {
     .selector li svg {
         transform: scale(0.65);
     }
@@ -191,7 +191,7 @@
     margin-bottom: 40px !important;
 }
 
-@media (max-height: 600px) {
+@media (max-height: 640px) {
     /* convert to a horizontal list */
 
     .zoomButtons {

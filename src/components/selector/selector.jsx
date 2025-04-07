@@ -1,6 +1,7 @@
 import styles from './selector.module.css';
 
 import Subselector from './subselector/subselector.jsx';
+import DateSelector from './dateselector/dateselector.jsx';
 
 import React, { useState, useEffect } from 'react';
 
@@ -140,14 +141,12 @@ export default function Selector(props) {
 
 
     useEffect(() => {
-        if (dateSelector) {
-            props.setMinDate(new Date('2025-03-01'));
-        } else {
-            props.setMinDate(props.earliestEntry);
-        }
-    }, [dateSelector]);
+        props.setMinDate(props.earliestEntry);
+        props.setMaxDate(new Date());
+    }, []);
 
-    
+
+
     // and put in its own ul
     const LegendOptions = props.LegendOptions.filter(option => option !== 'All Cases');
 
@@ -184,9 +183,18 @@ export default function Selector(props) {
             </ul>
             <ul className={styles.selector + ' borderBox fontS ' + styles.s2}>
                 <li key={0}
-                    onClick={() => setDateSelector(!dateSelector)}
-                    className={(dateSelector ? styles.active : styles.inactive ) + ' ' + styles.allCases + ' ' + styles.dateIconC}>
+                    onClick={(e) => { setDateSelector(!dateSelector); e.stopPropagation(); }}
+                    className={(dateSelector ? styles.active : styles.inactive) + ' ' + styles.allCases + ' ' + styles.dateIconC}>
                     {icons['Date']}
+                    {dateSelector ? (
+                        <div onClick={(e) => e.stopPropagation()}>
+                            <DateSelector
+                                earliestEntry={props.earliestEntry}
+                                setMinDate={props.setMinDate}
+                                setMaxDate={props.setMaxDate}
+                            />
+                        </div>
+                    ) : null}
                 </li>
             </ul>
             <div id="zoomButtons" className={styles.zoomButtons}>
