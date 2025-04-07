@@ -15,11 +15,11 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     const [sTooltip, setSTooltip] = useState({ visible: false, name: '' });
     const [sPos, setSPos] = useState({ x: 0, y: 0 });
     const [stateOutlineState, setStateOutlineState] = useState('');
+    const [listeners, setListeners] = useState({});
     const svgRef = useRef(null);
     const dotRef = useRef(null);
     const gRef = useRef(null);
     const parentRef = useRef(null);
-   
 
     const selectedLegendRef = useRef(props.selectedLegend);
     const selectedWildlifeRef = useRef(props.selectedWildlife);
@@ -72,19 +72,22 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     const stateMouseMove = React.useCallback((event) => {
         setSPos({ x: event.clientX, y: event.clientY });
     }, []);
+    
+    const leaveListener = () => { setTooltip({ visible: false, name: '' }); };
+    const moveListener = (event) => { setPos({ x: event.clientX, y: event.clientY }); };
 
     useEffect(() => { // listens for changes in main legend, wildlife and dairy farms are special cases
+        console.log('legend changed');
+        utils.resetFix(listeners);
+        utils.removeStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
         if (offFix == 'Dairy Farms' && props.selectedLegend != 'Dairy Farms') {
             utils.removeStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
             setSTooltip({ visible: false, name: '' });
             setStateOutlineState('');
-            utils.resetFix();
             setoffFix(props.selectedLegend);
         } else if (props.selectedLegend == 'All Cases' && offFix != 'All Cases') {
-            utils.resetFix();
             setoffFix('All Cases');
         } else if (offFix == 'Human' && props.selectedLegend != 'Human') {
-            utils.resetFix();
             document.getElementById('counties').style.pointerEvents = 'auto';
             document.getElementById('countiesOverlay').style.pointerEvents = 'auto';
             setoffFix(props.selectedLegend);
@@ -93,59 +96,62 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
             utils.removeStateEventListeners(stateMouseEnterNoOpac, stateMouseLeaveNoOpac, stateMouseMove);
             setSTooltip({ visible: false, name: '' });
             setStateOutlineState('');
-            utils.resetFix();
             setoffFix(props.selectedLegend);
         }
-
         if (props.selectedLegend == 'All Cases') {
             utils.addOutlines(props.dairydata[0]);
             utils.addStateEventListeners(stateMouseEnterNoOpac, stateMouseLeaveNoOpac, stateMouseMove);
             setoffFix('All Cases');
             setStateOutlineState('All');
-            utils.setFillsTo(utils.allColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.allColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color, props.active);
         } else if (props.selectedLegend != 'Wildlife' && props.selectedLegend != 'Dairy Farms' && props.selectedLegend != 'Human') {
-            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend], props.active);
         } else if (props.selectedLegend == 'Dairy Farms') { // this is different because dairy data is state level instead of county level
             utils.addStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
             setoffFix('Dairy Farms');
-            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color[props.selectedLegend], props.active);
         } else if (props.selectedLegend == 'Wildlife') { // this is similar, but we need to check the sub legend
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend], props.active);
         } else if (props.selectedLegend == 'Human') {
             //reset fills to base color and draw dots
             // utils.resetFix();
-            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend], props.active);
             // document.getElementById('counties').style.pointerEvents = 'none';
             // document.getElementById('countiesOverlay').style.pointerEvents = 'none';
             setoffFix('Human');
         }
-    }, [props.selectedLegend]);
+    }, [props.selectedLegend, props.max, gradients]);
 
     useEffect(() => { // listens for changes in wildlife sub legend
+        console.log('wildlife sub legend changed');
         if (props.selectedLegend == 'Wildlife') {
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend], props.active);
         }
     }, [props.selectedWildlife]);
 
-    const [humanMarkers, setHumanMarkers] = useState({});   
+    const [humanMarkers, setHumanMarkers] = useState({});
 
     useEffect(() => { // loads the initial data
+        console.log('loading data');
         const ccs = Object.keys(props.allData);
         let madeGradients = [];
         let actualyMadeGradients = [];
         let newMarkers = [];
         let hfix = [];
+        let newlisteners = {};
         for (const id of ccs) {
             const countyCode = `c${id}`;
             const datum = props.allData[id];
 
-            let sources = [];
-            for (const source of Object.keys(datum)) {
-                if (source != 'name' && datum[source].length > 0) {
-                    sources.push(source);
-                }
+            let sources = []
+            if (props.active[id]) {
+                sources = props.active[id];
             }
-
+            if (sources.includes('Dairy Farms')) {
+                // Remove 'Dairy Farms' from sources
+                sources = sources.filter((source) => source.trim() !== 'Dairy Farms');
+            }
+            sources = sources.sort();
             if (sources.length > 1) {
                 // do we need a new gradient?
                 if (!madeGradients.includes(sources.join('').replace(/ /g, ''))) {
@@ -164,13 +170,9 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                 }
             }
 
-            setGradients(actualyMadeGradients);
-
-            if (datum['Human'] == undefined) {
-                continue;
-            } else if (document.getElementById(countyCode)) {
-                utils.addEventListenersToID(countyCode, datum, setTooltip, parentRef, setPos, setStateOutlineState);
-
+            if (document.getElementById(countyCode)) {
+                let l1 = utils.addEventListenersToID(countyCode, datum, setTooltip, leaveListener, moveListener)
+                newlisteners[countyCode] = l1;
                 if (datum['Human'].length > 0 && dotRef.current) {
 
                     //if there is already a newMarker for this county, don't add another
@@ -184,10 +186,14 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
 
                     newMarkers.push({ x: x, y: y, id: countyCode + 'dot', data: datum });
                 }
+
             } else if (datum['Human'].length > 0) {
                 // state level humand data, get the bbox of the state
                 for (const entry of datum['Human']) {
-                    const state2Letter = entry.split(',')[entry.split(',').length - 2];
+                    if (entry.includes('inictive')) {
+                        continue;
+                    }
+                    const state2Letter = entry.split(',')[15];
 
                     if (hfix.includes(state2Letter)) {
                         continue;
@@ -199,10 +205,11 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                     const bbox = document.getElementById(stateName).getBBox();
                     const x = bbox.x + bbox.width / 2;
                     const y = bbox.y + bbox.height / 2;
-                    newMarkers.push({ x: x, y: y, id: stateName + 'dot', data: {'Human': [entry], 'name': '' } });
+                    newMarkers.push({ x: x, y: y, id: stateName + 'dot', data: { 'Human': [entry], 'name': '' } });
                 }
             }
         }
+
         var stateM = {}
         for (const m of newMarkers) {
             if (!(m.id.slice(0, 1) === 'c')) {
@@ -213,33 +220,37 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                     x: m.x,
                     y: m.y,
                     counties: []
-                }                
+                }
             }
         }
         for (const m of newMarkers) {
             if (m.id.slice(0, 1) === 'c') {
                 // find the state by county code
-                var state = m.data['Human'][0].split(',')[m.data['Human'][0].split(',').length - 2];
+                var state = m.data['Human'][0].split(',')[15];
                 state = utils.getStateName(state);
                 // subtract the county marker from the state marker
                 // var newval = stateM[state].total - parseInt(m.data['Human'][0].split(',')[14]);
 
                 // stateM[state].total = newval;
-                
+
                 // var newstring = stateM[state].data['Human'][0].split(',');
                 // newstring[14] = newval.toString();
 
                 // stateM[state].data['Human'][0] = newstring.join(',')
-
+                if (!stateM[state]) {
+                    continue;
+                }
                 stateM[state][m.id.slice(0, m.id.length - 3)] = m
                 stateM[state].counties.push(m.id.slice(0, m.id.length - 3));
 
-                
+
             }
         }
+        setListeners(newlisteners);
+        setGradients(actualyMadeGradients);
         setHumanMarkers(stateM);
         props.setLoading(false);
-    }, []);
+    }, [props.allData, props.minDate, props.maxDate, props.active, props.dairydata]);
 
     useEffect(() => { // zoom and pan
         const svg = select(svgRef.current);
@@ -280,20 +291,22 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
         if (props.selectedLegend == 'All Cases') {
             return style;
         }
-
         for (const color of Object.keys(props.color)) {
             style += `.s${color.replace('#', '')} { fill: ${props.color[color]}; }\n`;
         }
         return style;
     }
 
-    useEffect(() => {
+    useEffect(() => { // listens for changes in the tooltip
+        console.log('state outline state changed')
         if (props.selectedLegend == 'All Cases') {
             utils.allOutlineFix(props.dairydata[0], stateOutlineState);
         }
     }, [stateOutlineState]);
 
     useEffect(() => {
+        console.log('tooltip changed');
+        console.l
         if (props.selectedLegend == 'All Cases') {
             if (utils.tvis(tooltip, props.selectedLegend)) {
                 //console.log('tooltip setting state outline state to null');
@@ -18991,25 +19004,28 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                             name: pret,
                                             data: marker.data
                                         });
+                                        console.log('marker counties', marker.counties);
                                         for (var county in marker.counties) {
-                                            
+
+                                            console.log('county: ', marker.counties[county]);
+
                                             document.getElementById(marker.counties[county].replace('c', 'b')).classList.add(styles.fakeHover);
                                             county = document.getElementById(marker.counties[county]);
-                                            
+
                                         }
 
                                     };
-                                    const leaveListener = (event) => {
+                                    const leaveListenerC = (event) => {
                                         setTooltip({ visible: false, name: '' });
-                                        
+
                                         for (var county in marker.counties) {
-                                            
+
                                             document.getElementById(marker.counties[county].replace('c', 'b')).classList.remove(styles.fakeHover);
                                             county = document.getElementById(marker.counties[county]);
-                                            
+
                                         }
                                     };
-                                    const moveListener = (event) => {
+                                    const moveListenerC = (event) => {
                                         setTooltip({ visible: true, name: marker.data.name, data: marker.data });
                                         setPos({ x: event.clientX, y: event.clientY });
                                     };
@@ -19017,9 +19033,9 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                         //console.log(`Clicked on ${marker.data.name}`);
                                         console.log(pret);
                                     }
-                                    
+
                                     return (
-                                        <Marker key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListener} moveListener={moveListener} clickListener={clickListener} />
+                                        <Marker key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListenerC} moveListener={moveListenerC} clickListener={clickListener} />
                                     )
                                 })}
                             </g>

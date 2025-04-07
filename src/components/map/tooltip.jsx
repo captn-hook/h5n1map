@@ -9,9 +9,14 @@ function textD(info) {
     let origins = {};
     let earliestDate = null;
     let latestDate = null;
+    let allInactive = true;
     for (let source of Object.keys(info)) {
         if (source != 'name' && source.length > 0) {
             for (let line of info[source]) {
+                if (line.includes('inictive')) {
+                    continue;
+                }
+                allInactive = false;
                 let data = line.split(','); // source,county,species_or_flock_type,flock_size,hpai_strain,outbreak_date,date_detected,date_collected,date_confirmed,woah_classification,sampling_method,submitting_agency,event,date_occurred_low_end,date_occurred_high_end,cases,confirmed_cases,suspected_cases,probable_cases,deaths,confirmed_deaths,suspected_deaths,probable_deaths,cuml_cases,cuml_confirmed_cases,cuml_suspected_cases,cuml_probable_cases,cuml_deaths,cuml_confirmed_deaths,cuml_suspected_deaths,cuml_probable_deaths,latitude,longitude,abbreviation,id
                 if (data[11] != undefined && data[11] != '') {
                     if (origins[data[11]] == undefined) {
@@ -21,10 +26,11 @@ function textD(info) {
                     }
                 }
                 if (name == '') {
-                    name = info['name'] + ', ' + data[data.length - 2];
+                    name = info['name'] + ', ' + data[15];
                 }
                 if (source == 'Human') {
-                    sourcd[source] = data[data.length - 3];
+                    sourcd[source] = data[14];
+                    console.log('Human: ' + data);
                 } else if (sourcd[source] == undefined) {
                     sourcd[source] = 1;
                 } else if (source != 'Human') {
@@ -47,6 +53,10 @@ function textD(info) {
             }
         }
 
+    }
+
+    if (allInactive) {
+        throw new Error('No active cases found');
     }
 
     // name in bold,
@@ -112,7 +122,14 @@ function renderTextComponent([name, sourcd, formattedEarliestDate, formattedLate
 export function Tooltip(props) {
 
     // get width and height for the tooltip
-    const tooltipInfo = textD(props.info);
+    let tooltipInfo = null;
+    try {
+        tooltipInfo = textD(props.info);
+    } catch (e) {
+        // console.log('No active cases found');
+        // console.log(e);
+        return null;
+    }
     let t1 = Object.keys(tooltipInfo[1]).length ? Object.keys(tooltipInfo[1]).length : 0;
     let t2 = tooltipInfo[2].length ? tooltipInfo[2].length : 0;
     let t3 = tooltipInfo[3].length ? tooltipInfo[3].length : 0;
@@ -141,7 +158,7 @@ export function Tooltip(props) {
             </div>
             <div className={styles.svgArrow} >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 22.59">
-                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" stroke-miterlimit="10" />
+                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" strokeMiterlimit="10" />
                 </svg>
             </div>
         </div>
@@ -149,6 +166,11 @@ export function Tooltip(props) {
 }
 
 export function STooltip(props) {
+
+    if (props.stateCases == 0) {
+        return null;
+    }
+
     let width = 200;
     let height = 110;
 
@@ -174,7 +196,7 @@ export function STooltip(props) {
             </div>
             <div className={styles.svgArrow} >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 22.59">
-                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" stroke-miterlimit="10" />
+                    <path d="M17.77,22.14l-16-8A3.29,3.29,0,0,1,1.71,9L17.77.44" fill="#F8F9F9" stroke="#0c0a10" strokeMiterlimit="10" />
                 </svg>
             </div>
         </div>

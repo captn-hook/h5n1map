@@ -19,12 +19,16 @@ export function setTopIndex(element) {
     setTopIndex(parent);
 }
 
-export function notNameLength(cData) { // this just grabs every entry in the cData object except for the name
+export function notNameLength(cData) { // this just grabs every entry in the cData object except for the name and inactive
     let keys = Object.keys(cData);
     keys = keys.filter((key) => key !== 'name');
     let len = 0;
     for (const key of keys) {
-        len += cData[key].length;
+        for (const entry of cData[key]) {
+            if (!entry.includes('inictive')) {
+                len += 1;
+            }
+        }
     }
     return len;
 }
@@ -38,28 +42,11 @@ export function pretty(cData) {
     let keys = Object.keys(cData);
     keys = keys.filter((key) => key !== 'name');
     for (const key of keys) {
-        if (cData[key].length > 0) {
-            str += `${key}: ${cData[key].length}\n`;
-        }
+        str += `${key}: ${cData[key].length}\n`;
     }
     str += '\n';
     str += cData.toString();
     return str;
-}
-
-export function hoverListenerConstructor(cData, setTooltip, parentRef, overlay, setS) {
-    let pret = pretty(cData);
-    return function (event) {
-        const parent = parentRef.current;
-        const parentRect = parent.getBoundingClientRect();
-        setTopIndex(overlay);
-        setTooltip({
-            visible: true,
-            name: pret,
-            data: cData
-        });
-        //setS('');
-    };
 }
 
 export function circleListenerConstructor(cData, setTooltip, setS) {
@@ -67,12 +54,7 @@ export function circleListenerConstructor(cData, setTooltip, setS) {
 
     let state = '';
 
-    if (cData['Human'].length == 1 && Object.keys(cData).length == 2) {
-        let row = cData['Human'][0].split(',');
-        let statename = getStateName(row[row.length - 2]);
-        state = statename;
-    }
-    
+
     return function (event) {
         //console.log('circle listener: ', cData);
         setTooltip({
@@ -85,23 +67,30 @@ export function circleListenerConstructor(cData, setTooltip, setS) {
 }
 
 
-export function addEventListenersToID(id, cData, setTooltip, parentRef, setPos, setS) {
+export function addEventListenersToID(id, cData, setTooltip, leaveListener, moveListener) {
     const element = document.getElementById(id);
     const overlay = document.getElementById(id.replace('c', 'b'));
-    const pret = pretty(cData);
     if (element && overlay) {
-        const hoverListener = hoverListenerConstructor(cData, setTooltip, parentRef, overlay, setS);
+        const hoverListener = () => {
+            setTopIndex(overlay);
+            setTooltip({
+                visible: true,
+                name: pretty(cData),
+                data: cData
+            });
+        }
+    
         overlay.addEventListener('mouseenter', hoverListener);
-        overlay.addEventListener('mouseleave', () => setTooltip({ visible: false, name: '' }));
-        overlay.addEventListener('click', () => {
-            //console.log(`Clicked on ${cData.name}`);
-            //console.log(pret);
-            //console.log('source,state,county,species_or_flock_type,flock_size,hpai_strain,outbreak_date,date_detected,date_collected,date_confirmed,woah_classification,sampling_method,submitting_agency,event,date_occurred_low_end,date_occurred_high_end,cases,confirmed_cases,deaths,cuml_cases,cuml_confirmed_cases,cuml_deaths,latitude,longitude,id');
-            //console.log(cData);
-        });
-        overlay.addEventListener('mousemove', (event) => {
-            setPos({ x: event.clientX, y: event.clientY });
-        });
+        overlay.addEventListener('mouseleave', leaveListener);
+        // overlay.addEventListener('click', () => {
+        //     console.log(`Clicked on ${cData.name}`);
+        //     console.log(pret);
+        //     console.log('source,state,county,species_or_flock_type,flock_size,hpai_strain,outbreak_date,date_detected,date_collected,date_confirmed,woah_classification,sampling_method,submitting_agency,event,date_occurred_low_end,date_occurred_high_end,cases,confirmed_cases,deaths,cuml_cases,cuml_confirmed_cases,cuml_deaths,latitude,longitude,id');
+        //     console.log(cData);
+        // });
+        overlay.addEventListener('mousemove', moveListener);
+
+        return hoverListener;
     }
 }
 
@@ -113,11 +102,17 @@ export function setFillsTo(fillFunction, allData, max, color) {
 
         const datum = allData[id];
 
+        if (!datum) {
+            console.error(`No data found for ${countyCode}`);
+            continue;
+        }
+
         if (document.getElementById(countyCode) && document.getElementById(overlayCode)) {
             const element = document.getElementById(countyCode);
             const overlay = document.getElementById(overlayCode);
 
             // set fill color based on number of cases
+            //console.log('setting fill for', id, 'it is', active[id]);
             if (notNameLength(datum) > 0) {
 
                 element.setAttribute('fill', fillFunction(datum, max, color));
@@ -142,6 +137,9 @@ export function mix1channel(rgb1, rgb2, ratio) {
     return rgb1 + (rgb2 - rgb1) * ratio;
 }
 export function whiteToColorGradient(value, color, max, min = 1, white = '#F8F9F9') {
+    if (value >= max) {
+        return color;
+    }
     const ra = .3;
     const wr = Math.round(mix1channel(parseInt(white.slice(1, 3), 16), parseInt(color.slice(1, 3), 16), ra));
     const wg = Math.round(mix1channel(parseInt(white.slice(3, 5), 16), parseInt(color.slice(3, 5), 16), ra));
@@ -155,7 +153,8 @@ export function whiteToColorGradient(value, color, max, min = 1, white = '#F8F9F
     const b = Math.round(mix1channel(parseInt(halfwhite.slice(5, 7), 16), parseInt(color.slice(5, 7), 16), ratio));
 
     //console.log('got', value, 'and returned', `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`);
-    return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+    let str = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+    return str;
 }
 
 export function whiteToColorLogGradient(value, color, max, min = 1, white = '#F8F9F9') {
@@ -209,6 +208,7 @@ export function allColoringC(dairyD, maxD) { // constructor for all coloring
                 colors.push(color[source]);
             }
         }
+        sources = sources.sort();
         if (colors.length == 0) {
             return '#b3b3b3';
         } else if (colors.length == 1) {
@@ -274,14 +274,14 @@ export function stateForce(dairyD, maxD) { // like stateFill but does it all to 
 }
 
 export function stateColoringC(dairyD, maxD) { // constructor for state coloring   
-
+    console.log('stateD', dairyD);
     stateFill(dairyD, maxD);
 
     return function stateColoring(datum, max, color) {
         for (const source of Object.keys(datum)) {
             if (source != 'name' && datum[source].length > 0) {
                 let abbreve = datum[source][0].split(',')
-                abbreve = abbreve[abbreve.length - 2];
+                abbreve = abbreve[15];
 
                 if (abbreve in dairyD) {
                     return whiteToColorLogGradient(dairyD[abbreve], '#142CA1', maxD + 1, 1, '#ABB9FF');
@@ -293,12 +293,20 @@ export function stateColoringC(dairyD, maxD) { // constructor for state coloring
     }
 }
 
-export function resetFix() {
+export function resetFix(listeners, moveListener, leaveListener) { // resets all event listeners to the default
     // resets all colorr of classname 'county' to #b3b3b3
     let container1 = document.getElementById('counties');
     let container2 = document.getElementById('countiesOverlay');
 
     function recurseUntilPath(element) {
+        // remove event listeners 
+        if (listeners[element.id]) {
+            element.removeEventListener('mouseenter', listeners[element.id]);
+        } 
+        element.removeEventListener('mouseleave', moveListener);
+        element.removeEventListener('mousemove',  leaveListener);
+        
+    
         if (element.tagName == 'path') {
             element.setAttribute('fill', '#b3b3b3');
             element.setAttribute('stroke', '#b3b3b3');
@@ -364,7 +372,7 @@ export function getStateCases(dada, dairyData) {
             // split the first element by commas
             let split = first.split(',');
             // get the state abbreviation
-            stateAbbrev = split[split.length - 2];
+            stateAbbrev = split[15];
             break;
         }
     }

@@ -12,6 +12,7 @@ export default function Home() {
   const [showLastUpdated, setShowLastUpdated] = useState(true);
 
   useEffect(() => {
+    console.log('fetching data');
     if (Object.keys(allData).length === 0) {
       getData().then((a) => {
         setAllData(a[0]);
@@ -23,7 +24,7 @@ export default function Home() {
 
   return (
     <main>
-      <Container allData={allData} lastUpdated={lastUpdated} showLastUpdated={showLastUpdated} />
+      <Container allData={allData} lastUpdated={lastUpdated} showLastUpdated={showLastUpdated} setAllData={setAllData} />
     </main>
   );
 }
