@@ -380,42 +380,89 @@ const MultiRangeSlider = (props, ref) => {
         set_maxValue(+_maxValue);
     }, [props.maxValue, min, max, step]);
 
+
     return (
-        <div ref={ref} id={props.id} className={(props.baseClassName || 'multi-range-slider') + ' ' + (props.className || '') + (disabled ? ' disabled' : '')} style={props.style} onWheel={onMouseWheel} >
-            <div className='bar' ref={refBar}>
-                <div className='bar-left' style={{ width: barMin + '%', backgroundColor: props.barLeftColor }} onClick={onBarLeftClick}></div>
-                <input placeholder='min-value' className='input-type-range input-type-range-min' type='range' min={min} max={max} step={step} value={minValue} onInput={onInputMinChange} />
-                <div className='thumb thumb-left' style={{ backgroundColor: props.thumbLeftColor }} onMouseDown={onLeftThumbMousedown} onTouchStart={onLeftThumbTouchStart}>
-                    <div className='caption'>
-                        <span className='min-caption'>{getDateString(minValue)}</span>
+        <div
+            ref={ref}
+            id={props.id}
+            className={`${props.baseClassName || styles.multiRangeSlider} ${props.className || ''} ${disabled ? styles.disabled : ''
+                }`}
+            style={props.style}
+            onWheel={onMouseWheel}
+        >
+            <div className={styles.bar} ref={refBar}>
+                <div
+                    className={styles.barLeft}
+                    style={{ width: barMin + '%', backgroundColor: props.barLeftColor }}
+                    onClick={onBarLeftClick}
+                ></div>
+                <input
+                    placeholder="min-value"
+                    className={`${styles.inputTypeRange} ${styles.inputTypeRangeMin}`}
+                    type="range"
+                    min={min}
+                    max={max}
+                    step={step}
+                    value={minValue}
+                    onInput={onInputMinChange}
+                />
+                <div
+                    className={styles.thumbLeft}
+                    style={{ backgroundColor: props.thumbLeftColor }}
+                    onMouseDown={onLeftThumbMousedown}
+                    onTouchStart={onLeftThumbTouchStart}
+                >
+                    <div className={styles.caption}>
+                        <span className={styles.minCaption}>{getDateString(minValue)}</span>
                     </div>
                 </div>
-                <div className='bar-inner' style={{ backgroundColor: props.barInnerColor }}>
-                    <div className='bar-inner-left' onClick={onInnerBarLeftClick}></div>
-                    <div className='bar-inner-right' onClick={onInnerBarRightClick}></div>
+                <div className={styles.barInner} style={{ backgroundColor: props.barInnerColor }}>
+                    <div className={styles.barInnerLeft} onClick={onInnerBarLeftClick}></div>
+                    <div className={styles.barInnerRight} onClick={onInnerBarRightClick}></div>
                 </div>
-                <input placeholder='max-value' className='input-type-range input-type-range-max' type='range' min={min} max={max} step={step} value={maxValue} onInput={onInputMaxChange} />
-                <div className='thumb thumb-right' style={{ backgroundColor: props.thumbRightColor }} onMouseDown={onRightThumbMousedown} onTouchStart={onRightThumbTouchStart}>
-                    <div className='caption'>
-                        <span className='max-caption'>{getDateString(maxValue)}</span>
+                <input
+                    placeholder="max-value"
+                    className={`${styles.inputTypeRange} ${styles.inputTypeRangeMax}`}
+                    type="range"
+                    min={min}
+                    max={max}
+                    step={step}
+                    value={maxValue}
+                    onInput={onInputMaxChange}
+                />
+                <div
+                    className={styles.thumbRight}
+                    style={{ backgroundColor: props.thumbRightColor }}
+                    onMouseDown={onRightThumbMousedown}
+                    onTouchStart={onRightThumbTouchStart}
+                >
+                    <div className={styles.caption}>
+                        <span className={styles.maxCaption}>{getDateString(maxValue)}</span>
                     </div>
                 </div>
-                <div className='bar-right' style={{ width: barMax + '%', backgroundColor: props.barRightColor }} onClick={onBarRightClick}></div>
+                <div
+                    className={styles.barRight}
+                    style={{ width: barMax + '%', backgroundColor: props.barRightColor }}
+                    onClick={onBarRightClick}
+                ></div>
             </div>
             {ruler && (
-                <div className='ruler'>
+                <div className={styles.ruler}>
                     {[...Array(stepCount)].map((e, i) => (
-                        <div key={i} className='ruler-rule'>
-                            {subSteps && [...Array(10)].map((e, n) => <div key={n} className='ruler-sub-rule'></div>)}
+                        <div key={i} className={styles.rulerRule}>
+                            {subSteps &&
+                                [...Array(10)].map((e, n) => (
+                                    <div key={n} className={styles.rulerSubRule}></div>
+                                ))}
                         </div>
                     ))}
                 </div>
             )}
             {label && (
-                <div className='labels'>
+                <div className={styles.labels}>
                     {labels.map((label) => {
                         return (
-                            <div key={label.toString()} className='label'>
+                            <div key={label.toString()} className={styles.label}>
                                 {getDateString(label)}
                             </div>
                         );
@@ -424,6 +471,6 @@ const MultiRangeSlider = (props, ref) => {
             )}
         </div>
     );
-};
+}
 
 export default React.memo(forwardRef(MultiRangeSlider));

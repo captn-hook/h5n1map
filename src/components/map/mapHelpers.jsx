@@ -196,13 +196,18 @@ export function allColoringC(dairyD, maxD) { // constructor for all coloring
         newDairyD[key] = -1;
     }
 
-    stateForce(newDairyD, maxDairy);
-
-    return function allColoring(datum, max, color) {
+    return [function allColoring(datum, max, color) {
         let colors = [];
         let sources = [];
         for (const source of Object.keys(datum)) {
-            if (source != 'name' && datum[source].length > 0) {
+            let active = false;
+            for (const entry of datum[source]) {
+                if (!entry.includes('inactive')) {
+                    active = true;
+                    break;
+                }
+            }
+            if (active && source != 'name' && datum[source].length > 0) {
                 sources.push(source);
                 // we have one color for each source
                 colors.push(color[source]);
@@ -217,7 +222,7 @@ export function allColoringC(dairyD, maxD) { // constructor for all coloring
             let gradientName = `gradient${sources.join('').replace(/ /g, '')}`;
             return 'url(#repeat' + gradientName + ')';
         }
-    }
+    }, stateForce(newDairyD, maxDairy)];
 }
 
 export function countyColoringC(selectedLegend) { // constructor for county coloring
@@ -254,6 +259,7 @@ export function stateFill(dairyD, maxD) {
 }
 
 export function stateForce(dairyD, maxD) { // like stateFill but does it all to the max value
+    console.log('stateForce', dairyD);
     for (let key of Object.keys(dairyD)) {
         for (let stateI of states) {
             if (stateI.abbreviation == key) {

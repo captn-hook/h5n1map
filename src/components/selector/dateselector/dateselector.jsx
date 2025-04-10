@@ -23,6 +23,7 @@ export default function Dateselector(props) {
                 minValue={minValue}
                 maxValue={maxValue}
                 onChange={(e) => {
+                    console.log('DateSelector onChange', e);
                     setMinValue(e.minValue);
                     setMaxValue(e.maxValue);
                     props.setMinDate(new Date(e.minValue));

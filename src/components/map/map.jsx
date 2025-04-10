@@ -103,7 +103,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
             utils.addStateEventListeners(stateMouseEnterNoOpac, stateMouseLeaveNoOpac, stateMouseMove);
             setoffFix('All Cases');
             setStateOutlineState('All');
-            utils.setFillsTo(utils.allColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color, props.active);
+            utils.setFillsTo(utils.allColoringC(props.dairydata[0], props.max)[0], props.allData, props.max, props.color, props.active);
         } else if (props.selectedLegend != 'Wildlife' && props.selectedLegend != 'Dairy Farms' && props.selectedLegend != 'Human') {
             utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend], props.active);
         } else if (props.selectedLegend == 'Dairy Farms') { // this is different because dairy data is state level instead of county level
