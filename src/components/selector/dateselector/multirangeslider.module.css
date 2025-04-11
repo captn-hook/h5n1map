@@ -6,10 +6,6 @@
 .multiRangeSlider {
     display: flex;
     position: relative;
-    border: solid 1px gray;
-    border-radius: 10px;
-    padding: 20px 10px;
-    box-shadow: 1px 1px 4px black;
     flex-direction: column;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -23,27 +19,26 @@
 }
 .multiRangeSlider .barLeft {
     width: 25%;
-    background-color: #f0f0f0;
-    border-radius: 10px 0px 0px 10px;
-    box-shadow: inset 0px 0px 5px black;
-    padding: 4px 0px;
+	height: 1px;
+	margin: auto;
+    background-color: #888888;
 }
 .multiRangeSlider .barRight {
     width: 25%;
-    background-color: #f0f0f0;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: inset 0px 0px 5px black;
+	height: 1px;
+	margin: auto;
+    background-color: #888888;
 }
 .multiRangeSlider .barInner {
-    background-color: lime;
+    background-color: #0c0a10;
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: space-between;
     position: relative;
-    border: solid 1px black;
+	height: 1px;
+	margin: auto;
     justify-content: space-between;
-    box-shadow: inset 0px 0px 5px black;
 }
 .multiRangeSlider .barInnerLeft {
     width: 50%;
@@ -52,7 +47,7 @@
     width: 50%;
 }
 .multiRangeSlider .thumb {
-    background-color: red;
+    background-color: #888888;
 	width: 20px;
 	height: 20px;
     position: relative;
@@ -61,12 +56,10 @@
 }
 .multiRangeSlider .thumb::before {
     content: '';
-    background-color: inherit;
     position: absolute;
     width: 20px;
     height: 20px;
-    border: solid 1px black;
-    box-shadow: 0px 0px 3px black, inset 0px 0px 5px gray;
+    border: solid 1px #0c0a10;
     border-radius: 50%;
     z-index: 1;
     margin: -8px -12px;
@@ -81,8 +74,7 @@
     height: 11px;
     z-index: 2;
     border-radius: 50%;
-    border: dotted 1px black;
-    box-shadow: 0px 0px 5px white, inset 0px 0px 10px black;
+    border: dotted 1px #0c0a10;
 }
 
 .multiRangeSlider .inputTypeRange {
@@ -126,14 +118,46 @@
     border-left: none;
 }
 
-.multiRangeSlider .labels {
+.labels {
     display: flex;
     justify-content: space-between;
-    padding: 0px;
-    margin-top: 10px;
-    margin-bottom: -20px;
     /* display: none; */
+	margin-bottom: 5px;
 }
+
+.labelCaption {
+	display: flex;
+	/* space-between */
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+.labelCaption div {
+	padding: 0px 3px;
+	font-size: 80%;
+	text-align: right;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family: 'Aktive Grotesk', 'sans-serif';
+}
+
+.labelCaption span {
+	box-sizing: border-box;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 12px;
+	padding: 5px;
+	border: solid 1px #0c0a10;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+.spacer {
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 14%;
+}
+
+
 .multiRangeSlider .label {
     font-size: 80%;
     display: flex;
@@ -157,4 +181,25 @@
 	display: flex;
 	justify-content: space-between;
 	margin-top: 10px;
+}
+
+.caption {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	min-width: 10px;
+	min-height: 10px;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+
+.caption .dot {
+	width: 110%;
+	height: 110%;
+	margin: auto;
+	border-radius: 100%;
+	background-color: #0c0a10;
 }

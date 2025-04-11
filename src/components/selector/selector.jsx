@@ -183,11 +183,11 @@ export default function Selector(props) {
             </ul>
             <ul className={styles.selector + ' borderBox fontS ' + styles.s2}>
                 <li key={0}
-                    onClick={(e) => { setDateSelector(!dateSelector); e.stopPropagation(); }}
+                    onClick={(e) => { setDateSelector(!dateSelector); }}
                     className={(dateSelector ? styles.active : styles.inactive) + ' ' + styles.allCases + ' ' + styles.dateIconC}>
                     {icons['Date']}
                     {dateSelector ? (
-                        <div onClick={(e) => e.stopPropagation()}>
+                        <div onClick={(e) => e.stopPropagation()} className={styles.dddate}>
                             <DateSelector
                                 earliestEntry={props.earliestEntry}
                                 setMinDate={props.setMinDate}

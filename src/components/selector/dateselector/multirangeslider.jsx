@@ -89,6 +89,7 @@ const MultiRangeSlider = (props, ref) => {
     const [isChange, setIsChange] = useState(true);
 
     const onBarLeftClick = (e) => {
+        console.log('onBarLeftClick', e);
         if (disabled) return;
         let _minValue = minValue - step;
         if (_minValue < min) {
@@ -116,7 +117,7 @@ const MultiRangeSlider = (props, ref) => {
         let onLeftThumbMousemove = (e) => {
             let clientX = e.clientX;
             let dx = clientX - startX;
-            let per = dx / barBox.width;
+            let per = dx / barBox.width / 30;
             let val = barValue + (max - min) * per;
             if (stepOnly) {
                 val = Math.round(val / step) * step;
@@ -148,7 +149,7 @@ const MultiRangeSlider = (props, ref) => {
         let onLeftThumbToucheMove = (e) => {
             let clientX = e.touches[0].clientX;
             let dx = clientX - startX;
-            let per = dx / barBox.width;
+            let per = dx / barBox.width / 10;
             let val = barValue + (max - min) * per;
             if (stepOnly) {
                 val = Math.round(val / step) * step;
@@ -206,7 +207,7 @@ const MultiRangeSlider = (props, ref) => {
         let onRightThumbMousemove = (e) => {
             let clientX = e.clientX;
             let dx = clientX - startX;
-            let per = dx / barBox.width;
+            let per = dx / barBox.width / 30;
             let val = barValue + (max - min) * per;
             if (stepOnly) {
                 val = Math.round(val / step) * step;
@@ -228,6 +229,7 @@ const MultiRangeSlider = (props, ref) => {
         document.addEventListener('mouseup', onRightThumbMouseup);
     };
     const onRightThumbTouchStart = (e) => {
+        console.log('onRightThumbTouchStart', e);
         if (disabled) return;
         let startX = e.touches[0].clientX;
         let thumb = e.target;
@@ -238,12 +240,12 @@ const MultiRangeSlider = (props, ref) => {
         let onRightThumbTouchMove = (e) => {
             let clientX = e.touches[0].clientX;
             let dx = clientX - startX;
-            let per = dx / barBox.width;
+            let per = dx / barBox.width / 10;
             let val = barValue + (max - min) * per;
             if (stepOnly) {
                 val = Math.round(val / step) * step;
             }
-            val = parseFloat(val.toFixed(fixed));
+            val = parseFloat(val.toFixed(fixed))
             if (val < minValue + stepValue) {
                 val = minValue + stepValue;
             } else if (val > max) {
@@ -260,6 +262,7 @@ const MultiRangeSlider = (props, ref) => {
         document.addEventListener('touchend', onRightThumbTouchEnd);
     };
     const onBarRightClick = (e) => {
+        console.log('onBarRightClick', e);
         if (disabled) return;
         let _maxValue = maxValue + step;
         if (_maxValue > max) {
@@ -389,6 +392,21 @@ const MultiRangeSlider = (props, ref) => {
             style={props.style}
             onWheel={onMouseWheel}
         >
+            <div className={styles.labels + ' fontS'}>
+                <div className={styles.labelCaption}>
+                    <div>
+                        Starting<br />Date
+                    </div>
+                    <span className={styles.minCaption}>{getDateString(minValue)}</span>
+                </div>
+                <div className={styles.spacer}></div>
+                <div className={styles.labelCaption}>
+                    <div>
+                        Ending<br />Date
+                    </div>
+                    <span className={styles.maxCaption}>{getDateString(maxValue)}</span>
+                </div>
+            </div>
             <div className={styles.bar} ref={refBar}>
                 <div
                     className={styles.barLeft}
@@ -412,7 +430,8 @@ const MultiRangeSlider = (props, ref) => {
                     onTouchStart={onLeftThumbTouchStart}
                 >
                     <div className={styles.caption}>
-                        <span className={styles.minCaption}>{getDateString(minValue)}</span>
+                        <span className={styles.dot}>
+                        </span>
                     </div>
                 </div>
                 <div className={styles.barInner} style={{ backgroundColor: props.barInnerColor }}>
@@ -436,7 +455,8 @@ const MultiRangeSlider = (props, ref) => {
                     onTouchStart={onRightThumbTouchStart}
                 >
                     <div className={styles.caption}>
-                        <span className={styles.maxCaption}>{getDateString(maxValue)}</span>
+                        <span className={styles.dot}>
+                        </span>
                     </div>
                 </div>
                 <div

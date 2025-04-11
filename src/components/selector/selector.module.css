@@ -233,12 +233,11 @@
         margin-bottom: 10px !important;
     }
 
-    .dateIconC * {
+    .dateIconC svg {
         margin-top: 50% !important;
         margin-bottom: auto !important;
     }
 
-    
 
 }
 

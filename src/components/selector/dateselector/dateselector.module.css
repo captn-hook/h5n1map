@@ -1,14 +1,14 @@
 .bb {
     position: absolute;
-    transform: translate(-104%, -85%);
+    transform: translate(-104%, -92%);
     color: #0c0a10;
     text-align: left !important;
     padding: calc(max(0.5%, 12px));
     font-family: 'Aktive Grotesk', 'sans-serif';
     font-weight: 600;
     transition: all 0.3s;
-    width: 300%;
-    height: 120%;
+    width: 350%;
+    padding: 9px;
 }
 
 .slider {
@@ -16,17 +16,9 @@
     height: 100%;
 }
 
-@media (max-height: 530px) {
-    /* convert to a horizontal list */
-
-    .bb {
-        transform: translate(0%, 0%) !important;
-    }
-
-}
-
 @media (max-height: 640px) {
     .bb {
-        transform: translate(0%, 0%);
+        transform: translate(-80%, 60%);
+        width: 550%;
     }
 }
