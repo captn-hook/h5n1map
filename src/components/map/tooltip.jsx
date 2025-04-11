@@ -30,7 +30,6 @@ function textD(info) {
                 }
                 if (source == 'Human') {
                     sourcd[source] = data[14];
-                    console.log('Human: ' + data);
                 } else if (sourcd[source] == undefined) {
                     sourcd[source] = 1;
                 } else if (source != 'Human') {

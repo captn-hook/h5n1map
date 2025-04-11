@@ -77,7 +77,6 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     const moveListener = (event) => { setPos({ x: event.clientX, y: event.clientY }); };
 
     useEffect(() => { // listens for changes in main legend, wildlife and dairy farms are special cases
-        console.log('legend changed');
         utils.resetFix(listeners);
         utils.removeStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
         if (offFix == 'Dairy Farms' && props.selectedLegend != 'Dairy Farms') {
@@ -92,47 +91,47 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
             document.getElementById('countiesOverlay').style.pointerEvents = 'auto';
             setoffFix(props.selectedLegend);
         } else if (offFix == 'All Cases' && props.selectedLegend != 'All Cases') {
-            utils.removeOutlines(props.dairydata[0]);
+            utils.removeOutlines();
             utils.removeStateEventListeners(stateMouseEnterNoOpac, stateMouseLeaveNoOpac, stateMouseMove);
             setSTooltip({ visible: false, name: '' });
-            setStateOutlineState('');
             setoffFix(props.selectedLegend);
+            setStateOutlineState('');
         }
         if (props.selectedLegend == 'All Cases') {
             utils.addOutlines(props.dairydata[0]);
             utils.addStateEventListeners(stateMouseEnterNoOpac, stateMouseLeaveNoOpac, stateMouseMove);
             setoffFix('All Cases');
             setStateOutlineState('All');
-            utils.setFillsTo(utils.allColoringC(props.dairydata[0], props.max)[0], props.allData, props.max, props.color, props.active);
+            const newd = utils.stateForce(props.dairydata[0]);
+            utils.setFillsTo(utils.allColoringC(), props.allData, props.max, props.color, newd);
         } else if (props.selectedLegend != 'Wildlife' && props.selectedLegend != 'Dairy Farms' && props.selectedLegend != 'Human') {
-            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend], props.active);
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Dairy Farms') { // this is different because dairy data is state level instead of county level
             utils.addStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
             setoffFix('Dairy Farms');
-            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color[props.selectedLegend], props.active);
+            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Wildlife') { // this is similar, but we need to check the sub legend
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend], props.active);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Human') {
             //reset fills to base color and draw dots
             // utils.resetFix();
-            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend], props.active);
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend]);
             // document.getElementById('counties').style.pointerEvents = 'none';
             // document.getElementById('countiesOverlay').style.pointerEvents = 'none';
             setoffFix('Human');
         }
+        utils.allOutlineFix(props.dairydata[0], stateOutlineState);
     }, [props.selectedLegend, props.max, gradients]);
 
     useEffect(() => { // listens for changes in wildlife sub legend
-        console.log('wildlife sub legend changed');
         if (props.selectedLegend == 'Wildlife') {
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend], props.active);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend]);
         }
     }, [props.selectedWildlife]);
 
     const [humanMarkers, setHumanMarkers] = useState({});
 
     useEffect(() => { // loads the initial data
-        console.log('loading data');
         const ccs = Object.keys(props.allData);
         let madeGradients = [];
         let actualyMadeGradients = [];
@@ -172,7 +171,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
 
             if (document.getElementById(countyCode)) {
                 let l1 = utils.addEventListenersToID(countyCode, datum, setTooltip, leaveListener, moveListener)
-                newlisteners[countyCode] = l1;
+                newlisteners[countyCode.replace('c', '')] = l1;
                 if (datum['Human'].length > 0 && dotRef.current) {
 
                     //if there is already a newMarker for this county, don't add another
@@ -298,15 +297,12 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     }
 
     useEffect(() => { // listens for changes in the tooltip
-        console.log('state outline state changed')
         if (props.selectedLegend == 'All Cases') {
             utils.allOutlineFix(props.dairydata[0], stateOutlineState);
         }
     }, [stateOutlineState]);
 
     useEffect(() => {
-        console.log('tooltip changed');
-        console.l
         if (props.selectedLegend == 'All Cases') {
             if (utils.tvis(tooltip, props.selectedLegend)) {
                 //console.log('tooltip setting state outline state to null');
@@ -19004,10 +19000,8 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                             name: pret,
                                             data: marker.data
                                         });
-                                        console.log('marker counties', marker.counties);
                                         for (var county in marker.counties) {
 
-                                            console.log('county: ', marker.counties[county]);
 
                                             document.getElementById(marker.counties[county].replace('c', 'b')).classList.add(styles.fakeHover);
                                             county = document.getElementById(marker.counties[county]);

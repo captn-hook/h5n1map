@@ -79,22 +79,16 @@ export function addEventListenersToID(id, cData, setTooltip, leaveListener, move
                 data: cData
             });
         }
-    
+
         overlay.addEventListener('mouseenter', hoverListener);
         overlay.addEventListener('mouseleave', leaveListener);
-        // overlay.addEventListener('click', () => {
-        //     console.log(`Clicked on ${cData.name}`);
-        //     console.log(pret);
-        //     console.log('source,state,county,species_or_flock_type,flock_size,hpai_strain,outbreak_date,date_detected,date_collected,date_confirmed,woah_classification,sampling_method,submitting_agency,event,date_occurred_low_end,date_occurred_high_end,cases,confirmed_cases,deaths,cuml_cases,cuml_confirmed_cases,cuml_deaths,latitude,longitude,id');
-        //     console.log(cData);
-        // });
         overlay.addEventListener('mousemove', moveListener);
 
         return hoverListener;
     }
 }
 
-export function setFillsTo(fillFunction, allData, max, color) {
+export function setFillsTo(fillFunction, allData, max, color, steet = undefined) {
     const ccs = Object.keys(allData);
     for (const id of ccs) {
         const countyCode = `c${id}`;
@@ -102,18 +96,19 @@ export function setFillsTo(fillFunction, allData, max, color) {
 
         const datum = allData[id];
 
+        const element = document.getElementById(countyCode)
+        const overlay = document.getElementById(overlayCode)
+
         if (!datum) {
             console.error(`No data found for ${countyCode}`);
             continue;
         }
 
-        if (document.getElementById(countyCode) && document.getElementById(overlayCode)) {
-            const element = document.getElementById(countyCode);
-            const overlay = document.getElementById(overlayCode);
+        if (element && overlay) {
 
             // set fill color based on number of cases
             //console.log('setting fill for', id, 'it is', active[id]);
-            if (notNameLength(datum) > 0) {
+            if (notNameLength(datum) > 0 || color == '#7F8FFF') {
 
                 element.setAttribute('fill', fillFunction(datum, max, color));
                 element.setAttribute('stroke', fillFunction(datum, max, color));
@@ -122,7 +117,13 @@ export function setFillsTo(fillFunction, allData, max, color) {
                 overlay.setAttribute('stroke', fillFunction(datum, max, color));
 
             } else {
-                const fill = '#b3b3b3';
+
+                let fill = '#b3b3b3';
+
+                if (steet && steet.includes(element.parentNode.id)) {
+                    fill = '#7F8FFF';
+                }
+
                 element.setAttribute('fill', fill);
                 element.setAttribute('stroke', fill);
 
@@ -185,18 +186,8 @@ export function whiteToColorLogGradient(value, color, max, min = 1, white = '#F8
     return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
 }
 
-export function allColoringC(dairyD, maxD) { // constructor for all coloring
-    var newDairyD = {};
-    var maxDairy = 0;
-
-    for (let key of Object.keys(dairyD)) {
-        if (dairyD[key] > maxDairy) {
-            maxDairy = dairyD[key];
-        }
-        newDairyD[key] = -1;
-    }
-
-    return [function allColoring(datum, max, color) {
+export function allColoringC() { // constructor for all coloring
+    return function allColoring(datum, max, color) {
         let colors = [];
         let sources = [];
         for (const source of Object.keys(datum)) {
@@ -222,7 +213,7 @@ export function allColoringC(dairyD, maxD) { // constructor for all coloring
             let gradientName = `gradient${sources.join('').replace(/ /g, '')}`;
             return 'url(#repeat' + gradientName + ')';
         }
-    }, stateForce(newDairyD, maxDairy)];
+    }
 }
 
 export function countyColoringC(selectedLegend) { // constructor for county coloring
@@ -259,11 +250,21 @@ export function stateFill(dairyD, maxD) {
 }
 
 export function stateForce(dairyD, maxD) { // like stateFill but does it all to the max value
-    console.log('stateForce', dairyD);
+    var newDairyD = {};
+    var maxDairy = 0;
+
     for (let key of Object.keys(dairyD)) {
+        if (dairyD[key] > maxDairy) {
+            maxDairy = dairyD[key];
+        }
+        newDairyD[key] = -1;
+    }
+    let res = [];
+    for (let key of Object.keys(newDairyD)) {
         for (let stateI of states) {
             if (stateI.abbreviation == key) {
                 let statename = stateI.state.replace(' ', '_');
+                res.push(statename);
                 if (document.getElementById(statename)) {
                     for (let child of document.getElementById(statename).children) {
                         child.setAttribute('fill', '#7F8FFF');
@@ -277,10 +278,12 @@ export function stateForce(dairyD, maxD) { // like stateFill but does it all to 
             }
         }
     }
+
+
+    return res;
 }
 
 export function stateColoringC(dairyD, maxD) { // constructor for state coloring   
-    console.log('stateD', dairyD);
     stateFill(dairyD, maxD);
 
     return function stateColoring(datum, max, color) {
@@ -289,7 +292,7 @@ export function stateColoringC(dairyD, maxD) { // constructor for state coloring
                 let abbreve = datum[source][0].split(',')
                 abbreve = abbreve[15];
 
-                if (abbreve in dairyD) {
+                if (Object.keys(dairyD).includes(abbreve)) {
                     return whiteToColorLogGradient(dairyD[abbreve], '#142CA1', maxD + 1, 1, '#ABB9FF');
                 } else {
                     return '#b3b3b3';
@@ -306,13 +309,13 @@ export function resetFix(listeners, moveListener, leaveListener) { // resets all
 
     function recurseUntilPath(element) {
         // remove event listeners 
-        if (listeners[element.id]) {
+        if (listeners[element.id.replace('c', '').replace('b', '')]) {
             element.removeEventListener('mouseenter', listeners[element.id]);
-        } 
+        }
         element.removeEventListener('mouseleave', moveListener);
-        element.removeEventListener('mousemove',  leaveListener);
-        
-    
+        element.removeEventListener('mousemove', leaveListener);
+
+
         if (element.tagName == 'path') {
             element.setAttribute('fill', '#b3b3b3');
             element.setAttribute('stroke', '#b3b3b3');
@@ -449,8 +452,8 @@ export function addOutlines(dairyData) {
     }
 }
 
-export function removeOutlines(dairyData) {
-    for (let key of Object.keys(dairyData)) {
+export function removeOutlines() {
+    for (let key of Object.keys(states)) {
         for (let stateI of states) {
             if (stateI.abbreviation == key) {
                 let statename = stateI.state.replace(' ', '_');
@@ -465,26 +468,29 @@ export function removeOutlines(dairyData) {
 }
 
 export function allOutlineFix(dairyData, stateM) {
-    for (let key of Object.keys(dairyData)) {
-        let set = {};
-        for (let stateI of states) {
-            if (!(stateI.abbreviation in set) && stateI.abbreviation == key) {
-                set[stateI.abbreviation] = 1;
-                let statename = stateI.state.replace(' ', '_');
-                let element = document.getElementById("O_" + statename);
-                if (stateM.trim() == 'All') {
-                    element.style.filter = 'url(#outline)';
-                    element.classList.add(styles.outlineOpacity);
-                } else if (stateM.trim() == '') {
-                    element.style.filter = 'none';
-                    element.classList.remove(styles.outlineOpacity);
-                } else if (stateM.trim() != stateI.state.trim()) {
-                    element.style.filter = 'none';
-                    element.classList.remove(styles.outlineOpacity);
-                } else if (stateM.trim() == stateI.state.trim()) {
-                    element.style.filter = 'url(#outline)';
-                    element.classList.add(styles.outlineOpacity);
-                }
+    for (let stateI of states) {
+        if (Object.keys(dairyData).includes(stateI.abbreviation)) {
+            let statename = stateI.state.replace(' ', '_');
+            let element = document.getElementById("O_" + statename);
+            if (stateM.trim() == 'All') {
+                element.style.filter = 'url(#outline)';
+                element.classList.add(styles.outlineOpacity);
+            } else if (stateM.trim() == '') {
+                element.style.filter = 'none';
+                element.classList.remove(styles.outlineOpacity);
+            } else if (stateM.trim() != stateI.state.trim()) {
+                element.style.filter = 'none';
+                element.classList.remove(styles.outlineOpacity);
+            } else if (stateM.trim() == stateI.state.trim()) {
+                element.style.filter = 'url(#outline)';
+                element.classList.add(styles.outlineOpacity);
+            }
+        } else {
+            let statename = stateI.state.replace(' ', '_');
+            let element = document.getElementById("O_" + statename);
+            if (element) {
+                element.style.filter = 'none';
+                element.classList.remove(styles.outlineOpacity);
             }
         }
     }
@@ -494,6 +500,20 @@ export function tvis(tooltip, sel) {
     if (tooltip.data == null) {
         return false;
     } else {
+        // if all inictive, tooltip is not visible
+        let inictive = true;
+        for (let source of Object.keys(tooltip.data)) {
+            if (source != 'name' && tooltip.data[source].length > 0) {
+                for (let entry of tooltip.data[source]) {
+                    if (!entry.includes('inictive')) {
+                        inictive = false;
+                        break;
+                    }
+                }
+            }
+        }
+        tooltip.visible = !inictive;
+
         if (sel == "All Cases") {
             return true && tooltip.visible && sel != 'Dairy Farms';
         }

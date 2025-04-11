@@ -5,7 +5,6 @@ let _wheelTimeout = null;
 let _triggerTimeout = null;
 
 function getDateString(value) {
-    console.log('getDateString', value);
     let options = {
         day: '2-digit',
         month: '2-digit',

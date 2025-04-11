@@ -293,7 +293,6 @@ export default function Container({ allData, lastUpdated, showLastUpdated, setAl
     const [selectedWildlife, setSelectedWildlife] = React.useState(WildlifeDefault); // the selected wildlife
 
     useEffect(() => {
-        console.log('loading metadata');
         setLoading(true);
         if (allData == undefined || Object.keys(allData).length === 0) {
             return;
@@ -305,13 +304,9 @@ export default function Container({ allData, lastUpdated, showLastUpdated, setAl
         setWildlifeOptions(wildlifeOptions);
         setDates(dates);
         setActive(active);
-        console.log('active', Object.keys(active).length);
-        console.log('earliest', earliest);
-        console.log('latest', latest);
     }, [minDate, maxDate]);
 
     useEffect(() => {
-        console.log('loading max');
         if (allData == undefined || Object.keys(allData).length === 0) {
             return;
         }
