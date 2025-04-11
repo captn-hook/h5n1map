@@ -7,7 +7,7 @@ import { Tooltip, STooltip } from './tooltip';
 
 import * as utils from './mapHelpers';
 import Marker from '@/components/dot/marker';
-
+import states from '../../../public/data/states.csv';
 
 export default function Map(props) { // map props = {allData, Maxes, selectedLegend, selectedWildlife, setLoading}
     const [tooltip, setTooltip] = useState({ visible: false, name: '' });
@@ -200,10 +200,20 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                         hfix.push(state2Letter);
                     }
                     // get the full state name from the 2 letter code
-                    const stateName = utils.getStateName(state2Letter);
-                    const bbox = document.getElementById(stateName).getBBox();
-                    const x = bbox.x + bbox.width / 2;
-                    const y = bbox.y + bbox.height / 2;
+                    const stateName = utils.getStateName(state2Letter)
+                    const bbox = document.getElementById(stateName.replace(' ', '_')).getBBox();
+                    let xOff = 0;
+                    let yOff = 0;
+                    for (const state of states) {
+                        if (state['state'] == stateName) {
+                            xOff = parseFloat(state['xOff']);
+                            yOff = parseFloat(state['yOff']);
+                            console.log('xOff', xOff, 'yOff', yOff);
+                            break;
+                        }
+                    }
+                    const x = bbox.x + bbox.width / 2 + xOff;
+                    const y = bbox.y + bbox.height / 2 + yOff;
                     newMarkers.push({ x: x, y: y, id: stateName + 'dot', data: { 'Human': [entry], 'name': '' } });
                 }
             }
@@ -7553,7 +7563,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                         d="M657.06,191.32h.21l.4,0,3,.19,3.51.21,3.7.23,3.06.17,1.42.09,9.6.53,2.22.12,2.93.15h.2l.55,0,5.56.28h.31l.57,1.5,1.25-.2,0,1.13.86.3.58.44-.76,1.57,1,1.83.08,1.24.93.85-.52,1.34-.62.44-1.06-.4-.49.32-.27.52-.39,1.38-.4.89-1.1,1.4.92.84,1.86.14.71,1.1L669,208.56l-13-.78,1-16.49h0"
                                         fill="#b3b3b3" stroke="#b3b3b3" strokeWidth={1} />
                                 </g>
-                                <g id="Tennesse">
+                                <g id="Tennessee">
                                     <path className={styles.county} id="c47163"
                                         d="M1198,495.2l-1.08,1.34-1.06.32-.3,1-1.34,1.67-2.38,2.33-.77-.08-1.93,2.28-1.87-.46-1.23,1.11-1.29.17-.44-.12-1.39-1-1-.2-1.67.53-3.44.68-1.54.24-.57-.86,1.78-1.79,0-3.3,8.7-1.3,1.4-.21,2.69-.37,5.86-.84.2-.82,2.66-.32"
                                         fill="#b3b3b3" stroke="#b3b3b3" strokeWidth={1} />
