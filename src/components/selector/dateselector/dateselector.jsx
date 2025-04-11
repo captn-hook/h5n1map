@@ -14,6 +14,7 @@ export default function Dateselector(props) {
             <MultiRangeSlider
                 // disabled={true}
                 ruler={false}
+                label={false}
                 min={new Date('2022-01-01').getTime()}
                 max={new Date().getTime()}
                 minValue={minValue}

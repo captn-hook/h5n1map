@@ -205,9 +205,6 @@ export function allColoringC() { // constructor for all coloring
             }
         }
         sources = sources.sort();
-        if (sources.includes('Human')) {
-            console.log('found human:', datum['Human']);
-        }
         if (colors.length == 0) {
             return '#b3b3b3';
         } else if (colors.length == 1) {
