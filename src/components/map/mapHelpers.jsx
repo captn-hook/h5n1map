@@ -193,7 +193,7 @@ export function allColoringC() { // constructor for all coloring
         for (const source of Object.keys(datum)) {
             let active = false;
             for (const entry of datum[source]) {
-                if (!entry.includes('inactive')) {
+                if (!entry.includes('inictive')) {
                     active = true;
                     break;
                 }
@@ -205,6 +205,9 @@ export function allColoringC() { // constructor for all coloring
             }
         }
         sources = sources.sort();
+        if (sources.includes('Human')) {
+            console.log('found human:', datum['Human']);
+        }
         if (colors.length == 0) {
             return '#b3b3b3';
         } else if (colors.length == 1) {
@@ -223,7 +226,18 @@ export function countyColoringC(selectedLegend) { // constructor for county colo
         } else if (datum[selectedLegend].length <= 0) {
             return '#b3b3b3';
         } else {
-            return whiteToColorGradient(datum[selectedLegend].length, color, max);
+            let allInactive = true;
+            for (let entry of datum[selectedLegend]) {
+                if (!entry.includes('inictive')) {
+                    allInactive = false;
+                    break;
+                }
+            }
+            if (allInactive) {
+                return '#b3b3b3';
+            } else {
+                return whiteToColorGradient(datum[selectedLegend].length, color, max);
+            }
         }
     }
 }
