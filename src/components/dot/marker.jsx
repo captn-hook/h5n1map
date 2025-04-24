@@ -1,10 +1,12 @@
 import React from 'react';
 
 export default function Marker(props) {
+
+    var size = 40;
     
     return (
         <svg className="marker" viewBox="0 0 147.39 227.1" x={props.x - 20} y={props.y - 38}
-            width="40px" height="40px"
+            width={size} height={size}
             onMouseEnter={props.enterListener}
             onMouseLeave={props.leaveListener}
             onMouseMove={props.moveListener}

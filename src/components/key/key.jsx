@@ -13,7 +13,7 @@ export default function Key(props) {
                     null
                 }
                 { typeof props.keyColor === 'string' && props.selected != 'Human' ?
-                    <Scale color={props.selected == 'Dairy Farms' ? '#677143' : props.keyColor} max={props.max} stateCounty={props.keyType} white={props.selected == 'Dairy Farms' ? '#EFF3C7' : '#F8F9F9'} /> :
+                    <Scale color={props.selected == 'Dairy Farms' ? '#142CA1' : props.keyColor} max={props.max} stateCounty={props.keyType} white={props.selected == 'Dairy Farms' ? '#ABB9FF' : '#FFFFFF'} c={props.selected == 'Dairy Farms' ? '#ABB9FF' : '#FFFFFF'} /> :
                     <ul> 
                         { props.selected == 'Human' ? <li key={0}><Dot key={0} color={props.keyColor} label='Human' outline={true} /></li> : 
                         Object.keys(props.keyColor).map((key, index) => {

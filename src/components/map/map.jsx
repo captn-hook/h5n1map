@@ -7,7 +7,7 @@ import { Tooltip, STooltip } from './tooltip';
 
 import * as utils from './mapHelpers';
 import Marker from '@/components/dot/marker';
-
+import states from '../../../public/data/states.csv';
 
 export default function Map(props) { // map props = {allData, Maxes, selectedLegend, selectedWildlife, setLoading}
     const [tooltip, setTooltip] = useState({ visible: false, name: '' });
@@ -15,12 +15,11 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     const [sTooltip, setSTooltip] = useState({ visible: false, name: '' });
     const [sPos, setSPos] = useState({ x: 0, y: 0 });
     const [stateOutlineState, setStateOutlineState] = useState('');
+    const [listeners, setListeners] = useState({});
     const svgRef = useRef(null);
     const dotRef = useRef(null);
     const gRef = useRef(null);
     const parentRef = useRef(null);
-    const bRefOut = useRef(null);
-    const bRefIn = useRef(null);
 
     const selectedLegendRef = useRef(props.selectedLegend);
     const selectedWildlifeRef = useRef(props.selectedWildlife);
@@ -73,61 +72,64 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
     const stateMouseMove = React.useCallback((event) => {
         setSPos({ x: event.clientX, y: event.clientY });
     }, []);
+    
+    const leaveListener = () => { setTooltip({ visible: false, name: '' }); };
+    const moveListener = (event) => { setPos({ x: event.clientX, y: event.clientY }); };
 
     useEffect(() => { // listens for changes in main legend, wildlife and dairy farms are special cases
+        utils.resetFix(listeners);
+        utils.removeStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
         if (offFix == 'Dairy Farms' && props.selectedLegend != 'Dairy Farms') {
             utils.removeStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
             setSTooltip({ visible: false, name: '' });
             setStateOutlineState('');
-            utils.resetFix();
             setoffFix(props.selectedLegend);
         } else if (props.selectedLegend == 'All Cases' && offFix != 'All Cases') {
-            utils.resetFix();
             setoffFix('All Cases');
         } else if (offFix == 'Human' && props.selectedLegend != 'Human') {
-            utils.resetFix();
             document.getElementById('counties').style.pointerEvents = 'auto';
             document.getElementById('countiesOverlay').style.pointerEvents = 'auto';
             setoffFix(props.selectedLegend);
         } else if (offFix == 'All Cases' && props.selectedLegend != 'All Cases') {
-            utils.removeOutlines(props.dairydata[0]);
+            utils.removeOutlines();
             utils.removeStateEventListeners(stateMouseEnterNoOpac, stateMouseLeaveNoOpac, stateMouseMove);
             setSTooltip({ visible: false, name: '' });
-            setStateOutlineState('');
-            utils.resetFix();
             setoffFix(props.selectedLegend);
+            setStateOutlineState('');
         }
-
         if (props.selectedLegend == 'All Cases') {
             utils.addOutlines(props.dairydata[0]);
             utils.addStateEventListeners(stateMouseEnterNoOpac, stateMouseLeaveNoOpac, stateMouseMove);
             setoffFix('All Cases');
             setStateOutlineState('All');
-            utils.setFillsTo(utils.allColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color);
+            const newd = utils.stateForce(props.dairydata[0]);
+            utils.setFillsTo(utils.allColoringC(), props.allData, props.max, props.color, newd);
         } else if (props.selectedLegend != 'Wildlife' && props.selectedLegend != 'Dairy Farms' && props.selectedLegend != 'Human') {
-            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Dairy Farms') { // this is different because dairy data is state level instead of county level
             utils.addStateEventListeners(stateMouseEnter, stateMouseLeave, stateMouseMove);
             setoffFix('Dairy Farms');
-            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.stateColoringC(props.dairydata[0], props.max), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Wildlife') { // this is similar, but we need to check the sub legend
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend]);
         } else if (props.selectedLegend == 'Human') {
             //reset fills to base color and draw dots
-            utils.resetFix();
-            document.getElementById('counties').style.pointerEvents = 'none';
-            document.getElementById('countiesOverlay').style.pointerEvents = 'none';
+            // utils.resetFix();
+            utils.setFillsTo(utils.countyColoringC(props.selectedLegend), props.allData, props.max, props.color[props.selectedLegend]);
+            // document.getElementById('counties').style.pointerEvents = 'none';
+            // document.getElementById('countiesOverlay').style.pointerEvents = 'none';
             setoffFix('Human');
         }
-    }, [props.selectedLegend]);
+        utils.allOutlineFix(props.dairydata[0], stateOutlineState);
+    }, [props.selectedLegend, props.max, gradients]);
 
     useEffect(() => { // listens for changes in wildlife sub legend
         if (props.selectedLegend == 'Wildlife') {
-            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color);
+            utils.setFillsTo(utils.wildlifeColoringC(props.selectedWildlife), props.allData, props.max, props.color[props.selectedLegend]);
         }
     }, [props.selectedWildlife]);
 
-    const [humanMarkers, setHumanMarkers] = useState([]);
+    const [humanMarkers, setHumanMarkers] = useState({});
 
     useEffect(() => { // loads the initial data
         const ccs = Object.keys(props.allData);
@@ -135,17 +137,20 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
         let actualyMadeGradients = [];
         let newMarkers = [];
         let hfix = [];
+        let newlisteners = {};
         for (const id of ccs) {
             const countyCode = `c${id}`;
             const datum = props.allData[id];
 
-            let sources = [];
-            for (const source of Object.keys(datum)) {
-                if (source != 'name' && datum[source].length > 0) {
-                    sources.push(source);
-                }
+            let sources = []
+            if (props.active[id]) {
+                sources = props.active[id];
             }
-
+            if (sources.includes('Dairy Farms')) {
+                // Remove 'Dairy Farms' from sources
+                sources = sources.filter((source) => source.trim() !== 'Dairy Farms');
+            }
+            sources = sources.sort();
             if (sources.length > 1) {
                 // do we need a new gradient?
                 if (!madeGradients.includes(sources.join('').replace(/ /g, ''))) {
@@ -164,13 +169,9 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                 }
             }
 
-            setGradients(actualyMadeGradients);
-
-            if (datum['Human'] == undefined) {
-                continue;
-            } else if (document.getElementById(countyCode)) {
-                utils.addEventListenersToID(countyCode, datum, setTooltip, parentRef, setPos, setStateOutlineState);
-
+            if (document.getElementById(countyCode)) {
+                let l1 = utils.addEventListenersToID(countyCode, datum, setTooltip, leaveListener, moveListener)
+                newlisteners[countyCode.replace('c', '')] = l1;
                 if (datum['Human'].length > 0 && dotRef.current) {
 
                     //if there is already a newMarker for this county, don't add another
@@ -184,10 +185,14 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
 
                     newMarkers.push({ x: x, y: y, id: countyCode + 'dot', data: datum });
                 }
+
             } else if (datum['Human'].length > 0) {
                 // state level humand data, get the bbox of the state
                 for (const entry of datum['Human']) {
-                    const state2Letter = entry.split(',')[entry.split(',').length - 2];
+                    if (entry.includes('inictive')) {
+                        continue;
+                    }
+                    const state2Letter = entry.split(',')[15];
 
                     if (hfix.includes(state2Letter)) {
                         continue;
@@ -195,23 +200,72 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                         hfix.push(state2Letter);
                     }
                     // get the full state name from the 2 letter code
-                    const stateName = utils.getStateName(state2Letter);
-                    const bbox = document.getElementById(stateName).getBBox();
-                    const x = bbox.x + bbox.width / 2;
-                    const y = bbox.y + bbox.height / 2;
-                    newMarkers.push({ x: x, y: y, id: stateName + 'dot', data: {'Human': [entry], 'name': '' } });
+                    const stateName = utils.getStateName(state2Letter)
+                    const bbox = document.getElementById(stateName.replace(' ', '_')).getBBox();
+                    let xOff = 0;
+                    let yOff = 0;
+                    for (const state of states) {
+                        if (state['state'] == stateName) {
+                            xOff = parseFloat(state['xOff']);
+                            yOff = parseFloat(state['yOff']);
+                            console.log('xOff', xOff, 'yOff', yOff);
+                            break;
+                        }
+                    }
+                    const x = bbox.x + bbox.width / 2 + xOff;
+                    const y = bbox.y + bbox.height / 2 + yOff;
+                    newMarkers.push({ x: x, y: y, id: stateName + 'dot', data: { 'Human': [entry], 'name': '' } });
                 }
             }
         }
-        setHumanMarkers(newMarkers);
+
+        var stateM = {}
+        for (const m of newMarkers) {
+            if (!(m.id.slice(0, 1) === 'c')) {
+                // create entry for state
+                stateM[m.id.slice(0, m.id.length - 3)] = {
+                    total: parseInt(m.data['Human'][0].split(',')[14]),
+                    data: m.data,
+                    x: m.x,
+                    y: m.y,
+                    counties: []
+                }
+            }
+        }
+        for (const m of newMarkers) {
+            if (m.id.slice(0, 1) === 'c') {
+                // find the state by county code
+                var state = m.data['Human'][0].split(',')[15];
+                state = utils.getStateName(state);
+                // subtract the county marker from the state marker
+                // var newval = stateM[state].total - parseInt(m.data['Human'][0].split(',')[14]);
+
+                // stateM[state].total = newval;
+
+                // var newstring = stateM[state].data['Human'][0].split(',');
+                // newstring[14] = newval.toString();
+
+                // stateM[state].data['Human'][0] = newstring.join(',')
+                if (!stateM[state]) {
+                    continue;
+                }
+                stateM[state][m.id.slice(0, m.id.length - 3)] = m
+                stateM[state].counties.push(m.id.slice(0, m.id.length - 3));
+
+
+            }
+        }
+        setListeners(newlisteners);
+        setGradients(actualyMadeGradients);
+        setHumanMarkers(stateM);
         props.setLoading(false);
-    }, []);
+    }, [props.allData, props.minDate, props.maxDate, props.active, props.dairydata]);
 
     useEffect(() => { // zoom and pan
         const svg = select(svgRef.current);
         const g = select(gRef.current);
-        const bOut = select(bRefOut.current);
-        const bIn = select(bRefIn.current);
+        const bOut = select(props.bRefOut.current);
+        const bIn = select(props.bRefIn.current);
 
         const zoom = d3Zoom()
             .scaleExtent([1, 8])
@@ -246,14 +300,13 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
         if (props.selectedLegend == 'All Cases') {
             return style;
         }
-
         for (const color of Object.keys(props.color)) {
             style += `.s${color.replace('#', '')} { fill: ${props.color[color]}; }\n`;
         }
         return style;
     }
 
-    useEffect(() => {
+    useEffect(() => { // listens for changes in the tooltip
         if (props.selectedLegend == 'All Cases') {
             utils.allOutlineFix(props.dairydata[0], stateOutlineState);
         }
@@ -276,10 +329,6 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
 
     return (
         <div>
-            <div id="zoomButtons" className={styles.zoomButtons}>
-                <button ref={bRefIn} className={styles.zoomIn + ' borderBox'}>+</button>
-                <button ref={bRefOut} className={styles.zoomOut + ' borderBox'}>-</button>
-            </div>
             <div ref={parentRef} className={styles.mapContainer}>
                 <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg" viewBox="-150 0 1900 1000" className={styles.map}>
                     <defs>
@@ -289,7 +338,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                             fill: #231f20;
                         }
                         .cls-2 {
-                            fill: #fff200;
+                            fill: #FFC200;
                             fill-rule: evenodd;
                         }
                         .cls-3 {
@@ -7514,7 +7563,7 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                         d="M657.06,191.32h.21l.4,0,3,.19,3.51.21,3.7.23,3.06.17,1.42.09,9.6.53,2.22.12,2.93.15h.2l.55,0,5.56.28h.31l.57,1.5,1.25-.2,0,1.13.86.3.58.44-.76,1.57,1,1.83.08,1.24.93.85-.52,1.34-.62.44-1.06-.4-.49.32-.27.52-.39,1.38-.4.89-1.1,1.4.92.84,1.86.14.71,1.1L669,208.56l-13-.78,1-16.49h0"
                                         fill="#b3b3b3" stroke="#b3b3b3" strokeWidth={1} />
                                 </g>
-                                <g id="Tennesse">
+                                <g id="Tennessee">
                                     <path className={styles.county} id="c47163"
                                         d="M1198,495.2l-1.08,1.34-1.06.32-.3,1-1.34,1.67-2.38,2.33-.77-.08-1.93,2.28-1.87-.46-1.23,1.11-1.29.17-.44-.12-1.39-1-1-.2-1.67.53-3.44.68-1.54.24-.57-.86,1.78-1.79,0-3.3,8.7-1.3,1.4-.21,2.69-.37,5.86-.84.2-.82,2.66-.32"
                                         fill="#b3b3b3" stroke="#b3b3b3" strokeWidth={1} />
@@ -18951,25 +19000,46 @@ export default function Map(props) { // map props = {allData, Maxes, selectedLeg
                                 </g>
                             </g>
                             <g id="dots" className={styles.dotsC} style={{ display: props.selectedLegend == 'Human' || props.selectedLegend == 'All Cases' ? 'block' : 'none' }} ref={dotRef}>
-                                {humanMarkers.map((marker, i) => {
+                                {Object.keys(humanMarkers).map((marker, i) => {
+                                    marker = humanMarkers[marker];
                                     const pret = utils.pretty(marker.data)
-                                    const enterListener = utils.circleListenerConstructor(marker.data, setTooltip, setStateOutlineState);
-                                    const leaveListener = () => {
-                                        setTooltip({ visible: false, name: '' });
+                                    const enterListener = function (event) {
+                                        //console.log('circle listener: ', cData);
+                                        setTooltip({
+                                            visible: true,
+                                            name: pret,
+                                            data: marker.data
+                                        });
+                                        for (var county in marker.counties) {
+
+
+                                            document.getElementById(marker.counties[county].replace('c', 'b')).classList.add(styles.fakeHover);
+                                            county = document.getElementById(marker.counties[county]);
+
+                                        }
+
                                     };
-                                    const moveListener = (event) => {
+                                    const leaveListenerC = (event) => {
+                                        setTooltip({ visible: false, name: '' });
+
+                                        for (var county in marker.counties) {
+
+                                            document.getElementById(marker.counties[county].replace('c', 'b')).classList.remove(styles.fakeHover);
+                                            county = document.getElementById(marker.counties[county]);
+
+                                        }
+                                    };
+                                    const moveListenerC = (event) => {
                                         setTooltip({ visible: true, name: marker.data.name, data: marker.data });
                                         setPos({ x: event.clientX, y: event.clientY });
                                     };
                                     function clickListener() {
                                         //console.log(`Clicked on ${marker.data.name}`);
                                         console.log(pret);
-                                        // console.log('source,state,county,species_or_flock_type,flock_size,hpai_strain,outbreak_date,date_detected,date_collected,date_confirmed,woah_classification,sampling_method,submitting_agency,event,date_occurred_low_end,date_occurred_high_end,cases,confirmed_cases,deaths,cuml_cases,cuml_confirmed_cases,cuml_deaths,latitude,longitude,id');
-                                        // console.log(marker.data);
                                     }
-                                    
+
                                     return (
-                                        <Marker key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListener} moveListener={moveListener} clickListener={clickListener} />
+                                        <Marker key={i} x={marker.x} y={marker.y} id={marker.id} data={marker.data} enterListener={enterListener} leaveListener={leaveListenerC} moveListener={moveListenerC} clickListener={clickListener} />
                                     )
                                 })}
                             </g>

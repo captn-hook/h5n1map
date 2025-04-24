@@ -19,12 +19,16 @@ export function setTopIndex(element) {
     setTopIndex(parent);
 }
 
-export function notNameLength(cData) { // this just grabs every entry in the cData object except for the name
+export function notNameLength(cData) { // this just grabs every entry in the cData object except for the name and inactive
     let keys = Object.keys(cData);
     keys = keys.filter((key) => key !== 'name');
     let len = 0;
     for (const key of keys) {
-        len += cData[key].length;
+        for (const entry of cData[key]) {
+            if (!entry.includes('inictive')) {
+                len += 1;
+            }
+        }
     }
     return len;
 }
@@ -38,28 +42,11 @@ export function pretty(cData) {
     let keys = Object.keys(cData);
     keys = keys.filter((key) => key !== 'name');
     for (const key of keys) {
-        if (cData[key].length > 0) {
-            str += `${key}: ${cData[key].length}\n`;
-        }
+        str += `${key}: ${cData[key].length}\n`;
     }
     str += '\n';
     str += cData.toString();
     return str;
-}
-
-export function hoverListenerConstructor(cData, setTooltip, parentRef, overlay, setS) {
-    let pret = pretty(cData);
-    return function (event) {
-        const parent = parentRef.current;
-        const parentRect = parent.getBoundingClientRect();
-        setTopIndex(overlay);
-        setTooltip({
-            visible: true,
-            name: pret,
-            data: cData
-        });
-        //setS('');
-    };
 }
 
 export function circleListenerConstructor(cData, setTooltip, setS) {
@@ -67,11 +54,6 @@ export function circleListenerConstructor(cData, setTooltip, setS) {
 
     let state = '';
 
-    if (cData['Human'].length == 1 && Object.keys(cData).length == 2) {
-        let row = cData['Human'][0].split(',');
-        let statename = getStateName(row[row.length - 2]);
-        state = statename;
-    }
 
     return function (event) {
         //console.log('circle listener: ', cData);
@@ -85,27 +67,28 @@ export function circleListenerConstructor(cData, setTooltip, setS) {
 }
 
 
-export function addEventListenersToID(id, cData, setTooltip, parentRef, setPos, setS) {
+export function addEventListenersToID(id, cData, setTooltip, leaveListener, moveListener) {
     const element = document.getElementById(id);
     const overlay = document.getElementById(id.replace('c', 'b'));
-    const pret = pretty(cData);
     if (element && overlay) {
-        const hoverListener = hoverListenerConstructor(cData, setTooltip, parentRef, overlay, setS);
+        const hoverListener = () => {
+            setTopIndex(overlay);
+            setTooltip({
+                visible: true,
+                name: pretty(cData),
+                data: cData
+            });
+        }
+
         overlay.addEventListener('mouseenter', hoverListener);
-        overlay.addEventListener('mouseleave', () => setTooltip({ visible: false, name: '' }));
-        overlay.addEventListener('click', () => {
-            //console.log(`Clicked on ${cData.name}`);
-            //console.log(pret);
-            //console.log('source,state,county,species_or_flock_type,flock_size,hpai_strain,outbreak_date,date_detected,date_collected,date_confirmed,woah_classification,sampling_method,submitting_agency,event,date_occurred_low_end,date_occurred_high_end,cases,confirmed_cases,deaths,cuml_cases,cuml_confirmed_cases,cuml_deaths,latitude,longitude,id');
-            //console.log(cData);
-        });
-        overlay.addEventListener('mousemove', (event) => {
-            setPos({ x: event.clientX, y: event.clientY });
-        });
+        overlay.addEventListener('mouseleave', leaveListener);
+        overlay.addEventListener('mousemove', moveListener);
+
+        return hoverListener;
     }
 }
 
-export function setFillsTo(fillFunction, allData, max, color) {
+export function setFillsTo(fillFunction, allData, max, color, steet = undefined) {
     const ccs = Object.keys(allData);
     for (const id of ccs) {
         const countyCode = `c${id}`;
@@ -113,12 +96,19 @@ export function setFillsTo(fillFunction, allData, max, color) {
 
         const datum = allData[id];
 
-        if (document.getElementById(countyCode) && document.getElementById(overlayCode)) {
-            const element = document.getElementById(countyCode);
-            const overlay = document.getElementById(overlayCode);
+        const element = document.getElementById(countyCode)
+        const overlay = document.getElementById(overlayCode)
+
+        if (!datum) {
+            console.error(`No data found for ${countyCode}`);
+            continue;
+        }
+
+        if (element && overlay) {
 
             // set fill color based on number of cases
-            if (notNameLength(datum) > 0) {
+            //console.log('setting fill for', id, 'it is', active[id]);
+            if (notNameLength(datum) > 0 || color == '#7F8FFF') {
 
                 element.setAttribute('fill', fillFunction(datum, max, color));
                 element.setAttribute('stroke', fillFunction(datum, max, color));
@@ -127,7 +117,13 @@ export function setFillsTo(fillFunction, allData, max, color) {
                 overlay.setAttribute('stroke', fillFunction(datum, max, color));
 
             } else {
-                const fill = '#b3b3b3';
+
+                let fill = '#b3b3b3';
+
+                if (steet && steet.includes(element.parentNode.id)) {
+                    fill = '#7F8FFF';
+                }
+
                 element.setAttribute('fill', fill);
                 element.setAttribute('stroke', fill);
 
@@ -142,6 +138,9 @@ export function mix1channel(rgb1, rgb2, ratio) {
     return rgb1 + (rgb2 - rgb1) * ratio;
 }
 export function whiteToColorGradient(value, color, max, min = 1, white = '#F8F9F9') {
+    if (value >= max) {
+        return color;
+    }
     const ra = .3;
     const wr = Math.round(mix1channel(parseInt(white.slice(1, 3), 16), parseInt(color.slice(1, 3), 16), ra));
     const wg = Math.round(mix1channel(parseInt(white.slice(3, 5), 16), parseInt(color.slice(3, 5), 16), ra));
@@ -155,32 +154,57 @@ export function whiteToColorGradient(value, color, max, min = 1, white = '#F8F9F
     const b = Math.round(mix1channel(parseInt(halfwhite.slice(5, 7), 16), parseInt(color.slice(5, 7), 16), ratio));
 
     //console.log('got', value, 'and returned', `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`);
+    let str = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+    return str;
+}
+
+export function whiteToColorLogGradient(value, color, max, min = 1, white = '#F8F9F9') {
+    if (value <= 0 || min <= 0 || max <= 0) {
+        if (value <= 0) {
+            return '#b3b3b3';
+        }
+        if (min <= 0) {
+            min = 1;
+        }
+        if (max <= 0) {
+            max = 1;
+        }
+    }
+
+    const ra = 0.3;
+    const wr = Math.round(mix1channel(parseInt(white.slice(1, 3), 16), parseInt(color.slice(1, 3), 16), ra));
+    const wg = Math.round(mix1channel(parseInt(white.slice(3, 5), 16), parseInt(color.slice(3, 5), 16), ra));
+    const wb = Math.round(mix1channel(parseInt(white.slice(5, 7), 16), parseInt(color.slice(5, 7), 16), ra));
+    const halfwhite = `#${wr.toString(16).padStart(2, '0')}${wg.toString(16).padStart(2, '0')}${wb.toString(16).padStart(2, '0')}`;
+
+    const ratio = (Math.log(value) - Math.log(min)) / (Math.log(max) - Math.log(min));
+
+    const r = Math.round(mix1channel(parseInt(halfwhite.slice(1, 3), 16), parseInt(color.slice(1, 3), 16), ratio));
+    const g = Math.round(mix1channel(parseInt(halfwhite.slice(3, 5), 16), parseInt(color.slice(3, 5), 16), ratio));
+    const b = Math.round(mix1channel(parseInt(halfwhite.slice(5, 7), 16), parseInt(color.slice(5, 7), 16), ratio));
+
     return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
 }
 
-export function allColoringC(dairyD, maxD) { // constructor for all coloring
-    var newDairyD = {};
-    var maxDairy = 0;
-
-    for (let key of Object.keys(dairyD)) {
-        if (dairyD[key] > maxDairy) {
-            maxDairy = dairyD[key];
-        }
-        newDairyD[key] = -1;
-    }
-
-    stateFill(newDairyD, maxDairy);
-
+export function allColoringC() { // constructor for all coloring
     return function allColoring(datum, max, color) {
         let colors = [];
         let sources = [];
         for (const source of Object.keys(datum)) {
-            if (source != 'name' && datum[source].length > 0) {
+            let active = false;
+            for (const entry of datum[source]) {
+                if (!entry.includes('inictive')) {
+                    active = true;
+                    break;
+                }
+            }
+            if (active && source != 'name' && datum[source].length > 0) {
                 sources.push(source);
                 // we have one color for each source
                 colors.push(color[source]);
             }
         }
+        sources = sources.sort();
         if (colors.length == 0) {
             return '#b3b3b3';
         } else if (colors.length == 1) {
@@ -199,7 +223,18 @@ export function countyColoringC(selectedLegend) { // constructor for county colo
         } else if (datum[selectedLegend].length <= 0) {
             return '#b3b3b3';
         } else {
-            return whiteToColorGradient(datum[selectedLegend].length, color, max);
+            let allInactive = true;
+            for (let entry of datum[selectedLegend]) {
+                if (!entry.includes('inictive')) {
+                    allInactive = false;
+                    break;
+                }
+            }
+            if (allInactive) {
+                return '#b3b3b3';
+            } else {
+                return whiteToColorGradient(datum[selectedLegend].length, color, max);
+            }
         }
     }
 }
@@ -212,12 +247,12 @@ export function stateFill(dairyD, maxD) {
                 if (document.getElementById(statename)) {
                     for (let child of document.getElementById(statename).children) {
                         //console.log('filling', child.id, 'with value', dairyD[key], 'and max', maxD);
-                        child.setAttribute('fill', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
-                        child.setAttribute('stroke', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
+                        child.setAttribute('fill', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
+                        child.setAttribute('stroke', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
                         // get the overlay by the id of the child
                         let overlay = document.getElementById(child.id.replace('c', 'b'));
-                        overlay.setAttribute('fill', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
-                        overlay.setAttribute('stroke', whiteToColorGradient(dairyD[key], '#677143', maxD, 1, '#EFF3C7'));
+                        overlay.setAttribute('fill', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
+                        overlay.setAttribute('stroke', whiteToColorLogGradient(dairyD[key], '#142CA1', maxD, 1, '#ABB9FF'));
                     }
                 }
             }
@@ -225,18 +260,51 @@ export function stateFill(dairyD, maxD) {
     }
 }
 
-export function stateColoringC(dairyD, maxD) { // constructor for state coloring   
+export function stateForce(dairyD, maxD) { // like stateFill but does it all to the max value
+    var newDairyD = {};
+    var maxDairy = 0;
 
+    for (let key of Object.keys(dairyD)) {
+        if (dairyD[key] > maxDairy) {
+            maxDairy = dairyD[key];
+        }
+        newDairyD[key] = -1;
+    }
+    let res = [];
+    for (let key of Object.keys(newDairyD)) {
+        for (let stateI of states) {
+            if (stateI.abbreviation == key) {
+                let statename = stateI.state.replace(' ', '_');
+                res.push(statename);
+                if (document.getElementById(statename)) {
+                    for (let child of document.getElementById(statename).children) {
+                        child.setAttribute('fill', '#7F8FFF');
+                        child.setAttribute('stroke', '#7F8FFF');
+                        // get the overlay by the id of the child
+                        let overlay = document.getElementById(child.id.replace('c', 'b'));
+                        overlay.setAttribute('fill', '#7F8FFF');
+                        overlay.setAttribute('stroke', '#7F8FFF');
+                    }
+                }
+            }
+        }
+    }
+
+
+    return res;
+}
+
+export function stateColoringC(dairyD, maxD) { // constructor for state coloring   
     stateFill(dairyD, maxD);
 
     return function stateColoring(datum, max, color) {
         for (const source of Object.keys(datum)) {
             if (source != 'name' && datum[source].length > 0) {
                 let abbreve = datum[source][0].split(',')
-                abbreve = abbreve[abbreve.length - 2];
+                abbreve = abbreve[15];
 
-                if (abbreve in dairyD) {
-                    return whiteToColorGradient(dairyD[abbreve], '#677143', maxD + 1, 1, '#EFF3C7');
+                if (Object.keys(dairyD).includes(abbreve)) {
+                    return whiteToColorLogGradient(dairyD[abbreve], '#142CA1', maxD + 1, 1, '#ABB9FF');
                 } else {
                     return '#b3b3b3';
                 }
@@ -245,12 +313,20 @@ export function stateColoringC(dairyD, maxD) { // constructor for state coloring
     }
 }
 
-export function resetFix() {
+export function resetFix(listeners, moveListener, leaveListener) { // resets all event listeners to the default
     // resets all colorr of classname 'county' to #b3b3b3
     let container1 = document.getElementById('counties');
     let container2 = document.getElementById('countiesOverlay');
 
     function recurseUntilPath(element) {
+        // remove event listeners 
+        if (listeners[element.id.replace('c', '').replace('b', '')]) {
+            element.removeEventListener('mouseenter', listeners[element.id]);
+        }
+        element.removeEventListener('mouseleave', moveListener);
+        element.removeEventListener('mousemove', leaveListener);
+
+
         if (element.tagName == 'path') {
             element.setAttribute('fill', '#b3b3b3');
             element.setAttribute('stroke', '#b3b3b3');
@@ -316,7 +392,7 @@ export function getStateCases(dada, dairyData) {
             // split the first element by commas
             let split = first.split(',');
             // get the state abbreviation
-            stateAbbrev = split[split.length - 2];
+            stateAbbrev = split[15];
             break;
         }
     }
@@ -387,8 +463,8 @@ export function addOutlines(dairyData) {
     }
 }
 
-export function removeOutlines(dairyData) {
-    for (let key of Object.keys(dairyData)) {
+export function removeOutlines() {
+    for (let key of Object.keys(states)) {
         for (let stateI of states) {
             if (stateI.abbreviation == key) {
                 let statename = stateI.state.replace(' ', '_');
@@ -403,26 +479,29 @@ export function removeOutlines(dairyData) {
 }
 
 export function allOutlineFix(dairyData, stateM) {
-    for (let key of Object.keys(dairyData)) {
-        let set = {};
-        for (let stateI of states) {
-            if (!(stateI.abbreviation in set) && stateI.abbreviation == key) {
-                set[stateI.abbreviation] = 1;
-                let statename = stateI.state.replace(' ', '_');
-                let element = document.getElementById("O_" + statename);
-                if (stateM.trim() == 'All') {
-                    element.style.filter = 'url(#outline)';
-                    element.classList.add(styles.outlineOpacity);
-                } else if (stateM.trim() == '') {
-                    element.style.filter = 'none';
-                    element.classList.remove(styles.outlineOpacity);
-                } else if (stateM.trim() != stateI.state.trim()) {
-                    element.style.filter = 'none';
-                    element.classList.remove(styles.outlineOpacity);
-                } else if (stateM.trim() == stateI.state.trim()) {
-                    element.style.filter = 'url(#outline)';
-                    element.classList.add(styles.outlineOpacity);
-                }
+    for (let stateI of states) {
+        if (Object.keys(dairyData).includes(stateI.abbreviation)) {
+            let statename = stateI.state.replace(' ', '_');
+            let element = document.getElementById("O_" + statename);
+            if (stateM.trim() == 'All') {
+                element.style.filter = 'url(#outline)';
+                element.classList.add(styles.outlineOpacity);
+            } else if (stateM.trim() == '') {
+                element.style.filter = 'none';
+                element.classList.remove(styles.outlineOpacity);
+            } else if (stateM.trim() != stateI.state.trim()) {
+                element.style.filter = 'none';
+                element.classList.remove(styles.outlineOpacity);
+            } else if (stateM.trim() == stateI.state.trim()) {
+                element.style.filter = 'url(#outline)';
+                element.classList.add(styles.outlineOpacity);
+            }
+        } else {
+            let statename = stateI.state.replace(' ', '_');
+            let element = document.getElementById("O_" + statename);
+            if (element) {
+                element.style.filter = 'none';
+                element.classList.remove(styles.outlineOpacity);
             }
         }
     }
@@ -432,6 +511,20 @@ export function tvis(tooltip, sel) {
     if (tooltip.data == null) {
         return false;
     } else {
+        // if all inictive, tooltip is not visible
+        let inictive = true;
+        for (let source of Object.keys(tooltip.data)) {
+            if (source != 'name' && tooltip.data[source].length > 0) {
+                for (let entry of tooltip.data[source]) {
+                    if (!entry.includes('inictive')) {
+                        inictive = false;
+                        break;
+                    }
+                }
+            }
+        }
+        tooltip.visible = !inictive;
+
         if (sel == "All Cases") {
             return true && tooltip.visible && sel != 'Dairy Farms';
         }

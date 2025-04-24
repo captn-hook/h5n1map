@@ -5,16 +5,18 @@ import getData from "@/components/utils/data";
 import { useState, useEffect } from 'react';
 
 export const dynamic = 'force-static';
+
 export default function Home() {
   const [allData, setAllData] = useState({});
   const [lastUpdated, setLastUpdated] = useState('Unknown');
   const [showLastUpdated, setShowLastUpdated] = useState(true);
 
   useEffect(() => {
+    console.log('fetching data');
     if (Object.keys(allData).length === 0) {
       getData().then((a) => {
         setAllData(a[0]);
-        setLastUpdated(a[1]);
+        setLastUpdated(a[1].replace(', ', ' - '));
         setShowLastUpdated(a[2]);
       });
     }
@@ -22,7 +24,7 @@ export default function Home() {
 
   return (
     <main>
-      <Container allData={allData} lastUpdated={lastUpdated} showLastUpdated={showLastUpdated} />
+      <Container allData={allData} lastUpdated={lastUpdated} showLastUpdated={showLastUpdated} setAllData={setAllData} />
     </main>
   );
 }

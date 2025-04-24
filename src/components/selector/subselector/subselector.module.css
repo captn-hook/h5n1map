@@ -7,6 +7,7 @@
     font-family: 'Aktive Grotesk', 'sans-serif';
     font-weight: 600;
     transition: all 0.3s;
+    max-width: 200px;
 }
 
 .dropdownToggle {
@@ -82,13 +83,13 @@
     /* convert to a horizontal list */
 
     .bb {
-        transform: translate(-72%, 25%) !important;
+        transform: translate(-75%, 40%) !important;
     }
 
 }
 
-@media (max-height: 700px) {
+@media (max-height: 640px) {
     .bb {
-        transform: translate(-105%, calc(-100% * 3));
+        transform: translate(-74%, 40%);
     }
 }
