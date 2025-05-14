@@ -17,10 +17,12 @@ export default async function getData() {
         lastUpdated = 'Unknown'
     }
 
+    let res;
+
     try {
         const url = process.env.NEXT_PUBLIC_BUCKET_URL + process.env.NEXT_PUBLIC_FILE_NAME;
         try {
-            const res = await fetch(url, {
+            res = await fetch(url, {
                 //mode: 'no-cors',
                 headers: {
                     'Cache-Control': 'max-age=3600' // Cache for 1 hour
@@ -31,7 +33,7 @@ export default async function getData() {
             console.log('Failed to fetch data from bucket, using backup data')
             return [backupData, lastUpdated, true]
         }
-        if (res.status === 200) {
+        if (res && res.status === 200) {
 
             const updated = new Date(res.headers.get('last-modified')).toLocaleString()
 
@@ -40,7 +42,12 @@ export default async function getData() {
             const data = await res.json()
             return[data, updated, process.env.NEXT_PUBLIC_USE_LAST_UPDATED === 'true']
         } else {
-            console.log('Response was not 200, using backup data')
+            if (res) {
+                console.log(`Response from bucket was not 200 (status: ${res.status}, statusText: ${res.statusText}), using backup data`);
+            } else {
+                // This case should ideally be caught by the inner catch if fetch truly failed
+                console.log('Fetch operation did not return a response object, using backup data');
+            }
             return [backupData, lastUpdated, true]
         }
     } catch (error) {
